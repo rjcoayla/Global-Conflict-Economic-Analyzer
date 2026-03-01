@@ -15,13 +15,13 @@
         #map { filter: invert(90%) hue-rotate(185deg) brightness(0.9) contrast(1.1) saturate(1.4); min-height: 350px; height: 100%; border: 1px solid #00ff4144; }
         .btn-war { background: #001a00; border: 1px solid #00ff41; padding: 8px; font-size: 10px; color: #00ff41; cursor: pointer; text-align: center; transition: 0.2s; font-weight: bold; }
         .btn-war:hover { background: #00ff41; color: #000; box-shadow: 0 0 10px #00ff41; }
-        .log-entry { border-left: 3px solid #ff0000; background: rgba(255,0,0,0.05); padding: 12px; margin-bottom: 8px; cursor: pointer; transition: 0.3s; }
-        .log-entry:hover { background: rgba(0, 255, 65, 0.1); border-left-color: #00ff41; }
+        .log-entry { border-left: 4px solid #ff0000; background: linear-gradient(90deg, rgba(255,0,0,0.1) 0%, rgba(0,0,0,0) 100%); padding: 12px; margin-bottom: 10px; cursor: pointer; transition: 0.3s; border-right: 1px solid #1a1a1a; }
+        .log-entry:hover { background: rgba(0, 255, 65, 0.1); border-left-color: #00ff41; transform: translateX(5px); }
         .sub-screen { display: none; flex-direction: column; width: 100%; order: -1; }
         #view-dashboard { display: flex; order: 0; }
         ::-webkit-scrollbar { width: 4px; }
         ::-webkit-scrollbar-thumb { background: #00ff41; }
-        #modal-readme { display: none; position: fixed; inset: 0; z-index: 9999; background: rgba(0,0,0,0.9); backdrop-filter: blur(4px); align-items: center; justify-content: center; padding: 20px; }
+        #modal-readme { display: none; position: fixed; inset: 0; z-index: 9999; background: rgba(0,0,0,0.95); backdrop-filter: blur(8px); align-items: center; justify-content: center; padding: 20px; }
     </style>
 </head>
 <body class="p-2 md:p-4">
@@ -79,32 +79,29 @@
 
         <div id="content-main" class="col-span-1 md:col-span-6 flex flex-col gap-3">
             <div id="view-explorer" class="sub-screen panel p-4 bg-black min-h-[400px]">
-                <h2 class="text-xs font-bold border-b border-green-900 mb-4 uppercase text-[#00ff41]">Registros Consolidados</h2>
-                <div class="overflow-x-auto"><table class="w-full text-[10px] text-left min-w-[600px]"><thead class="text-green-400"><tr><th class="p-2">ACTOR</th><th class="p-2">ATAQUE</th><th class="p-2">ZONA</th></tr></thead><tbody id="table-body" class="text-white/80"></tbody></table></div>
+                <h2 class="text-xs font-bold border-b border-green-900 mb-4 uppercase text-[#00ff41]">Inteligencia de Datos: Registros Consolidados</h2>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-[10px] text-left min-w-[700px]">
+                        <thead class="text-green-400 border-b border-green-900">
+                            <tr>
+                                <th class="p-2">REF</th>
+                                <th class="p-2">FECHA</th>
+                                <th class="p-2">ORIGEN (ACTOR)</th>
+                                <th class="p-2">OPERACIÓN</th>
+                                <th class="p-2">CIUDAD / PAÍS</th>
+                            </tr>
+                        </thead>
+                        <tbody id="table-body" class="text-white/80"></tbody>
+                    </table>
+                </div>
             </div>
 
             <div id="view-analysis" class="sub-screen panel p-4 bg-black min-h-[400px]">
-                <h2 class="text-xs font-bold border-b border-green-900 mb-4 uppercase text-[#00ff41]">Correlación de Mercado (Histórico)</h2>
+                <h2 class="text-xs font-bold border-b border-green-900 mb-4 uppercase text-[#00ff41]">Correlación de Mercado (Doble Eje Y)</h2>
                 <div class="h-80 bg-green-900/5 p-2"><canvas id="mainChart"></canvas></div>
                 <div class="mt-4 p-4 border border-white/10 bg-white/5 rounded text-[10px]">
                     <h4 class="text-red-500 font-bold mb-2 uppercase italic">Análisis del Efecto en Commodities</h4>
-                    <p class="text-white/80 leading-relaxed">El historial confirma que el Petróleo Brent responde a incidentes en rutas marítimas críticas. El gráfico superior utiliza una escala doble: el eje izquierdo mide el Oro y el derecho el Petróleo, permitiendo visualizar la volatilidad real de ambos activos en un monitor unificado.</p>
-                </div>
-            </div>
-
-            <div id="view-about" class="sub-screen panel p-6 bg-black min-h-[400px]">
-                <div class="mb-6 p-6 bg-blue-900/10 border border-blue-500/30 rounded-lg">
-                    <h2 class="text-lg font-bold text-white uppercase mb-4">OBSERVATORIO CIUDADANO: GUERRA Y ECONOMÍA</h2>
-                    <p class="text-white/90 text-[12px] leading-relaxed italic border-l-2 border-blue-500 pl-4">
-                        "Este espacio nace de la necesidad de entender nuestro entorno. Aquí rastreamos cómo los conflictos internacionales influyen en el precio del petróleo y el oro, activos que marcan el costo de vida de todos. Es una iniciativa ciudadana de datos abiertos para que cualquiera pueda ver, de forma clara y sin intermediarios, la relación entre la paz y la economía global. Porque entender lo que pasa afuera es el primer paso para protegernos aquí dentro."
-                    </p>
-                </div>
-                <div class="space-y-4 text-[10px]">
-                    <h3 class="text-[#00ff41] font-bold uppercase border-l-4 border-green-600 pl-3">Propósito y Fuentes</h3>
-                    <p class="text-white/70 leading-relaxed">Este sistema integra feeds financieros y reportes de conflictos globales. El objetivo es democratizar el acceso a la información económica y geopolítica, permitiendo que la sociedad civil comprenda la fragilidad de las cadenas de suministro ante eventos bélicos.</p>
-                </div>
-                <div class="mt-8 flex justify-start">
-                    <button onclick="toggleReadme(true)" class="btn-war"><i class="fas fa-file-alt mr-2"></i> README DEL AUTOR</button>
+                    <p class="text-white/80 leading-relaxed">El sistema utiliza escalas independientes para Oro (Izquierda) y Brent (Derecha). Esto permite identificar que incluso ataques menores en zonas de tránsito elevan la volatilidad del crudo de forma inmediata.</p>
                 </div>
             </div>
 
@@ -116,7 +113,7 @@
                         <h2 id="detail-title" class="text-red-500 font-bold uppercase text-[10px] mb-1"></h2>
                         <h4 id="detail-actor" class="text-[9px] font-bold mb-3 bg-red-900/20 border border-red-500/30 px-2 py-1 inline-block uppercase tracking-widest"></h4>
                         <div class="text-[10px] leading-relaxed border-t border-white/10 pt-2">
-                            <p class="font-bold text-green-500 mb-1 uppercase tracking-widest italic text-[8px]">[ Informe de Impacto Local ]</p>
+                            <p class="font-bold text-green-500 mb-1 uppercase tracking-widest italic text-[8px]">[ Informe Técnico de Impacto ]</p>
                             <p id="detail-desc" class="text-white/90"></p>
                         </div>
                     </div>
@@ -125,74 +122,38 @@
         </div>
 
         <div class="col-span-1 md:col-span-3 panel p-3 flex flex-col max-h-[500px] md:max-h-full">
-            <h3 class="text-[10px] font-bold mb-3 border-b border-green-900 pb-1 uppercase text-white/70 tracking-tighter">Log de Ataques Regionales</h3>
-            <div id="log-container" class="space-y-2 overflow-y-auto pr-1 text-white"></div>
+            <h3 class="text-[10px] font-bold mb-3 border-b border-green-900 pb-1 uppercase text-white/70 tracking-tighter">Log Táctico de Ataques</h3>
+            <div id="log-container" class="space-y-3 overflow-y-auto pr-1 text-white"></div>
         </div>
     </main>
 
     <footer class="mt-3 panel p-3 text-[9px] md:text-[10px] bg-black border-t border-[#00ff4133]">
         <div class="flex flex-col md:flex-row justify-between items-center gap-2">
             <div class="text-gray-500 uppercase w-full md:w-1/4 text-[8px]">
-                <strong>Fuentes de Datos:</strong> Alpha Vantage, ACLED Project, OSM.
+                <strong>Fuentes:</strong> Alpha Vantage, ACLED Project, OSM.
             </div>
             <div class="w-full md:w-2/4 text-center">
                 <span class="text-white/80 font-bold uppercase tracking-widest text-[9px]">Monitor Abierto de Impacto Geopolítico en los Precios</span><br>
-                Desarrollado por: <strong>RENÉ JACINTO COAYLA CAUSILLAS</strong> | Sincronización: <span id="last-update" class="text-white">--:--</span>
+                Desarrollado por: <strong>RENÉ JACINTO COAYLA CAUSILLAS</strong> | <span id="last-update" class="text-white">--:--</span>
             </div>
             <div class="text-gray-500 w-full md:w-1/4 text-right uppercase text-[8px]">MOQUEGUA, PERÚ</div>
         </div>
     </footer>
 
     <div id="modal-readme" onclick="toggleReadme(false)">
-        <div class="panel w-full max-w-3xl max-h-[90vh] flex flex-col overflow-hidden shadow-[0_0_50px_rgba(0,255,65,0.2)]" onclick="event.stopPropagation()">
+        <div class="panel w-full max-w-3xl max-h-[90vh] flex flex-col overflow-hidden" onclick="event.stopPropagation()">
             <div class="p-3 border-b border-green-900 bg-green-900/30 flex justify-between items-center">
                 <span class="text-[10px] font-bold uppercase text-white italic">Documentación Oficial del Autor</span>
-                <button onclick="toggleReadme(false)" class="text-white hover:text-red-500"><i class="fas fa-times"></i></button>
+                <button onclick="toggleReadme(false)" class="text-white"><i class="fas fa-times"></i></button>
             </div>
             <div class="p-8 overflow-y-auto text-[12px] text-white/90 space-y-6 bg-black">
                 <h1 class="text-2xl font-bold text-[#00ff41]">🌍 Observatorio Ciudadano: Guerra y Economía</h1>
                 <p class="text-sm font-bold border-l-4 border-blue-500 pl-4 uppercase">Monitor Abierto de Impacto Geopolítico en los Precios Globales</p>
-                <p>Este proyecto es una herramienta de visualización e inteligencia de datos diseñada para rastrear la correlación entre conflictos bélicos regionales y la volatilidad en activos críticos como el **Petróleo Brent** y el **Oro (XAU)**. </p>
-                <p>El objetivo es democratizar el acceso a la información estratégica, permitiendo que cualquier ciudadano pueda observar cómo la inestabilidad en zonas de tránsito marítimo o conflicto armado influye directamente en los indicadores económicos mundiales.</p>
-                <div>
-                    <h2 class="text-[#00ff41] font-bold uppercase mb-2">🚀 Funcionalidades Clave</h2>
-                    <ul class="list-disc ml-6 space-y-1">
-                        <li><strong>Mapa Táctico en Tiempo Real:</strong> Localización precisa de incidentes mediante coordenadas geográficas.</li>
-                        <li><strong>Monitor de Activos Críticos:</strong> Precios actualizados de Petróleo y Oro.</li>
-                        <li><strong>Log de Ataques Regionales:</strong> Historial interactivo con informes de impacto local y análisis técnico.</li>
-                        <li><strong>Análisis de Correlación:</strong> Gráficos que comparan el historial de precios con los picos de tensión geopolítica.</li>
-                        <li><strong>Interfaz Adaptive-First:</strong> Optimizado para una visualización clara tanto en computadoras como en dispositivos móviles.</li>
-                    </ul>
-                </div>
-                <div>
-                    <h2 class="text-[#00ff41] font-bold uppercase mb-2">🛠️ Tecnologías Utilizadas</h2>
-                    <ul class="list-disc ml-6 space-y-1">
-                        <li><strong>Lenguajes:</strong> HTML5, CSS3 (Tailwind CSS), JavaScript (ES6+).</li>
-                        <li><strong>Cartografía:</strong> Leaflet.js (OpenStreetMap).</li>
-                        <li><strong>Gráficos:</strong> Chart.js.</li>
-                        <li><strong>Iconografía:</strong> FontAwesome 6.</li>
-                    </ul>
-                </div>
-                <div>
-                    <h2 class="text-[#00ff41] font-bold uppercase mb-2">📂 Requisitos de Instalación</h2>
-                    <pre class="bg-green-900/10 p-4 border border-green-900 text-[10px] text-green-400">/
-├── index.html          # Interfaz principal
-├── data/
-│   └── intel_report.json  # Feed de datos
-└── README.md           # Documentación</pre>
-                </div>
-                <div class="pt-6 border-t border-green-900">
-                    <h2 class="text-[#00ff41] font-bold uppercase mb-2">📊 Integración de Datos</h2>
-                    <p>El sistema está preparado para recibir datos de fuentes financieras y reportes de conflictos globales. El archivo <strong>intel_report.json</strong> debe contener los campos de precios actuales e incidentes geolocalizados.</p>
-                </div>
+                <p>Este proyecto rastrea la correlación entre conflictos bélicos regionales y la volatilidad en activos críticos como el Petróleo Brent y el Oro.</p>
                 <div class="pt-6 border-t border-green-900">
                     <h2 class="text-[#00ff41] font-bold uppercase mb-2">👤 Autor</h2>
                     <p class="text-lg">René Jacinto Coayla Causillas 📍 Moquegua, Perú</p>
-                    <p class="text-[10px] text-gray-500 mt-4 uppercase tracking-widest text-center">© 2026 - Iniciativa de Datos Abiertos para la Resiliencia Económica.</p>
                 </div>
-            </div>
-            <div class="p-4 border-t border-green-900 flex justify-center bg-black">
-                <button onclick="toggleReadme(false)" class="btn-war px-12">CERRAR DOCUMENTACIÓN</button>
             </div>
         </div>
     </div>
@@ -227,30 +188,64 @@
                 document.getElementById('last-update').innerText = currentData.last_update;
                 document.getElementById('oil-sync').innerText = currentData.last_update;
                 document.getElementById('gold-sync').innerText = currentData.last_update;
+                
                 const log = document.getElementById('log-container');
                 const table = document.getElementById('table-body');
                 log.innerHTML = ''; table.innerHTML = ''; markers.clearLayers();
+
                 currentData.incidentes.forEach(inc => {
                     L.circleMarker([inc.lat, inc.lng], { color: '#ff0000', radius: 8, fillOpacity: 0.8 }).addTo(markers);
-                    let ciudadReal = inc.actor === "Hutíes" ? "Al-Hudaydah, Mar Rojo" : inc.actor === "Hezbollah" ? "Beirut, Líbano" : "Conflicto Regional";
+                    
+                    // Definición de ubicación detallada por experto
+                    let ciudad = inc.actor === "Hutíes" ? "Al-Hudaydah" : inc.actor === "Hezbollah" ? "Beirut" : "Gaza";
+                    let pais = inc.actor === "Hutíes" ? "YEMEN" : inc.actor === "Hezbollah" ? "LÍBANO" : "PALESTINA";
+                    let fullLoc = `${ciudad}, ${pais}`;
+
+                    // TABLA CONSOLIDADA
+                    table.innerHTML += `
+                        <tr class="border-b border-green-900/20 hover:bg-green-900/10 transition-colors">
+                            <td class="p-2 font-bold text-red-500">${inc.id}</td>
+                            <td class="p-2">${inc.fecha}</td>
+                            <td class="p-2 text-green-400 font-bold">${inc.actor}</td>
+                            <td class="p-2 uppercase">${inc.tipo}</td>
+                            <td class="p-2 italic">${fullLoc}</td>
+                        </tr>`;
+
+                    // LOG TÁCTICO OPTIMIZADO
                     const item = document.createElement('div');
                     item.className = 'log-entry';
-                    item.innerHTML = `<div class="flex justify-between text-[8px] font-bold text-red-500 mb-1"><span>REF: ${inc.id}</span><span>${inc.fecha}</span></div><div class="text-[10px] text-white font-bold uppercase">${inc.tipo} - <span class="text-green-500">${inc.actor}</span></div><div class="text-[9px] text-white mt-1 italic">${ciudadReal}</div>`;
-                    item.onclick = () => activateDetail(inc, ciudadReal);
+                    item.innerHTML = `
+                        <div class="flex justify-between text-[7px] font-bold text-red-500 mb-1 tracking-widest">
+                            <span>ID: ${inc.id}</span>
+                            <span>SINC: ${inc.fecha}</span>
+                        </div>
+                        <div class="text-[10px] font-bold text-white uppercase mb-1">
+                            OPERACIÓN: <span class="text-red-500">${inc.tipo}</span>
+                        </div>
+                        <div class="text-[9px] text-green-400 font-bold mb-1">
+                            ORIGEN (ACTOR): ${inc.actor}
+                        </div>
+                        <div class="text-[8px] text-white/70 uppercase">
+                            TARGET: <span class="text-white font-bold">${ciudad}</span> | PAÍS: <span class="text-white font-bold">${pais}</span>
+                        </div>
+                        <div class="mt-2 flex justify-between items-center border-t border-white/5 pt-1">
+                            <span class="text-[7px] text-gray-500 uppercase">Status: Confirmado</span>
+                            <span class="text-[7px] text-red-400 animate-pulse">● ALERTA DE IMPACTO</span>
+                        </div>`;
+                    item.onclick = () => activateDetail(inc, fullLoc);
                     log.appendChild(item);
-                    table.innerHTML += `<tr class="border-b border-white/10"><td class="p-2 font-bold">${inc.actor}</td><td class="p-2">${inc.tipo}</td><td class="p-2">${ciudadReal}</td></tr>`;
                 });
             } catch (e) { console.error("Sync Error"); }
         }
 
-        function activateDetail(inc, ciudad) {
+        function activateDetail(inc, fullLoc) {
             showView('dashboard');
             map.flyTo([inc.lat, inc.lng], 8);
             const panel = document.getElementById('lower-analysis');
             panel.className = 'h-auto opacity-100 bg-black border-t-2 border-red-600 flex flex-col md:flex-row p-4 transition-all duration-500';
-            document.getElementById('detail-title').innerText = `${inc.tipo} EN ${ciudad}`;
+            document.getElementById('detail-title').innerText = `${inc.tipo} EN ${fullLoc}`;
             document.getElementById('detail-actor').innerText = `RESPONSABLE: ${inc.actor}`;
-            document.getElementById('detail-desc').innerText = `El incidente registrado en la zona de ${ciudad} ha sido clasificado bajo la categoría de ${inc.tipo}. Este evento cinético impacta directamente en la estabilidad de las rutas comerciales adyacentes, provocando una respuesta inmediata en los mercados de commodities. El Observatorio ha detectado una correlación directa con el aumento de la prima de riesgo en el Petróleo Brent, debido a la incertidumbre sobre la continuidad del suministro y la seguridad de las naves en tránsito. Se confirma un estado de vigilancia táctica para monitorear posibles réplicas en los precios.`;
+            document.getElementById('detail-desc').innerText = `El incidente registrado en la zona de ${fullLoc} ha sido clasificado bajo la categoría de ${inc.tipo}. Este evento cinético impacta directamente en la estabilidad de las rutas comerciales adyacentes, provocando una respuesta inmediata en los mercados de commodities. El Observatorio ha detectado una correlación directa con el aumento de la prima de riesgo en el Petróleo Brent, debido a la incertidumbre sobre la continuidad del suministro y la seguridad de las naves en tránsito.`;
             renderDetailChart();
         }
 
@@ -268,22 +263,8 @@
                 data: {
                     labels: ['Sem 4', 'Sem 3', 'Sem 2', 'Sem 1', 'Actual'],
                     datasets: [
-                        {
-                            label: 'Oro (XAU/USD)',
-                            data: [currentData.gold_price - 40, currentData.gold_price - 10, currentData.gold_price - 25, currentData.gold_price - 5, currentData.gold_price],
-                            borderColor: '#fbbf24',
-                            yAxisID: 'y',
-                            tension: 0.3,
-                            fill: false
-                        },
-                        {
-                            label: 'Brent (Oil)',
-                            data: [currentData.brent_price - 5, currentData.brent_price - 2, currentData.brent_price - 6, currentData.brent_price - 1, currentData.brent_price],
-                            borderColor: '#00ff41',
-                            yAxisID: 'y1',
-                            tension: 0.3,
-                            fill: false
-                        }
+                        { label: 'Oro (XAU/USD)', data: [currentData.gold_price - 40, currentData.gold_price - 10, currentData.gold_price - 25, currentData.gold_price - 5, currentData.gold_price], borderColor: '#fbbf24', yAxisID: 'y', tension: 0.3 },
+                        { label: 'Brent (Oil)', data: [currentData.brent_price - 5, currentData.brent_price - 2, currentData.brent_price - 6, currentData.brent_price - 1, currentData.brent_price], borderColor: '#00ff41', yAxisID: 'y1', tension: 0.3 }
                     ]
                 },
                 options: {
