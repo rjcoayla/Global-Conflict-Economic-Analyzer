@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>TERMINAL TÁCTICA | C4ISR 2026</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+        body { font-family: 'JetBrains Mono', monospace; background-color: #050505; color: #00ff41; }
+        .crt::before { content: " "; display: block; position: absolute; top: 0; left: 0; bottom: 0; right: 0; background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06)); z-index: 2; background-size: 100% 2px, 3px 100%; pointer-events: none; }
+        #map { filter: grayscale(1) invert(1) sepia(1) hue-rotate(90deg) brightness(0.6); }
+        .panel { border: 1px solid #00ff41; background: rgba(0, 30, 0, 0.2); box-shadow: 0 0 10px rgba(0, 255, 65, 0.2); }
+        .scanline { width: 100%; height: 2px; background: rgba(0, 255, 65, 0.1); position: absolute; animation: scan 4s linear infinite; }
+        @keyframes scan { from { top: 0; } to { top: 100%; } }
+    </style>
+</head>
+<body class="p-4 h-screen flex flex-col crt">
+    <div class="scanline"></div>
+    
+    <header class="panel mb-4 p-2 flex justify-between items-center">
+        <div class="flex items-center gap-4">
+            <span class="animate-pulse">●</span>
+            <h1 class="font-bold tracking-widest text-lg">SISTEMA CENTRAL DE INTELIGENCIA - NIVEL 4</h1>
+        </div>
+        <div id="clock" class="text-sm"></div>
+    </header>
+
+    <div class="grid grid-cols-12 gap-4 flex-grow overflow-hidden">
+        <div class="col-span-3 flex flex-col gap-4">
+            <div class="panel p-4 flex-grow">
+                <h2 class="text-xs border-b border-[#00ff41] mb-2">KPI_MERCADO</h2>
+                <div class="text-3xl" id="price-display">--.-- USD</div>
+                <p class="text-[10px] text-green-700">CRUDO BRENT / FUTUROS 2026</p>
+            </div>
+            <div class="panel p-4">
+                <h2 class="text-xs border-b border-[#00ff41] mb-2">ESTADO_DEFCON</h2>
+                <div class="text-4xl font-bold text-center" id="defcon-val">--</div>
+            </div>
+        </div>
+
+        <div class="col-span-6 panel relative overflow-hidden">
+            <div id="map" class="h-full w-full"></div>
+            <div class="absolute top-2 right-2 bg-black/80 p-2 text-[10px] z-[1000] border border-[#00ff41]">
+                SECTOR: MEDIO_ORIENTE | ACTIVO
+            </div>
+        </div>
+
+        <div class="col-span-3 panel p-2 flex flex-col overflow-hidden">
+            <h2 class="text-xs border-b border-[#00ff41] mb-2">LOG_OPERACIONES_REC_V1</h2>
+            <div id="log-container" class="text-[10px] overflow-y-auto flex-grow">
+                </div>
+        </div>
+    </div>
+
+    <footer class="mt-4 panel p-2 text-[10px] flex justify-between bg-black">
+        <div>MODO: ANALÍTICA_GEOFÍSICA</div>
+        <div id="last-update">ULTIMA ACTUALIZACIÓN: --:--:--</div>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+        // Inicializar Mapa Táctico
+        const map = L.map('map', { zoomControl: false }).setView([32.4279, 53.6880], 4);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+
+        async function updateDashboard() {
+            try {
+                const response = await fetch('data/intel_report.json');
+                const data = await response.json();
+
+                // Actualizar Textos
+                document.getElementById('price-display').innerText = `${data.brent_price} USD`;
+                document.getElementById('defcon-val').innerText = data.defcon;
+                document.getElementById('last-update').innerText = `ULTIMA ACTUALIZACIÓN: ${data.last_update}`;
+
+                // Limpiar y llenar Log
+                const log = document.getElementById('log-container');
+                log.innerHTML = '';
+                data.incidentes.forEach(inc => {
+                    log.innerHTML += `<div class="mb-2 p-1 border-l-2 border-green-900">
+                        [${inc.id}] ${inc.tipo}<br/>ACTOR: ${inc.actor} | INT: ${inc.intensidad}
+                    </div>`;
+                    
+                    // Añadir al mapa
+                    L.circleMarker([inc.lat, inc.lng], {
+                        color: '#00ff41',
+                        radius: 5,
+                        fillOpacity: 0.8
+                    }).addTo(map).bindPopup(inc.tipo);
+                });
+
+            } catch (e) { console.log("Esperando datos de GitHub Actions..."); }
+        }
+
+        setInterval(() => {
+            document.getElementById('clock').innerText = new Date().toUTCString();
+        }, 1000);
+
+        updateDashboard();
+        // Recargar cada 5 minutos por si hubo un commit
+        setInterval(updateDashboard, 300000);
+    </script>
+</body>
+</html>
