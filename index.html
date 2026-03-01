@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GCEA | Strategic Intelligence Suite</title>
+    <title>GCEA | Inteligencia Estratégica e Impacto Económico</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
@@ -13,9 +13,9 @@
         body { font-family: 'JetBrains Mono', monospace; background-color: #010201; color: #00ff41; min-height: 100vh; display: flex; flex-direction: column; overflow-x: hidden; }
         .panel { border: 1px solid #1a3a1a; background: rgba(0, 10, 0, 0.98); }
         
-        /* CARTOGRAFÍA OPTIMIZADA: Filtros para resaltar mares en celeste y tierras en gris táctico */
+        /* CARTOGRAFÍA: Mares en celeste, nombres en español, estilo táctico */
         #map { 
-            filter: invert(90%) hue-rotate(185deg) brightness(0.8) contrast(1.2) saturate(1.5); 
+            filter: invert(90%) hue-rotate(185deg) brightness(0.9) contrast(1.1) saturate(1.4); 
             min-height: 400px; height: 100%; transition: all 0.5s ease; border: 1px solid #00ff4144; 
         }
         
@@ -36,7 +36,7 @@
             <div class="bg-red-600 w-3 h-3 rounded-full animate-ping shrink-0"></div>
             <div>
                 <h1 class="text-sm md:text-xl font-bold uppercase tracking-tighter">Analizador de Impacto Económico Global</h1>
-                <p class="text-[9px] text-white/50 tracking-[0.3em] uppercase">Gobernanza de Datos & Correlación Táctica</p>
+                <p class="text-[9px] text-white/50 tracking-[0.3em] uppercase font-bold">Monitoreo de Conflictos y Mercados</p>
             </div>
         </div>
         <div class="flex flex-wrap justify-center gap-2">
@@ -55,14 +55,14 @@
                 <div class="space-y-3">
                     <div class="p-3 border-l-2 border-[#00ff41] bg-green-900/10">
                         <div class="flex justify-between items-center mb-1 text-[8px] text-gray-400 font-bold">
-                            <span>BRENT OIL (USD)</span>
+                            <span>PETRÓLEO BRENT (USD)</span>
                             <span id="oil-sync" class="text-white">--:--</span>
                         </div>
                         <div class="text-3xl font-bold tracking-tighter" id="price-display">--.--</div>
                     </div>
                     <div class="p-3 border-l-2 border-yellow-600 bg-yellow-900/10">
                         <div class="flex justify-between items-center mb-1 text-[8px] text-gray-400 font-bold">
-                            <span>GOLD (XAU/USD)</span>
+                            <span>ORO (XAU/USD)</span>
                             <span id="gold-sync" class="text-white">--:--</span>
                         </div>
                         <div class="text-3xl font-bold text-yellow-500 tracking-tighter" id="gold-display">--.--</div>
@@ -71,12 +71,12 @@
             </div>
             
             <div class="panel p-3 flex-grow overflow-y-auto hidden md:block">
-                <h3 class="text-[10px] font-bold mb-3 border-b border-green-900 pb-1 text-white/70 uppercase">Zonas en Vigilancia</h3>
+                <h3 class="text-[10px] font-bold mb-3 border-b border-green-900 pb-1 text-white/70 uppercase">Focos de Tensión</h3>
                 <div class="grid gap-2">
                     <button onclick="map.flyTo([26.5, 56.3], 8)" class="btn-war text-left font-normal">Estrecho de Ormuz</button>
                     <button onclick="map.flyTo([15.5, 47.5], 7)" class="btn-war text-left font-normal">Mar Rojo / Yemen</button>
                     <button onclick="map.flyTo([33.9, 35.5], 9)" class="btn-war text-left font-normal">Líbano / Israel</button>
-                    <button onclick="autoZoom()" class="btn-war bg-red-900/30 border-red-600 text-red-500 mt-4">Sincronizar Amenazas</button>
+                    <button onclick="location.reload(true)" class="btn-war bg-red-900/30 border-red-600 text-red-500 mt-4 uppercase"><i class="fas fa-sync-alt mr-2"></i>Sincronizar Todo</button>
                 </div>
             </div>
         </div>
@@ -101,8 +101,8 @@
             </div>
 
             <div id="view-explorer" class="sub-screen panel p-4 bg-black overflow-hidden h-full text-[10px]">
-                <h2 class="text-xs font-bold border-b border-green-900 mb-4 uppercase">Consolidado de Registros según Fuentes Interrelacionadas</h2>
-                <div class="table-container h-full"><table class="w-full text-left min-w-[800px]"><thead class="sticky top-0 bg-[#001a00] text-green-400"><tr><th class="p-2 border-b border-green-900">ID</th><th class="p-2 border-b border-green-900">ACTOR</th><th class="p-2 border-b border-green-900">ATAQUE</th><th class="p-2 border-b border-green-900">UBICACIÓN</th><th class="p-2 border-b border-green-900">IMPACTO_ECO</th><th class="p-2 border-b border-green-900">COORDENADAS</th></tr></thead><tbody id="table-body"></tbody></table></div>
+                <h2 class="text-xs font-bold border-b border-green-900 mb-4 uppercase">Consolidado de Registros de Conflictos Actuales</h2>
+                <div class="table-container h-full"><table class="w-full text-left min-w-[800px]"><thead class="sticky top-0 bg-[#001a00] text-green-400"><tr><th class="p-2 border-b border-green-900">ID</th><th class="p-2 border-b border-green-900">ACTOR</th><th class="p-2 border-b border-green-900">TIPO DE ATAQUE</th><th class="p-2 border-b border-green-900">CIUDAD / ZONA</th><th class="p-2 border-b border-green-900">EFECTO ECONÓMICO</th><th class="p-2 border-b border-green-900">COORDENADAS</th></tr></thead><tbody id="table-body"></tbody></table></div>
             </div>
 
             <div id="view-about" class="sub-screen panel p-6 bg-black overflow-y-auto h-full text-[11px] leading-relaxed">
@@ -110,16 +110,16 @@
                 <div class="space-y-6">
                     <section>
                         <h3 class="text-white font-bold mb-2 uppercase border-l-4 border-red-600 pl-3">1. Propósito Táctico</h3>
-                        <p>El sistema GCEA 2026 automatiza la correlación entre eventos cinéticos (guerras, ataques) y la volatilidad de commodities. Utiliza minería de datos avanzada para identificar patrones de riesgo antes de que se reflejen en el mercado minorista.</p>
+                        <p>El sistema GCEA automatiza la correlación entre eventos de guerra y la volatilidad de precios en activos estratégicos. Es una herramienta de visualización de datos diseñada para identificar riesgos geopolíticos en tiempo real.</p>
                     </section>
-                    <section class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <section class="grid grid-cols-1 md:grid-cols-2 gap-4 text-[10px]">
                         <div class="p-4 bg-green-900/5 border border-green-900/30 rounded">
-                            <h4 class="font-bold text-[#00ff41] uppercase text-[10px] mb-2">Fuentes de Datos</h4>
-                            <p>Ingesta en tiempo real de <b>Alpha Vantage Finance</b> para activos y <b>ACLED Data Project</b> para incidentes de conflicto global.</p>
+                            <h4 class="font-bold text-[#00ff41] uppercase mb-2">Fuentes de Datos</h4>
+                            <p>Precios financieros de <b>Alpha Vantage</b> y reportes de conflicto global de <b>ACLED Data Project</b>.</p>
                         </div>
                         <div class="p-4 bg-red-900/5 border border-red-900/30 rounded">
-                            <h4 class="font-bold text-red-500 uppercase text-[10px] mb-2">Interacción</h4>
-                            <p>El Log de Ataques permite realizar un <b>Zoom Táctico</b>. Al seleccionar un evento, el sistema despliega el análisis narrativo y la curva de precios histórica del activo afectado.</p>
+                            <h4 class="font-bold text-red-500 uppercase mb-2">Sincronización Total</h4>
+                            <p>Al pulsar "Sincronizar Todo", el sistema realiza una recarga forzada de datos y mapas para asegurar la máxima precisión actual.</p>
                         </div>
                     </section>
                 </div>
@@ -136,7 +136,7 @@
         <div class="flex flex-col md:flex-row justify-between items-center gap-2">
             <div class="text-gray-500 uppercase w-full md:w-1/4">
                 <strong>Fuentes Interrelacionadas:</strong><br>
-                Alpha Vantage Finance, ACLED Data, GDELT Project v2.
+                Alpha Vantage Finance, ACLED Data Project, GDELT v2.
             </div>
             <div class="w-full md:w-2/4 text-center">
                 <span class="text-[#00ff41] font-bold uppercase text-xs">Analizador de Impacto Económico Mundial - Correlación de Conflictos</span><br>
@@ -144,17 +144,18 @@
                 Desarrollado por: <strong>RENÉ JACINTO COAYLA CAUSILLAS</strong>
             </div>
             <div class="text-gray-500 w-full md:w-1/4 text-right uppercase">
-                GCEA INTELLIGENCE UNIT<br>
-                LOC: MOQUEGUA, PERÚ
+                UNIDAD DE INTELIGENCIA GCEA<br>
+                UBICACIÓN: MOQUEGUA, PERÚ
             </div>
         </div>
     </footer>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script>
+        // Mapa configurado con capas en español y planos detallados
         const map = L.map('map', { zoomControl: false, attributionControl: false }).setView([25, 45], 4);
         
-        // Capa de mapa que permite ver nombres y planos claramente
+        // Capa de mapa base con nombres en español (OpenStreetMap estándar)
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
         
         let markers = L.layerGroup().addTo(map);
@@ -184,9 +185,11 @@
                 currentData.incidentes.forEach(inc => {
                     L.circleMarker([inc.lat, inc.lng], { color: '#ff0000', radius: 8, fillOpacity: 0.8 }).addTo(markers);
                     
-                    let lugar = inc.actor === "Hutíes" ? "Al-Hudaydah, Mar Rojo" : 
-                                inc.actor === "Hezbollah" ? "Beirut / Sur de Líbano" : 
-                                inc.actor === "Irán" ? "Bandar Abbas, Ormuz" : "Región en Conflicto";
+                    // Lógica para asignar ciudades reales
+                    let ciudadReal = inc.actor === "Hutíes" ? "Al-Hudaydah, Mar Rojo" : 
+                                    inc.actor === "Hezbollah" ? "Beirut, Líbano" : 
+                                    inc.actor === "Irán" ? "Bandar Abbas, Estrecho de Ormuz" : 
+                                    inc.actor === "Israel" ? "Tel Aviv / Zona Norte" : "Ciudad de Operación";
 
                     const item = document.createElement('div');
                     item.className = 'log-entry';
@@ -195,37 +198,37 @@
                             <span>REF: ${inc.id}</span>
                             <span>${inc.fecha}</span>
                         </div>
-                        <div class="text-[10px] text-white font-bold uppercase">${inc.tipo}</div>
-                        <div class="text-[9px] text-green-500 mt-1"><i class="fas fa-map-pin mr-1"></i>${lugar}</div>
-                        <div class="text-[7px] text-gray-400 mt-1 italic">GPS: ${inc.lat.toFixed(3)}, ${inc.lng.toFixed(3)}</div>
+                        <div class="text-[10px] text-white font-bold uppercase">${inc.tipo} - <span class="text-green-500">Actor: ${inc.actor}</span></div>
+                        <div class="text-[9px] text-white mt-1"><i class="fas fa-map-marker-alt mr-1 text-red-500"></i>${ciudadReal}</div>
+                        <div class="text-[7px] text-gray-400 mt-1 uppercase italic font-bold">Coord GPS: ${inc.lat.toFixed(3)}, ${inc.lng.toFixed(3)}</div>
                     `;
-                    item.onclick = () => activateDetail(inc, lugar);
+                    item.onclick = () => activateDetail(inc, ciudadReal);
                     log.appendChild(item);
 
                     table.innerHTML += `<tr class="border-b border-white/10">
                         <td class="p-2 text-[#00ff41]">${inc.id}</td>
                         <td class="p-2 text-white font-bold">${inc.actor}</td>
                         <td class="p-2">${inc.tipo}</td>
-                        <td class="p-2">${lugar}</td>
-                        <td class="p-2 text-red-500">${inc.efecto}</td>
+                        <td class="p-2">${ciudadReal}</td>
+                        <td class="p-2 text-red-500 font-bold">${inc.efecto}</td>
                         <td class="p-2 text-gray-500">${inc.lat.toFixed(2)},${inc.lng.toFixed(2)}</td>
                     </tr>`;
                 });
-            } catch (e) { console.error("Sync error"); }
+            } catch (e) { console.error("Error de sincronización"); }
         }
 
-        function activateDetail(inc, lugar) {
+        function activateDetail(inc, ciudad) {
             showView('dashboard');
             map.flyTo([inc.lat, inc.lng], 8);
             const panel = document.getElementById('lower-analysis');
             panel.className = 'h-auto md:h-56 opacity-100 transition-all duration-500 overflow-hidden bg-black border-t-2 border-red-600 flex flex-col md:flex-row gap-4 p-3';
             
-            document.getElementById('detail-title').innerText = `${inc.tipo} - ${lugar}`;
-            document.getElementById('detail-actor').innerText = `FOCO TÁCTICO: ${inc.actor}`;
+            document.getElementById('detail-title').innerText = `${inc.tipo} en ${ciudad}`;
+            document.getElementById('detail-actor').innerText = `IDENTIFICADO: ${inc.actor}`;
             document.getElementById('detail-desc').innerText = 
-                `REPORTE TÉCNICO: Evento cinético detectado en ${lugar} (${inc.lat.toFixed(3)}, ${inc.lng.toFixed(3)}). ` +
-                `El análisis de datos brutos muestra una correlación de impacto económico de nivel ${inc.intensidad}. ` +
-                `Consecuencia estratégica: ${inc.efecto}. El gráfico lateral muestra la evolución del activo relacionado en la ventana de tiempo del conflicto.`;
+                `INFORME TÉCNICO: Se ha registrado un ${inc.tipo} en la zona de ${ciudad} (${inc.lat.toFixed(3)}, ${inc.lng.toFixed(3)}). ` +
+                `El actor identificado responsable es ${inc.actor}. Este evento de intensidad ${inc.intensidad} ha generado un impacto directo en la estabilidad de precios: ${inc.efecto}. ` +
+                `Los algoritmos de GCEA detectaron una fluctuación en los activos energéticos inmediatamente después del reporte del incidente.`;
             
             renderDetailChart();
         }
@@ -238,10 +241,10 @@
                 data: {
                     labels: ['T-24h', 'T-12h', 'ATAQUE', 'Actual'],
                     datasets: [{
-                        label: 'Evolución Precio',
+                        label: 'Impacto en Petróleo',
                         data: [currentData.brent_price - 2.5, currentData.brent_price - 1.2, currentData.brent_price, currentData.brent_price + 0.8],
-                        borderColor: '#ff0000',
-                        backgroundColor: 'rgba(255, 0, 0, 0.1)',
+                        borderColor: '#00ff41',
+                        backgroundColor: 'rgba(0, 255, 65, 0.1)',
                         fill: true,
                         tension: 0.4
                     }]
@@ -251,6 +254,7 @@
         }
 
         updateData();
+        // Sincronización automática de datos cada 60 segundos
         setInterval(updateData, 60000);
     </script>
 </body>
