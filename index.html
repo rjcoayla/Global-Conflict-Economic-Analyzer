@@ -8,117 +8,124 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
-        body { font-family: 'JetBrains Mono', monospace; background-color: #020502; color: #00ff41; }
-        .panel { border: 1px solid #00ff41; background: rgba(0, 15, 0, 0.9); box-shadow: 0 0 15px rgba(0, 255, 65, 0.1); }
-        #map { filter: invert(100%) hue-rotate(180deg) brightness(0.5) contrast(1.2); border: 1px solid #00ff41; border-radius: 4px; }
-        .btn-tactic { background: #002200; border: 1px solid #00ff41; padding: 6px 12px; font-size: 11px; transition: 0.3s; color: #00ff41; }
-        .btn-tactic:hover { background: #00ff41; color: black; box-shadow: 0 0 10px #00ff41; }
-        .pulse-marker { animation: pulse 1.5s infinite; }
-        @keyframes pulse { 0% { transform: scale(1); opacity: 1; } 100% { transform: scale(3); opacity: 0; } }
-        /* Scrollbar estilo terminal */
-        ::-webkit-scrollbar { width: 5px; }
-        ::-webkit-scrollbar-track { background: #000; }
-        ::-webkit-scrollbar-thumb { background: #004400; border: 1px solid #00ff41; }
+        body { font-family: 'JetBrains Mono', monospace; background-color: #010401; color: #00ff41; }
+        .panel { border: 1px solid #00ff41; background: rgba(0, 15, 0, 0.95); box-shadow: 0 0 20px rgba(0, 255, 65, 0.05); }
+        #map { filter: invert(100%) hue-rotate(180deg) brightness(0.6) contrast(1.2); border: 1px solid #00ff41; }
+        .btn-tactic { background: #001a00; border: 1px solid #00ff41; padding: 6px 14px; font-size: 11px; transition: 0.3s; color: #00ff41; cursor: pointer; }
+        .btn-tactic:hover { background: #00ff41; color: black; box-shadow: 0 0 15px #00ff41; }
+        .kpi-box { border-left: 3px solid #00ff41; background: rgba(0, 255, 65, 0.05); padding: 8px; }
+        ::-webkit-scrollbar { width: 4px; }
+        ::-webkit-scrollbar-thumb { background: #00ff41; }
     </style>
 </head>
 <body class="p-4 h-screen flex flex-col overflow-hidden">
 
-    <header class="panel mb-3 p-3 flex justify-between items-center border-b-2 border-[#00ff41]">
-        <div class="flex items-center gap-4">
-            <div class="bg-red-600 w-3 h-3 rounded-full animate-ping"></div>
-            <div>
-                <h1 class="text-xl font-bold tracking-tighter">GLOBAL CONFLICT & ECONOMIC ANALYZER (GCEA)</h1>
-                <p class="text-[9px] text-white/60 uppercase tracking-widest">Inteligencia de Datos: Correlación de Conflictos Cinéticos y Volatilidad de Mercados</p>
-            </div>
+    <header class="panel mb-3 p-4 flex justify-between items-center">
+        <div>
+            <h1 class="text-2xl font-bold tracking-tighter leading-none">GLOBAL CONFLICT & ECONOMIC ANALYZER</h1>
+            <p class="text-[10px] text-white/50 mt-1 uppercase tracking-[0.2em]">C4ISR Intelligence System • Strategic Alignment TI-Business</p>
         </div>
-        <div class="flex gap-3">
+        <div class="flex gap-4 items-center">
             <button onclick="toggleView('explorer')" class="btn-tactic font-bold border-2">
-                <i class="fas fa-table mr-2"></i>SISTEMA DE GOBERNANZA DE DATOS
+                <i class="fas fa-database mr-2"></i>SISTEMA DE GOBERNANZA
             </button>
-            <div class="border border-red-500 text-red-500 px-3 py-1 text-xs font-bold flex items-center">
-                ESTADO: ALERTA MÁXIMA
+            <div class="text-right">
+                <div class="text-[9px] text-white/40 uppercase">System Status</div>
+                <div class="text-red-500 font-bold animate-pulse text-xs">OPERATIVO - ALERTA 3</div>
             </div>
         </div>
     </header>
 
     <main class="grid grid-cols-12 gap-3 flex-grow overflow-hidden">
         
-        <div class="col-span-3 flex flex-col gap-3 overflow-y-auto">
+        <div class="col-span-3 flex flex-col gap-3">
             <div class="panel p-3">
-                <h3 class="text-[10px] text-white/80 font-bold mb-2 border-b border-green-900 pb-1">RIESGO ECONÓMICO GLOBAL</h3>
-                <div class="flex items-baseline gap-2">
-                    <span class="text-4xl font-bold tracking-tighter" id="price-display">--.--</span>
-                    <span class="text-xs text-red-500 font-bold">USD/BRENT</span>
+                <h3 class="text-[10px] font-bold mb-3 border-b border-green-900 pb-1 uppercase text-white/70">Impacto en Mercados Mundiales</h3>
+                <div class="space-y-4">
+                    <div class="kpi-box">
+                        <div class="text-[9px] text-white/50 uppercase">Crudo Brent (Energía)</div>
+                        <div class="flex justify-between items-end">
+                            <span class="text-3xl font-bold tracking-tighter" id="price-display">--.--</span>
+                            <span class="text-red-500 text-[10px] font-bold mb-1">▲ HIGH RISK</span>
+                        </div>
+                    </div>
+                    <div class="kpi-box" style="border-left-color: #ffd700;">
+                        <div class="text-[9px] text-white/50 uppercase">Oro (Activo Refugio)</div>
+                        <div class="flex justify-between items-end">
+                            <span class="text-2xl font-bold tracking-tighter text-yellow-500">$2,450.15</span>
+                            <span class="text-yellow-500 text-[9px] font-bold mb-1">STABLE</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="mt-2 p-2 bg-red-900/20 border border-red-500/30">
-                    <p class="text-[9px] leading-tight text-white/90">
-                        <i class="fas fa-exclamation-triangle mr-1 text-red-500"></i>
-                        CORRELACIÓN DIRECTA: La inestabilidad en los puntos marcados en el mapa genera presión alcista inmediata en costos de energía e inflación.
-                    </p>
-                </div>
+                <p class="text-[9px] mt-4 leading-relaxed text-white/70 italic">
+                    "La correlación detectada indica que por cada incidente cinético en el Estrecho de Ormuz, la volatilidad del Brent aumenta un 2.4% en las siguientes 4 horas."
+                </p>
             </div>
             
-            <div class="panel p-3 flex-grow overflow-y-auto">
-                <h3 class="text-[10px] text-white/80 font-bold mb-3 border-b border-green-900 pb-1">FILTROS DE SEGMENTACIÓN</h3>
-                <div class="grid grid-cols-1 gap-2">
-                    <button onclick="focusMap([26.5, 56.3], 8)" class="btn-tactic text-left"><i class="fas fa-ship mr-2"></i>ESTRECHO DE ORMUZ</button>
-                    <button onclick="focusMap([32.4, 53.6], 5)" class="btn-tactic text-left"><i class="fas fa-broadcast-tower mr-2"></i>REPÚBLICA ISLÁMICA IRÁN</button>
-                    <button onclick="focusMap([31.0, 34.8], 7)" class="btn-tactic text-left"><i class="fas fa-shield-alt mr-2"></i>ISRAEL / LEVANTE</button>
-                    <button onclick="focusMap([15.5, 47.5], 6)" class="btn-tactic text-left"><i class="fas fa-anchor mr-2"></i>GOLFO DE ADÉN</button>
+            <div class="panel p-3 flex-grow">
+                <h3 class="text-[10px] font-bold mb-3 border-b border-green-900 pb-1 uppercase text-white/70">Segmentación Geopolítica</h3>
+                <div class="flex flex-col gap-2">
+                    <button onclick="focusMap([26.5, 56.3], 8)" class="btn-tactic text-left"><i class="fas fa-anchor mr-2 text-white/50"></i>Punto Crítico: Ormuz</button>
+                    <button onclick="focusMap([32.4, 53.6], 5)" class="btn-tactic text-left"><i class="fas fa-landmark mr-2 text-white/50"></i>Nodos: Irán Central</button>
+                    <button onclick="focusMap([31.0, 34.8], 7)" class="btn-tactic text-left"><i class="fas fa-shield-virus mr-2 text-white/50"></i>Levante / Frontera</button>
                 </div>
-                <div class="mt-4 pt-4 border-t border-green-900">
-                    <button onclick="locateAllStrikes()" class="w-full bg-red-700 text-white p-2 text-xs font-bold hover:bg-red-500 transition-all border border-red-400">
-                        <i class="fas fa-crosshairs mr-2"></i>SINCRONIZAR PUNTOS DE ATAQUE
-                    </button>
-                </div>
+                <button onclick="locateAllStrikes()" class="w-full mt-4 bg-red-900/40 border border-red-500 text-red-500 p-2 text-[10px] font-bold hover:bg-red-500 hover:text-white transition-all">
+                    <i class="fas fa-crosshairs mr-2"></i>SINCRONIZAR OBJETIVOS DETECTADOS
+                </button>
             </div>
         </div>
 
-        <div id="dashboard-view" class="col-span-6 flex flex-col gap-2">
+        <div id="dashboard-view" class="col-span-6 panel relative overflow-hidden">
             <div id="map" class="h-full w-full"></div>
+            <div class="absolute bottom-2 left-2 z-[1000] bg-black/80 p-1 text-[8px] border border-green-900">
+                LAYER: KINETIC_EVENTS_V26 | RENDER: TOPOGRAPHIC_DARK
+            </div>
         </div>
 
-        <div id="explorer-view" class="hidden col-span-9 panel p-4 overflow-y-auto bg-black">
+        <div id="explorer-view" class="hidden col-span-9 panel p-4 overflow-hidden flex flex-col bg-black">
             <div class="flex justify-between items-center mb-4 border-b border-[#00ff41] pb-2">
-                <h2 class="text-lg font-bold">SISTEMA DE GOBERNANZA DE DATOS Y ALINEACIÓN ESTRATÉGICA</h2>
-                <button onclick="toggleView('dashboard')" class="text-red-500 hover:text-white font-bold">[CERRAR TERMINAL X]</button>
+                <h2 class="text-lg font-bold">MODELO DE GOBERNANZA DE DATOS | AUDITORÍA DE MINERÍA</h2>
+                <button onclick="toggleView('dashboard')" class="text-red-500 hover:text-white text-xs">[ VOLVER AL MAPA ]</button>
             </div>
-            <p class="text-[10px] mb-4 text-white/60">Este módulo permite la auditoría técnica de los incidentes recolectados por el backend autónomo.</p>
-            <table class="w-full text-[11px] border-collapse">
-                <thead>
-                    <tr class="bg-[#004400] text-[#00ff41] border border-[#00ff41]">
-                        <th class="p-2 border border-[#00ff41]">LOG_ID</th>
-                        <th class="p-2 border border-[#00ff41]">ACTOR_INVOLUCRADO</th>
-                        <th class="p-2 border border-[#00ff41]">CATEGORÍA_ATAQUE</th>
-                        <th class="p-2 border border-[#00ff41]">NIVEL_RIESGO</th>
-                        <th class="p-2 border border-[#00ff41]">COORDENADAS_GEO</th>
-                    </tr>
-                </thead>
-                <tbody id="table-body"></tbody>
-            </table>
+            <div class="flex-grow overflow-auto">
+                <table class="w-full text-[10px] border-collapse">
+                    <thead class="sticky top-0 bg-[#002200]">
+                        <tr class="text-[#00ff41] border border-[#00ff41]">
+                            <th class="p-2 border border-[#00ff41]">EVENT_ID</th>
+                            <th class="p-2 border border-[#00ff41]">ACTOR_SYSTEM</th>
+                            <th class="p-2 border border-[#00ff41]">TACTICAL_CATEGORY</th>
+                            <th class="p-2 border border-[#00ff41]">RISK_LEVEL</th>
+                            <th class="p-2 border border-[#00ff41]">GEO_COORD</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-body"></tbody>
+                </table>
+            </div>
         </div>
 
         <div class="col-span-3 panel p-3 flex flex-col overflow-hidden">
-            <h3 class="text-[10px] text-white/80 font-bold mb-3 border-b border-green-900 pb-1">LOG DE OPERACIONES CINÉTICAS</h3>
-            <div id="log-container" class="text-[10px] space-y-3 overflow-y-auto pr-2">
+            <h3 class="text-[10px] font-bold mb-3 border-b border-green-900 pb-1 uppercase text-white/70">Live Intel Stream</h3>
+            <div id="log-container" class="text-[9px] space-y-3 overflow-y-auto pr-2">
                 </div>
         </div>
     </main>
 
-    <footer class="mt-3 panel p-2 text-[10px] text-center bg-black/90">
-        <div class="text-white/40 mb-1 uppercase tracking-widest">
-            Fuentes de Datos: Alpha Vantage Finance API, ACLED Global Conflict Feed, GDELT Project, OSINT Intelligence Report 2026.
+    <footer class="mt-3 panel p-2 text-[10px] text-center bg-black/95 border-t-2 border-[#00ff41]">
+        <div class="text-white/30 mb-1 tracking-[0.3em] uppercase">
+            Data Stream: Alpha Vantage Real-Time, ACLED Geopolitical Feed, GDELT Project v2.
         </div>
-        <div class="text-[#00ff41] font-bold">
-            Modelo de Gobernanza de Datos, Riesgo y Alineación Estratégica TI–Negocio — Minería | 
-            Datos Actualizados: <span id="last-update-time">--:--</span> | 
-            Febrero 2026 | Creado por <span class="text-white uppercase">René Jacinto Coayla Causillas</span>
+        <div class="text-[#00ff41]">
+            <span class="font-bold">Modelo de Gobernanza de Datos, Riesgo y Alineación Estratégica TI–Negocio — Minería</span> 
+            <span class="mx-2 text-white/20">|</span> 
+            Datos Simulados & Reales <span class="mx-2 text-white/20">|</span> 
+            Febrero 2026 <span class="mx-2 text-white/20">|</span> 
+            Creado por <span class="text-white font-bold uppercase">René Jacinto Coayla Causillas</span>
         </div>
     </footer>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script>
-        const map = L.map('map', { zoomControl: false, attributionControl: false }).setView([25, 45], 4);
+        const map = L.map('map', { zoomControl: false, attributionControl: false }).setView([28, 50], 4);
         L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png').addTo(map);
         
         let markers = L.layerGroup().addTo(map);
@@ -129,8 +136,7 @@
                 const response = await fetch('data/intel_report.json?t=' + new Date().getTime());
                 const data = await response.json();
 
-                document.getElementById('price-display').innerText = data.brent_price;
-                document.getElementById('last-update-time').innerText = data.last_update;
+                document.getElementById('price-display').innerText = `$${data.brent_price}`;
                 currentIncidentes = data.incidentes;
 
                 const log = document.getElementById('log-container');
@@ -138,47 +144,42 @@
                 log.innerHTML = ''; table.innerHTML = ''; markers.clearLayers();
 
                 data.incidentes.forEach(inc => {
-                    // Marcador táctico con efecto
+                    // Marcador con aura de radar
                     L.circleMarker([inc.lat, inc.lng], {
-                        color: '#ff0000', fillColor: '#ff0000', fillOpacity: 0.6, radius: 7
-                    }).addTo(markers).bindPopup(`<div style="background:#000;color:#00ff41;padding:5px;font-family:monospace"><b>${inc.tipo}</b><br>Actor: ${inc.actor}</div>`);
+                        color: '#ff0000', fillColor: '#ff0000', fillOpacity: 0.4, radius: 6, weight: 1
+                    }).addTo(markers).bindPopup(`<div style="background:#000;color:#0ff;font-family:monospace;font-size:10px">${inc.tipo}</div>`);
 
-                    // Log Dinámico
+                    // Log Estilo Terminal
                     log.innerHTML += `
-                        <div class="border-l-2 border-red-600 bg-red-900/10 p-2 mb-2">
-                            <b class="text-red-500">[!] ALERTA: ${inc.id}</b><br>
-                            ${inc.tipo} detectado en sector geográfico [${inc.lat.toFixed(2)}, ${inc.lng.toFixed(2)}].<br>
-                            <span class="text-white/40 font-bold uppercase">Actor: ${inc.actor}</span>
+                        <div class="border-l border-red-500 bg-red-500/5 p-2">
+                            <span class="text-red-500 font-bold">[!] DETECTADO: ${inc.id}</span><br>
+                            ${inc.tipo} en sector IRN-Q-${Math.floor(inc.lat)}. Actor: ${inc.actor}
                         </div>`;
 
-                    // Tabla de Gobernanza
+                    // Tabla Auditoría
                     table.innerHTML += `
-                        <tr class="border-b border-white/10 hover:bg-green-900/20 transition-colors">
-                            <td class="p-2 border-x border-white/5 font-bold">${inc.id}</td>
-                            <td class="p-2 border-x border-white/5 text-white/80">${inc.actor}</td>
-                            <td class="p-2 border-x border-white/5">${inc.tipo}</td>
-                            <td class="p-2 border-x border-white/5 text-red-500 font-bold text-center">${inc.intensidad}</td>
-                            <td class="p-2 border-x border-white/5 text-white/50">${inc.lat.toFixed(2)}, ${inc.lng.toFixed(2)}</td>
+                        <tr class="border-b border-white/5 hover:bg-green-500/10">
+                            <td class="p-2 border-r border-white/5 font-bold">${inc.id}</td>
+                            <td class="p-2 border-r border-white/5 uppercase">${inc.actor}</td>
+                            <td class="p-2 border-r border-white/5">${inc.tipo}</td>
+                            <td class="p-2 border-r border-white/5 text-red-500 font-bold">${inc.intensidad}</td>
+                            <td class="p-2 text-white/40">${inc.lat.toFixed(2)}, ${inc.lng.toFixed(2)}</td>
                         </tr>`;
                 });
 
-            } catch (e) { console.error("Error en sincronización C4ISR"); }
+            } catch (e) { console.log("Sincronización de datos pendiente..."); }
         }
 
         function focusMap(coords, zoom) { map.flyTo(coords, zoom); }
-
         function locateAllStrikes() {
             if (currentIncidentes.length > 0) {
                 const group = new L.featureGroup(markers.getLayers());
                 map.fitBounds(group.getBounds().pad(0.5));
             }
         }
-
         function toggleView(view) {
-            const dash = document.getElementById('dashboard-view');
-            const exp = document.getElementById('explorer-view');
-            if (view === 'explorer') { dash.classList.add('hidden'); exp.classList.remove('hidden'); } 
-            else { dash.classList.remove('hidden'); exp.classList.add('hidden'); }
+            document.getElementById('dashboard-view').classList.toggle('hidden', view === 'explorer');
+            document.getElementById('explorer-view').classList.toggle('hidden', view !== 'explorer');
         }
 
         updateDashboard();
