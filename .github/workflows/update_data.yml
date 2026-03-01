@@ -1,1 +1,27 @@
+name: Actualizador de Inteligencia 2026
+on:
+  schedule:
+    - cron: '0 */4 * * *' # Cada 4 horas exactamente
+  workflow_dispatch: # Permite ejecutarlo manualmente desde el botón "Actions"
 
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+      - name: Install dependencies
+        run: pip install requests
+      - name: Fetch Real Data
+        run: python scripts/fetch_intel.py
+      - name: Commit and Push
+        run: |
+          git config --global user.name "GitHub Action Bot"
+          git config --global user.email "action@github.com"
+          git add data/*.json
+          git commit -m "Intel Update: $(date)" || exit 0
+          git push
