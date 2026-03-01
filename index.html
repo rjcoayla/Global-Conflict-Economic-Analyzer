@@ -21,6 +21,8 @@
         #view-dashboard { display: flex; order: 0; }
         ::-webkit-scrollbar { width: 4px; }
         ::-webkit-scrollbar-thumb { background: #00ff41; }
+        /* Estilo para el Modal (README encima de todo) */
+        #modal-readme { display: none; position: fixed; inset: 0; z-index: 9999; background: rgba(0,0,0,0.9); backdrop-filter: blur(4px); align-items: center; justify-content: center; padding: 20px; }
     </style>
 </head>
 <body class="p-2 md:p-4">
@@ -107,6 +109,9 @@
                     <h3 class="text-[#00ff41] font-bold uppercase border-l-4 border-green-600 pl-3">Propósito y Fuentes</h3>
                     <p class="text-white/70">Este sistema integra feeds financieros y reportes de conflictos globales. El objetivo es democratizar el acceso a la información económica y geopolítica, permitiendo que la sociedad civil comprenda la fragilidad de las cadenas de suministro ante eventos bélicos.</p>
                 </div>
+                <div class="mt-8 flex justify-start">
+                    <button onclick="toggleReadme(true)" class="btn-war"><i class="fas fa-file-alt mr-2"></i> README DEL AUTOR</button>
+                </div>
             </div>
 
             <div id="view-dashboard" class="flex flex-col flex-grow">
@@ -149,6 +154,36 @@
         </div>
     </footer>
 
+    <div id="modal-readme" onclick="toggleReadme(false)">
+        <div class="panel w-full max-w-2xl max-h-[85vh] flex flex-col overflow-hidden" onclick="event.stopPropagation()">
+            <div class="p-3 border-b border-green-900 bg-green-900/20 flex justify-between items-center">
+                <h3 class="text-[10px] font-bold uppercase text-white">Documentación del Sistema</h3>
+                <button onclick="toggleReadme(false)" class="text-red-500 font-bold">X</button>
+            </div>
+            <div class="p-6 overflow-y-auto text-[11px] text-white/90 space-y-4">
+                <h1 class="text-lg font-bold text-[#00ff41]">🌍 OBSERVATORIO CIUDADANO: GUERRA Y ECONOMÍA</h1>
+                <p class="italic text-blue-400">Monitor Abierto de Impacto Geopolítico en los Precios Globales</p>
+                <p>Este proyecto es una herramienta de visualización diseñada para rastrear la correlación entre conflictos bélicos y la volatilidad en activos como el Petróleo Brent y el Oro.</p>
+                <h3 class="text-green-500 font-bold uppercase">[ Funcionalidades ]</h3>
+                <ul class="list-disc ml-5">
+                    <li>Mapa Táctico en Tiempo Real.</li>
+                    <li>Monitor de Activos Críticos (Brent/Oro).</li>
+                    <li>Log de Ataques Regionales Interactivos.</li>
+                    <li>Gráficos de Correlación Técnica.</li>
+                </ul>
+                <h3 class="text-green-500 font-bold uppercase">[ Autoría ]</h3>
+                <p class="p-3 bg-white/5 border-l-2 border-blue-500">
+                    Autor: René Jacinto Coayla Causillas<br>
+                    Ubicación: Moquegua, Perú<br>
+                    © 2026 - Datos Abiertos.
+                </p>
+            </div>
+            <div class="p-3 border-t border-green-900 flex justify-center bg-black">
+                <button onclick="toggleReadme(false)" class="btn-war px-10">CERRAR DOCUMENTACIÓN</button>
+            </div>
+        </div>
+    </div>
+
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script>
         const map = L.map('map', { zoomControl: false, attributionControl: false }).setView([25, 45], 4);
@@ -164,6 +199,11 @@
             }
             document.getElementById('lower-analysis').className = 'h-0 opacity-0 overflow-hidden';
             if(viewId === 'analysis') setTimeout(renderMainChart, 200);
+        }
+
+        function toggleReadme(show) {
+            const modal = document.getElementById('modal-readme');
+            modal.style.display = show ? 'flex' : 'none';
         }
 
         async function updateData() {
@@ -198,7 +238,7 @@
             panel.className = 'h-auto opacity-100 bg-black border-t-2 border-red-600 flex flex-col md:flex-row p-3 transition-all duration-500';
             document.getElementById('detail-title').innerText = `${inc.tipo} en ${ciudad}`;
             document.getElementById('detail-actor').innerText = `RESPONSABLE: ${inc.actor}`;
-            document.getElementById('detail-desc').innerText = `Incidente detectado en ${ciudad}. Intensidad ${inc.intensidad}. Efecto: ${inc.efecto}. Correlación con activos críticos confirmada por el Observatorio.`;
+            document.getElementById('detail-desc').innerText = `Incidente detectado en ${ciudad}. Correlación confirmada por el Observatorio.`;
             renderDetailChart();
         }
 
