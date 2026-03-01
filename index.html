@@ -12,22 +12,13 @@
         @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
         body { font-family: 'JetBrains Mono', monospace; background-color: #010201; color: #00ff41; min-height: 100vh; display: flex; flex-direction: column; overflow-x: hidden; }
         .panel { border: 1px solid #1a3a1a; background: rgba(0, 10, 0, 0.98); }
-        
-        #map { 
-            filter: invert(90%) hue-rotate(185deg) brightness(0.9) contrast(1.1) saturate(1.4); 
-            min-height: 350px; height: 100%; transition: all 0.5s ease; border: 1px solid #00ff4144; 
-        }
-        
+        #map { filter: invert(90%) hue-rotate(185deg) brightness(0.9) contrast(1.1) saturate(1.4); min-height: 350px; height: 100%; border: 1px solid #00ff4144; }
         .btn-war { background: #001a00; border: 1px solid #00ff41; padding: 8px; font-size: 10px; color: #00ff41; cursor: pointer; text-align: center; transition: 0.2s; font-weight: bold; }
         .btn-war:hover { background: #00ff41; color: #000; box-shadow: 0 0 10px #00ff41; }
         .log-entry { border-left: 3px solid #ff0000; background: rgba(255,0,0,0.05); padding: 12px; margin-bottom: 8px; cursor: pointer; transition: 0.3s; }
         .log-entry:hover { background: rgba(0, 255, 65, 0.1); border-left-color: #00ff41; }
-        
-        /* AJUSTE MÓVIL: Las sub-pantallas ahora tienen prioridad de orden */
         .sub-screen { display: none; flex-direction: column; width: 100%; order: -1; }
-        #view-dashboard { display: flex; order: 0; } /* El mapa por defecto va después */
-
-        .table-container { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+        #view-dashboard { display: flex; order: 0; }
         ::-webkit-scrollbar { width: 4px; }
         ::-webkit-scrollbar-thumb { background: #00ff41; }
     </style>
@@ -58,18 +49,18 @@
         
         <div class="col-span-1 md:col-span-3 flex flex-col gap-3">
             <div class="panel p-3">
-                <h3 class="text-[10px] font-bold mb-3 border-b border-green-900 pb-1 text-white/70 uppercase">Activos en Vivo</h3>
+                <h3 class="text-[10px] font-bold mb-3 border-b border-green-900 pb-1 text-white/70 uppercase">Activos Críticos</h3>
                 <div class="space-y-3">
                     <div class="p-3 border-l-2 border-[#00ff41] bg-green-900/10">
                         <div class="flex justify-between items-center mb-1 text-[8px] text-gray-400 font-bold uppercase">
-                            <span>Petróleo Brent</span>
+                            <span>Petróleo Brent (USD)</span>
                             <span id="oil-sync" class="text-white">--:--</span>
                         </div>
                         <div class="text-3xl font-bold tracking-tighter" id="price-display">--.--</div>
                     </div>
                     <div class="p-3 border-l-2 border-yellow-600 bg-yellow-900/10">
                         <div class="flex justify-between items-center mb-1 text-[8px] text-gray-400 font-bold uppercase">
-                            <span>Oro (XAU)</span>
+                            <span>Oro (XAU/USD)</span>
                             <span id="gold-sync" class="text-white">--:--</span>
                         </div>
                         <div class="text-3xl font-bold text-yellow-500 tracking-tighter" id="gold-display">--.--</div>
@@ -90,27 +81,33 @@
         <div id="content-main" class="col-span-1 md:col-span-6 flex flex-col gap-3">
             
             <div id="view-explorer" class="sub-screen panel p-4 bg-black min-h-[400px]">
-                <h2 class="text-xs font-bold border-b border-green-900 mb-4 uppercase text-[#00ff41]">Registros de Conflictos</h2>
-                <div class="table-container"><table class="w-full text-[10px] text-left min-w-[600px]"><thead class="text-green-400"><tr><th class="p-2 border-b border-green-900">ACTOR</th><th class="p-2 border-b border-green-900">ATAQUE</th><th class="p-2 border-b border-green-900">ZONA</th></tr></thead><tbody id="table-body" class="text-white/80"></tbody></table></div>
+                <h2 class="text-xs font-bold border-b border-green-900 mb-4 uppercase text-[#00ff41]">Registros Consolidados</h2>
+                <div class="overflow-x-auto"><table class="w-full text-[10px] text-left min-w-[600px]"><thead class="text-green-400"><tr><th class="p-2">ACTOR</th><th class="p-2">ATAQUE</th><th class="p-2">ZONA</th></tr></thead><tbody id="table-body" class="text-white/80"></tbody></table></div>
             </div>
 
             <div id="view-analysis" class="sub-screen panel p-4 bg-black min-h-[400px]">
-                <h2 class="text-xs font-bold border-b border-green-900 mb-4 uppercase text-[#00ff41]">Análisis Histórico</h2>
+                <h2 class="text-xs font-bold border-b border-green-900 mb-4 uppercase text-[#00ff41]">Correlación de Mercado</h2>
                 <div class="h-64 bg-green-900/5 p-2"><canvas id="mainChart"></canvas></div>
-                <div class="mt-4 p-3 border border-white/10 bg-white/5 rounded text-[10px] text-white/70">
-                    <p class="italic text-red-500 font-bold mb-1 uppercase tracking-widest">Efecto en Commodities:</p>
-                    La persistencia de incidentes en zonas de tránsito genera una prima de riesgo estructural.
+                <div class="mt-4 p-4 border border-white/10 bg-white/5 rounded text-[10px]">
+                    <h4 class="text-red-500 font-bold mb-2 uppercase">Análisis del Efecto en Commodities</h4>
+                    <p class="text-white/80 leading-relaxed">
+                        El historial de datos confirma que la estabilidad del Petróleo Brent es altamente vulnerable a incidentes cinéticos en los principales puntos de estrangulamiento marítimo. Cada ataque registrado en el log correlaciona con un aumento de la prima de riesgo debido a la posible interrupción del suministro físico. Por su parte, el Oro reafirma su rol como activo de refugio, mostrando una tendencia alcista sostenida cada vez que la incertidumbre geopolítica escala, sirviendo como escudo contra la inflación y la inestabilidad de las divisas tradicionales ante escenarios de conflicto prolongado.
+                    </p>
                 </div>
             </div>
 
             <div id="view-about" class="sub-screen panel p-6 bg-black min-h-[400px]">
-                <div class="mb-4 p-4 bg-blue-900/10 border border-blue-500/30 rounded">
-                    <h2 class="text-sm font-bold text-white uppercase mb-2">OBSERVATORIO CIUDADANO: GUERRA Y ECONOMÍA</h2>
-                    <p class="text-white/90 text-[10px] italic leading-relaxed">
-                        "Este espacio nace de la necesidad de entender nuestro entorno. Rastreamos cómo los conflictos influyen en activos que marcan el costo de vida de todos. Es una iniciativa de datos abiertos para ver la relación entre la paz y la economía global."
+                <div class="mb-6 p-6 bg-blue-900/10 border border-blue-500/30 rounded-lg">
+                    <h2 class="text-lg font-bold text-white uppercase mb-2">OBSERVATORIO CIUDADANO: GUERRA Y ECONOMÍA</h2>
+                    <h3 class="text-blue-400 font-bold mb-4 italic text-xs">Monitor Abierto de Impacto Geopolítico en los Precios</h3>
+                    <p class="text-white/90 text-[12px] leading-relaxed italic border-l-2 border-blue-500 pl-4">
+                        "Este espacio nace de la necesidad de entender nuestro entorno. Aquí rastreamos cómo los conflictos internacionales influyen en el precio del petróleo y el oro, activos que marcan el costo de vida de todos. Es una iniciativa ciudadana de datos abiertos para que cualquiera pueda ver, de forma clara y sin intermediarios, la relación entre la paz y la economía global. Porque entender lo que pasa afuera es el primer paso para protegernos aquí dentro."
                     </p>
                 </div>
-                <p class="text-[10px] text-white/60">Integración de datos vía Alpha Vantage y ACLED Project.</p>
+                <div class="space-y-4">
+                    <h3 class="text-[#00ff41] font-bold uppercase border-l-4 border-green-600 pl-3 text-[10px]">Propósito y Fuentes</h3>
+                    <p class="text-white/70 text-[10px]">Este sistema integra feeds financieros de <b>Alpha Vantage</b> y reportes de <b>ACLED</b>. El objetivo es democratizar la inteligencia económica, permitiendo que la sociedad civil comprenda la fragilidad de las cadenas de suministro globales ante eventos bélicos.</p>
+                </div>
             </div>
 
             <div id="view-dashboard" class="flex flex-col flex-grow">
@@ -120,23 +117,36 @@
                     <div class="w-full md:w-3/5 p-3 text-white">
                         <h2 id="detail-title" class="text-red-500 font-bold uppercase text-xs"></h2>
                         <h4 id="detail-actor" class="text-[9px] font-bold mb-2 bg-green-900/30 px-2 py-1 inline-block uppercase"></h4>
-                        <p id="detail-desc" class="text-[10px] leading-relaxed text-white/80"></p>
+                        <div class="text-[10px] leading-relaxed">
+                            <p class="font-bold text-green-500 mb-1 uppercase tracking-widest">[ Informe de Impacto Local ]</p>
+                            <p id="detail-desc"></p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="col-span-1 md:col-span-3 panel p-3 flex flex-col max-h-[500px] md:max-h-full">
-            <h3 class="text-[10px] font-bold mb-3 border-b border-green-900 pb-1 uppercase text-white/70">Log de Ataques</h3>
-            <div id="log-container" class="space-y-2 overflow-y-auto pr-1 text-white"></div>
+            <h3 class="text-[10px] font-bold mb-3 border-b border-green-900 pb-1 uppercase text-white/70">Log de Ataques Regionales</h3>
+            <div id="log-container" class="space-y-2 overflow-y-auto pr-1"></div>
         </div>
     </main>
 
-    <footer class="mt-3 panel p-3 text-[9px] md:text-[10px] bg-black">
+    <footer class="mt-3 panel p-3 text-[9px] md:text-[10px] bg-black border-t border-[#00ff4133]">
         <div class="flex flex-col md:flex-row justify-between items-center gap-2">
-            <div class="text-gray-500 uppercase">Sincronización: <span id="last-update" class="text-white">--:--</span></div>
-            <div class="text-center font-bold uppercase tracking-widest text-white/80">Monitor Abierto de Impacto Geopolítico en los Precios</div>
-            <div class="text-gray-500 uppercase text-right">René Jacinto Coayla Causillas</div>
+            <div class="text-gray-500 uppercase w-full md:w-1/4">
+                <strong>Fuentes Interrelacionadas:</strong><br>
+                Alpha Vantage Finance, ACLED Data Project, GDELT v2.
+            </div>
+            <div class="w-full md:w-2/4 text-center">
+                <span class="text-white/80 font-bold uppercase tracking-widest text-[9px]">Monitor Abierto de Impacto Geopolítico en los Precios</span><br>
+                <span class="text-white/40 uppercase tracking-widest text-[8px]">Sincronización: <strong id="last-update" class="text-white">--:--</strong> | Estado: Operacional</span><br>
+                Desarrollado por: <strong>RENÉ JACINTO COAYLA CAUSILLAS</strong>
+            </div>
+            <div class="text-gray-500 w-full md:w-1/4 text-right uppercase">
+                UNIDAD DE INTELIGENCIA GCEA<br>
+                UBICACIÓN: MOQUEGUA, PERÚ
+            </div>
         </div>
     </footer>
 
@@ -148,19 +158,12 @@
         let currentData = null;
 
         function showView(viewId) {
-            // Ocultar todas las sub-pantallas
             document.querySelectorAll('.sub-screen').forEach(s => s.style.display = 'none');
-            
-            // Si no es el monitor principal, mostrar la vista encima
             if(viewId !== 'dashboard') {
                 document.getElementById('view-' + viewId).style.display = 'flex';
-                // En móviles, hacemos scroll automático al inicio para ver la info nueva
                 window.scrollTo({ top: 0, behavior: 'smooth' });
             }
-            
-            // Cerrar el panel de análisis del log si estaba abierto
             document.getElementById('lower-analysis').className = 'h-0 opacity-0 overflow-hidden';
-            
             if(viewId === 'analysis') setTimeout(renderMainChart, 200);
         }
 
@@ -170,9 +173,9 @@
                 currentData = await res.json();
                 document.getElementById('price-display').innerText = `$${currentData.brent_price}`;
                 document.getElementById('gold-display').innerText = `$${currentData.gold_price}`;
+                document.getElementById('last-update').innerText = currentData.last_update;
                 document.getElementById('oil-sync').innerText = currentData.last_update;
                 document.getElementById('gold-sync').innerText = currentData.last_update;
-                document.getElementById('last-update').innerText = currentData.last_update;
 
                 const log = document.getElementById('log-container');
                 const table = document.getElementById('table-body');
@@ -180,31 +183,32 @@
 
                 currentData.incidentes.forEach(inc => {
                     L.circleMarker([inc.lat, inc.lng], { color: '#ff0000', radius: 8, fillOpacity: 0.8 }).addTo(markers);
-                    let ciudadReal = inc.actor === "Hutíes" ? "Mar Rojo" : inc.actor === "Hezbollah" ? "Líbano" : "Zona de Conflicto";
+                    let ciudadReal = inc.actor === "Hutíes" ? "Al-Hudaydah, Mar Rojo" : 
+                                    inc.actor === "Hezbollah" ? "Beirut, Líbano" : 
+                                    inc.actor === "Irán" ? "Bandar Abbas, Ormuz" : "Región en Conflicto";
 
                     const item = document.createElement('div');
                     item.className = 'log-entry';
                     item.innerHTML = `
                         <div class="flex justify-between text-[8px] font-bold text-red-500 mb-1"><span>REF: ${inc.id}</span><span>${inc.fecha}</span></div>
-                        <div class="text-[10px] font-bold uppercase">${inc.tipo} - <span class="text-green-500">${inc.actor}</span></div>
-                        <div class="text-[9px] mt-1 italic">${ciudadReal}</div>
+                        <div class="text-[10px] text-white font-bold uppercase">${inc.tipo} - <span class="text-green-500">Actor: ${inc.actor}</span></div>
+                        <div class="text-[9px] text-white mt-1 italic">${ciudadReal}</div>
                     `;
                     item.onclick = () => activateDetail(inc, ciudadReal);
                     log.appendChild(item);
-
                     table.innerHTML += `<tr class="border-b border-white/10"><td class="p-2 font-bold">${inc.actor}</td><td class="p-2">${inc.tipo}</td><td class="p-2">${ciudadReal}</td></tr>`;
                 });
-            } catch (e) { console.error("Error."); }
+            } catch (e) { console.error("Error al sincronizar."); }
         }
 
         function activateDetail(inc, ciudad) {
-            showView('dashboard'); // Volver al monitor para ver el mapa
+            showView('dashboard');
             map.flyTo([inc.lat, inc.lng], 8);
             const panel = document.getElementById('lower-analysis');
             panel.className = 'h-auto opacity-100 bg-black border-t-2 border-red-600 flex flex-col md:flex-row p-3 transition-all duration-500';
             document.getElementById('detail-title').innerText = `${inc.tipo} en ${ciudad}`;
             document.getElementById('detail-actor').innerText = `RESPONSABLE: ${inc.actor}`;
-            document.getElementById('detail-desc').innerText = `Incidente detectado en ${ciudad}. Efecto reportado: ${inc.efecto}. Correlación de precios confirmada.`;
+            document.getElementById('detail-desc').innerText = `Incidente detectado en ${ciudad} (${inc.lat.toFixed(3)}, ${inc.lng.toFixed(3)}). Este evento de intensidad ${inc.intensidad} ha generado un reporte de: ${inc.efecto}. La monitorización ciudadana asocia este suceso con las variaciones observadas en los activos críticos.`;
             renderDetailChart();
         }
 
