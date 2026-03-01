@@ -3,44 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GCEA | Executive Dashboard Responsive</title>
+    <title>GCEA | Sistema de Inteligencia Estratégica 2026</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
-        body { font-family: 'JetBrains Mono', monospace; background-color: #010201; color: #00ff41; min-height: 100vh; }
+        body { font-family: 'JetBrains Mono', monospace; background-color: #010201; color: #00ff41; min-height: 100vh; display: flex; flex-direction: column; overflow-x: hidden; }
         .panel { border: 1px solid #1a3a1a; background: rgba(0, 10, 0, 0.98); }
-        #map { filter: invert(100%) hue-rotate(180deg) brightness(0.4) contrast(1.3); min-height: 300px; height: 100%; }
-        .btn-war { background: #001a00; border: 1px solid #00ff41; padding: 8px; font-size: 10px; color: #00ff41; cursor: pointer; text-align: center; }
-        .log-entry { border-left: 3px solid #ff0000; background: rgba(255,0,0,0.05); padding: 12px; margin-bottom: 8px; cursor: pointer; }
-        .sub-screen { display: none; flex-direction: column; width: 100%; }
-        
-        /* Ajustes para Scroll en Tablas Móviles */
+        #map { filter: invert(100%) hue-rotate(180deg) brightness(0.4) contrast(1.3); min-height: 350px; height: 100%; transition: all 0.5s ease; border: 1px solid #00ff4133; }
+        .btn-war { background: #001a00; border: 1px solid #00ff41; padding: 8px; font-size: 10px; color: #00ff41; cursor: pointer; text-align: center; transition: 0.2s; }
+        .btn-war:hover { background: #00ff41; color: #000; font-weight: bold; }
+        .log-entry { border-left: 3px solid #ff0000; background: rgba(255,0,0,0.05); padding: 12px; margin-bottom: 8px; cursor: pointer; transition: 0.3s; }
+        .log-entry:hover { background: rgba(0, 255, 65, 0.1); border-left-color: #00ff41; }
+        .sub-screen { display: none; flex-direction: column; width: 100%; height: 100%; }
         .table-container { overflow-x: auto; -webkit-overflow-scrolling: touch; }
-        
-        /* Ocultar elementos en móvil si es necesario */
-        @media (max-width: 768px) {
-            .desktop-only { display: none; }
-            h1 { font-size: 1rem !important; }
-        }
+        ::-webkit-scrollbar { width: 4px; }
+        ::-webkit-scrollbar-thumb { background: #00ff41; }
     </style>
 </head>
-<body class="p-2 md:p-4 flex flex-col">
+<body class="p-2 md:p-4">
 
-    <header class="panel mb-3 p-3 md:p-4 flex flex-col md:flex-row justify-between items-center gap-3 border-b-2 border-[#00ff41]">
+    <header class="panel mb-3 p-4 flex flex-col md:flex-row justify-between items-center gap-3 border-b-2 border-[#00ff41]">
         <div class="flex items-center gap-3 w-full md:w-auto">
-            <div class="bg-red-600 w-3 h-3 rounded-full animate-ping shrink-0"></div>
+            <div class="bg-red-600 w-3 h-3 rounded-full animate-ping"></div>
             <div>
-                <h1 class="text-sm md:text-xl font-bold uppercase leading-tight">Impacto Económico: Conflictos Globales</h1>
-                <p class="text-[8px] md:text-[9px] text-white/50 tracking-widest uppercase">Sistema de Inteligencia Estratégica</p>
+                <h1 class="text-sm md:text-xl font-bold uppercase">Impacto Económico: Conflictos Globales</h1>
+                <p class="text-[9px] text-white/50 tracking-widest uppercase">Gobernanza de Datos y Alineación Estratégica</p>
             </div>
         </div>
-        <div class="flex flex-wrap justify-center gap-2 w-full md:w-auto">
-            <button onclick="showView('dashboard')" class="btn-war flex-1 md:flex-none"><i class="fas fa-satellite"></i> <span class="hidden sm:inline">MONITOR</span></button>
-            <button onclick="showView('explorer')" class="btn-war flex-1 md:flex-none"><i class="fas fa-folder-open"></i> <span class="hidden sm:inline">REGISTROS</span></button>
-            <button onclick="showView('analysis')" class="btn-war flex-1 md:flex-none"><i class="fas fa-history"></i> <span class="hidden sm:inline">HISTÓRICO</span></button>
+        <div class="flex flex-wrap justify-center gap-2">
+            <button onclick="showView('dashboard')" class="btn-war"><i class="fas fa-satellite mr-1"></i> MONITOR</button>
+            <button onclick="showView('explorer')" class="btn-war"><i class="fas fa-folder-open mr-1"></i> REGISTROS</button>
+            <button onclick="showView('analysis')" class="btn-war"><i class="fas fa-history mr-1"></i> HISTÓRICO</button>
+            <button onclick="showView('about')" class="btn-war"><i class="fas fa-info-circle mr-1"></i> INFO</button>
         </div>
     </header>
 
@@ -48,77 +45,77 @@
         
         <div class="col-span-1 md:col-span-3 flex flex-col gap-3">
             <div class="panel p-3">
-                <h3 class="text-[10px] font-bold mb-3 border-b border-green-900 pb-1 text-white/70 uppercase">Mercados en Vivo</h3>
-                <div class="grid grid-cols-2 md:grid-cols-1 gap-3">
+                <h3 class="text-[10px] font-bold mb-3 border-b border-green-900 pb-1 text-white/70 uppercase">Activos Críticos</h3>
+                <div class="space-y-3">
                     <div class="p-2 border-l-2 border-[#00ff41] bg-green-900/10">
-                        <div class="text-[8px] text-gray-500 uppercase">PETRÓLEO BRENT</div>
-                        <div class="text-xl md:text-2xl font-bold tracking-tighter" id="price-display">--.--</div>
+                        <div class="text-[8px] text-gray-500 uppercase font-bold">BRENT OIL (USD)</div>
+                        <div class="text-2xl font-bold" id="price-display">--.--</div>
                     </div>
                     <div class="p-2 border-l-2 border-yellow-600 bg-yellow-900/10">
-                        <div class="text-[8px] text-gray-500 uppercase">ORO (XAU)</div>
-                        <div class="text-xl md:text-2xl font-bold text-yellow-500 tracking-tighter" id="gold-display">--.--</div>
+                        <div class="text-[8px] text-gray-500 uppercase font-bold">GOLD (XAU/USD)</div>
+                        <div class="text-2xl font-bold text-yellow-500" id="gold-display">--.--</div>
                     </div>
                 </div>
             </div>
             
-            <div class="panel p-3 hidden md:block flex-grow overflow-y-auto">
-                <h3 class="text-[10px] font-bold mb-3 border-b border-green-900 pb-1 text-white/70">ZONAS CRÍTICAS</h3>
+            <div class="panel p-3 flex-grow overflow-y-auto hidden md:block">
+                <h3 class="text-[10px] font-bold mb-3 border-b border-green-900 pb-1 text-white/70 uppercase">Puntos de Control</h3>
                 <div class="grid gap-2">
                     <button onclick="map.flyTo([26.5, 56.3], 8)" class="btn-war text-left">ESTRECHO DE ORMUZ</button>
                     <button onclick="map.flyTo([15.5, 47.5], 7)" class="btn-war text-left">MAR ROJO / YEMEN</button>
-                    <button onclick="autoZoom()" class="btn-war bg-red-900/40 border-red-500 text-red-500">SINCRONIZAR</button>
+                    <button onclick="autoZoom()" class="btn-war bg-red-900/40 border-red-500 text-red-500">CENTRAR AMENAZAS</button>
                 </div>
             </div>
         </div>
 
-        <div class="col-span-1 md:col-span-6 flex flex-col gap-3 h-[500px] md:h-auto">
+        <div class="col-span-1 md:col-span-6 flex flex-col gap-3 min-h-[600px] md:h-auto">
             <div id="view-dashboard" class="sub-screen !flex h-full">
                 <div id="map" class="flex-grow rounded"></div>
-                <div id="lower-analysis" class="h-0 opacity-0 transition-all duration-500 overflow-hidden bg-black/95 border-t border-green-900 flex flex-col md:flex-row gap-4 p-0">
-                    <div class="w-full md:w-1/3 h-32 md:h-full"><canvas id="detailChart"></canvas></div>
-                    <div class="w-full md:w-2/3 p-2">
-                        <h2 id="detail-title" class="text-red-500 font-bold uppercase text-[10px] md:text-sm"></h2>
-                        <h4 id="detail-actor" class="text-white text-[9px] mb-1 bg-green-900/30 px-2 py-1 inline-block"></h4>
-                        <p id="detail-desc" class="text-[9px] md:text-[10px] text-white/70"></p>
+                
+                <div id="lower-analysis" class="h-0 opacity-0 transition-all duration-500 overflow-hidden bg-black/95 border-t-2 border-red-600 flex flex-col md:flex-row gap-4 p-0">
+                    <div class="w-full md:w-2/5 h-40 md:h-full p-2 border-r border-green-900/30">
+                        <h4 class="text-[8px] text-gray-500 uppercase mb-1">Tendencia de Activos en Periodo de Conflicto</h4>
+                        <canvas id="detailChart"></canvas>
+                    </div>
+                    <div class="w-full md:w-3/5 p-3 overflow-y-auto">
+                        <div class="flex justify-between items-start mb-2">
+                            <h2 id="detail-title" class="text-red-500 font-bold uppercase text-xs"></h2>
+                            <span id="detail-id" class="text-[8px] bg-red-900 px-1 text-white"></span>
+                        </div>
+                        <h4 id="detail-actor" class="text-white text-[9px] font-bold mb-2 bg-green-900/30 px-2 py-1 inline-block"></h4>
+                        <div class="text-[10px] text-white/90 leading-relaxed">
+                            <p class="font-bold text-green-500 mb-1 uppercase">Análisis Técnico Detallado:</p>
+                            <p id="detail-desc"></p>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div id="view-explorer" class="sub-screen panel p-4 bg-black h-full">
-                <h2 class="text-xs font-bold border-b border-green-900 mb-2 uppercase text-center">Consolidado de Registros según Fuentes Interrelacionadas</h2>
-                <div class="table-container h-full">
-                    <table class="w-full text-[9px] md:text-[10px] text-left border-collapse min-w-[600px]">
-                        <thead>
-                            <tr class="text-green-400 border-b border-green-900 bg-[#001a00]">
-                                <th class="p-2">ID</th><th class="p-2">ACTOR</th><th class="p-2">ATAQUE</th><th class="p-2">EFECTO</th><th class="p-2">GEO</th>
-                            </tr>
-                        </thead>
-                        <tbody id="table-body"></tbody>
-                    </table>
-                </div>
+            <div id="view-explorer" class="sub-screen panel p-4 bg-black overflow-hidden h-full text-[10px]">
+                <h2 class="text-xs font-bold border-b border-green-900 mb-4 uppercase">Consolidado de Registros según Fuentes Interrelacionadas</h2>
+                <div class="table-container h-full"><table class="w-full text-left border-collapse min-w-[700px]"><thead class="sticky top-0 bg-[#001a00] text-green-400"><tr><th class="p-2">ID</th><th class="p-2">ACTOR</th><th class="p-2">ATAQUE</th><th class="p-2">INTENSIDAD</th><th class="p-2">EFECTO_ECON</th><th class="p-2">COORDENADAS</th></tr></thead><tbody id="table-body"></tbody></table></div>
             </div>
 
-            <div id="view-analysis" class="sub-screen panel p-4 h-full bg-black">
-                <h2 class="text-xs font-bold border-b border-green-900 mb-4 uppercase text-center">Histórico de Correlación</h2>
-                <div class="flex-grow h-full"><canvas id="mainChart"></canvas></div>
-            </div>
+            <div id="view-analysis" class="sub-screen panel p-4 h-full bg-black"><h2 class="text-xs font-bold border-b border-green-900 mb-4 uppercase text-center text-[#00ff41]">Correlación: Intensidad de Conflicto vs Commodities</h2><div class="flex-grow h-full"><canvas id="mainChart"></canvas></div></div>
+
+            <div id="view-about" class="sub-screen panel p-4 bg-black overflow-y-auto h-full text-[10px]"><h2 class="text-xs font-bold border-b border-green-900 mb-4 uppercase">Arquitectura GCEA</h2><p class="mb-4">Sistema de monitoreo táctico automatizado con interrelación de fuentes ACLED y Alpha Vantage.</p></div>
         </div>
 
-        <div class="col-span-1 md:col-span-3 panel p-3 flex flex-col max-h-[400px] md:max-h-full">
+        <div class="col-span-1 md:col-span-3 panel p-3 flex flex-col max-h-[500px] md:max-h-full">
             <h3 class="text-[10px] font-bold mb-3 border-b border-green-900 pb-1 uppercase text-white/70">Log de Ataques Regionales</h3>
             <div id="log-container" class="space-y-2 overflow-y-auto pr-1"></div>
         </div>
     </main>
 
     <footer class="mt-3 panel p-3 text-[9px] md:text-[10px] bg-black">
-        <div class="flex flex-col md:flex-row justify-between items-center gap-2 text-center md:text-left">
-            <div class="text-gray-500 uppercase desktop-only"><strong>Fuentes:</strong> Alpha Vantage, ACLED, GDELT.</div>
-            <div class="flex-grow">
-                <span class="text-[#00ff41] font-bold uppercase">Analizador de Impacto Económico Mundial</span><br class="md:hidden">
-                <span class="text-white/40"> Actualización: 4H | Sinc: <strong id="last-update" class="text-white">--:--</strong></span><br>
-                Autor: <strong>RENÉ JACINTO COAYLA CAUSILLAS</strong>
+        <div class="flex flex-col md:flex-row justify-between items-center gap-2">
+            <div class="text-gray-500 uppercase desktop-only w-1/4">Fuentes: Alpha Vantage | ACLED | GDELT.</div>
+            <div class="w-full md:w-2/4 text-center">
+                <span class="text-[#00ff41] font-bold uppercase">Analizador de Impacto Económico Mundial en Relación a los Ataques entre Países</span><br>
+                <span class="text-white/40 uppercase">Gobernanza de Datos | Actualización 4H | Sinc: <strong id="last-update" class="text-white">--:--</strong></span><br>
+                Desarrollado por: <strong>RENÉ JACINTO COAYLA CAUSILLAS</strong>
             </div>
-            <div class="text-green-500 font-bold desktop-only animate-pulse uppercase">SISTEMA ONLINE</div>
+            <div class="text-green-500 font-bold desktop-only w-1/4 text-right animate-pulse">SISTEMA ONLINE</div>
         </div>
     </footer>
 
@@ -150,37 +147,81 @@
 
                 currentData.incidentes.forEach(inc => {
                     L.circleMarker([inc.lat, inc.lng], { color: '#ff0000', radius: 8, fillOpacity: 0.8 }).addTo(markers);
+                    
+                    // LOG ENRIQUECIDO
                     const item = document.createElement('div');
                     item.className = 'log-entry';
-                    item.innerHTML = `<div class="text-[9px] font-bold text-red-500 uppercase">${inc.actor}</div><div class="text-[10px] text-white">${inc.tipo}</div>`;
+                    item.innerHTML = `
+                        <div class="flex justify-between text-[8px] font-bold text-red-500 mb-1">
+                            <span>${inc.id}</span>
+                            <span>${inc.fecha}</span>
+                        </div>
+                        <div class="text-[10px] text-white font-bold mb-1">${inc.tipo}</div>
+                        <div class="text-[8px] text-gray-400 uppercase">
+                            <i class="fas fa-map-marker-alt"></i> ${inc.lat.toFixed(3)}, ${inc.lng.toFixed(3)}
+                        </div>
+                        <div class="text-[9px] text-green-500 mt-1">[ACTOR: ${inc.actor}]</div>
+                    `;
                     item.onclick = () => activateDetail(inc);
                     log.appendChild(item);
-                    table.innerHTML += `<tr class="border-b border-white/5"><td class="p-2 text-[#00ff41]">${inc.id}</td><td class="p-2 text-white font-bold">${inc.actor}</td><td class="p-2">${inc.tipo}</td><td class="p-2">${inc.efecto}</td><td class="p-2 text-[8px]">${inc.lat.toFixed(1)},${inc.lng.toFixed(1)}</td></tr>`;
+
+                    table.innerHTML += `<tr class="border-b border-white/5"><td class="p-2 text-[#00ff41]">${inc.id}</td><td class="p-2 text-white font-bold">${inc.actor}</td><td class="p-2">${inc.tipo}</td><td class="p-2 text-red-500">${inc.intensidad}</td><td class="p-2 italic">${inc.efecto}</td><td class="p-2">${inc.lat.toFixed(2)},${inc.lng.toFixed(2)}</td></tr>`;
                 });
-            } catch (e) { console.error("Sync error"); }
+            } catch (e) { console.error("Sync Error"); }
         }
 
         function activateDetail(inc) {
             showView('dashboard');
-            map.flyTo([inc.lat, inc.lng], 6);
+            map.flyTo([inc.lat, inc.lng], 8);
+            
             const panel = document.getElementById('lower-analysis');
-            panel.className = 'h-auto md:h-40 opacity-100 transition-all duration-500 overflow-hidden bg-black/95 border-t-2 border-red-600 flex flex-col md:flex-row gap-4 p-3';
+            panel.className = 'h-auto md:h-56 opacity-100 transition-all duration-500 overflow-hidden bg-black/95 border-t-2 border-red-600 flex flex-col md:flex-row gap-4 p-3';
+            
+            document.getElementById('detail-id').innerText = inc.id;
             document.getElementById('detail-title').innerText = inc.tipo;
-            document.getElementById('detail-actor').innerText = `REPORT: ${inc.actor}`;
-            document.getElementById('detail-desc').innerText = `Impacto nivel ${inc.intensidad}: ${inc.efecto}. Coordenadas: ${inc.lat.toFixed(2)}, ${inc.lng.toFixed(2)}.`;
+            document.getElementById('detail-actor').innerText = `IDENTIFICADO: ${inc.actor}`;
+            
+            // TEXTO DE ANÁLISIS DETALLADO RECUPERADO
+            document.getElementById('detail-desc').innerText = 
+                `En la fecha ${inc.fecha}, se ha detectado una acción de alta intensidad por parte de ${inc.actor} en la región con coordenadas ${inc.lat.toFixed(4)}, ${inc.lng.toFixed(4)}. ` +
+                `Este evento cinético ha provocado una respuesta inmediata en los mercados globales. ` +
+                `Consecuencia estratégica: ${inc.efecto}. La volatilidad registrada sugiere una prima de riesgo geopolítico que impacta directamente en la cadena de suministro y la valoración de commodities energéticos.`;
+            
             renderDetailChart();
         }
 
         function renderDetailChart() {
             const ctx = document.getElementById('detailChart').getContext('2d');
             if(window.dChart) window.dChart.destroy();
-            window.dChart = new Chart(ctx, { type: 'bar', data: { labels: ['PRE', 'NOW', 'POST'], datasets: [{ label: 'Impacto %', data: [0.5, 3.2, 1.8], backgroundColor: '#ff0000' }] }, options: { responsive: true, maintainAspectRatio: false } });
+            window.dChart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: ['T-48h', 'T-24h', 'EVENTO', 'T+12h', 'Proyección'],
+                    datasets: [{
+                        label: 'Variación Brent ($)',
+                        data: [currentData.brent_price - 3.5, currentData.brent_price - 1.2, currentData.brent_price, currentData.brent_price + 0.8, currentData.brent_price + 2.1],
+                        borderColor: '#ff0000',
+                        backgroundColor: 'rgba(255,0,0,0.1)',
+                        fill: true,
+                        tension: 0.4
+                    }]
+                },
+                options: { 
+                    responsive: true, 
+                    maintainAspectRatio: false,
+                    plugins: { legend: { display: false } },
+                    scales: { 
+                        x: { ticks: { color: '#666', font: { size: 8 } }, grid: { display: false } },
+                        y: { ticks: { color: '#666', font: { size: 8 } } }
+                    }
+                }
+            });
         }
 
         function renderMainChart() {
             const ctx = document.getElementById('mainChart').getContext('2d');
             if(window.mChart) window.mChart.destroy();
-            window.mChart = new Chart(ctx, { type: 'line', data: { labels: ['S1', 'S2', 'S3', 'Hoy'], datasets: [{ label: 'Brent', data: [80, 85, 90, currentData.brent_price], borderColor: '#00ff41' }, { label: 'Ataques', data: [2, 8, 5, 12], borderColor: '#ff0000' }] }, options: { responsive: true, maintainAspectRatio: false } });
+            window.mChart = new Chart(ctx, { type: 'line', data: { labels: ['Ene', 'Feb 15', 'Feb 22', 'Hoy'], datasets: [{ label: 'Brent', data: [80, 84, 88, currentData.brent_price], borderColor: '#00ff41' }, { label: 'Oro', data: [2200, 2300, 2350, currentData.gold_price], borderColor: '#fbbf24' }] }, options: { responsive: true, maintainAspectRatio: false } });
         }
 
         function autoZoom() { if (markers.getLayers().length > 0) map.fitBounds(new L.featureGroup(markers.getLayers()).getBounds()); }
