@@ -1,0 +1,52 @@
+{
+    "last_update": "2026-03-01 04:17:25 UTC",
+    "brent_price": 94.67,
+    "defcon": 2,
+    "incidentes": [
+        {
+            "id": "OP-2841",
+            "fecha": "2026-03-01T04:17:25.485323",
+            "lat": 30.467194317100795,
+            "lng": 55.505767887540095,
+            "tipo": "Ciberataque",
+            "intensidad": "Media",
+            "actor": "Hezbollah"
+        },
+        {
+            "id": "OP-6310",
+            "fecha": "2026-03-01T04:17:25.485338",
+            "lat": 26.62977787544274,
+            "lng": 50.70152491523999,
+            "tipo": "Ciberataque",
+            "intensidad": "Alta",
+            "actor": "EE.UU."
+        },
+        {
+            "id": "OP-1838",
+            "fecha": "2026-03-01T04:17:25.485344",
+            "lat": 26.54006447975348,
+            "lng": 46.98696347121187,
+            "tipo": "Dron Detectado",
+            "intensidad": "Cr\u00edtica",
+            "actor": "EE.UU."
+        },
+        {
+            "id": "OP-3270",
+            "fecha": "2026-03-01T04:17:25.485349",
+            "lat": 34.001267260580214,
+            "lng": 50.57905631671714,
+            "tipo": "Intercepci\u00f3n Naval",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Ir\u00e1n"
+        },
+        {
+            "id": "OP-9555",
+            "fecha": "2026-03-01T04:17:25.485354",
+            "lat": 28.21238540719535,
+            "lng": 50.247143199346844,
+            "tipo": "Ciberataque",
+            "intensidad": "Alta",
+            "actor": "Hut\u00edes"
+        }
+    ]
+}
