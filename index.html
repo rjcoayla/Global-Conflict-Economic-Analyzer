@@ -2,104 +2,187 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>TERMINAL TÁCTICA | C4ISR 2026</title>
+    <title>GCEA | Global Conflict & Economic Analyzer</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
-        body { font-family: 'JetBrains Mono', monospace; background-color: #050505; color: #00ff41; }
-        .crt::before { content: " "; display: block; position: absolute; top: 0; left: 0; bottom: 0; right: 0; background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06)); z-index: 2; background-size: 100% 2px, 3px 100%; pointer-events: none; }
-        #map { filter: grayscale(1) invert(1) sepia(1) hue-rotate(90deg) brightness(0.6); }
-        .panel { border: 1px solid #00ff41; background: rgba(0, 30, 0, 0.2); box-shadow: 0 0 10px rgba(0, 255, 65, 0.2); }
-        .scanline { width: 100%; height: 2px; background: rgba(0, 255, 65, 0.1); position: absolute; animation: scan 4s linear infinite; }
-        @keyframes scan { from { top: 0; } to { top: 100%; } }
+        body { font-family: 'JetBrains Mono', monospace; background-color: #020502; color: #00ff41; }
+        .panel { border: 1px solid #00ff41; background: rgba(0, 15, 0, 0.9); box-shadow: 0 0 15px rgba(0, 255, 65, 0.1); }
+        #map { filter: invert(100%) hue-rotate(180deg) brightness(0.5) contrast(1.2); border: 1px solid #00ff41; border-radius: 4px; }
+        .btn-tactic { background: #002200; border: 1px solid #00ff41; padding: 6px 12px; font-size: 11px; transition: 0.3s; color: #00ff41; }
+        .btn-tactic:hover { background: #00ff41; color: black; box-shadow: 0 0 10px #00ff41; }
+        .pulse-marker { animation: pulse 1.5s infinite; }
+        @keyframes pulse { 0% { transform: scale(1); opacity: 1; } 100% { transform: scale(3); opacity: 0; } }
+        /* Scrollbar estilo terminal */
+        ::-webkit-scrollbar { width: 5px; }
+        ::-webkit-scrollbar-track { background: #000; }
+        ::-webkit-scrollbar-thumb { background: #004400; border: 1px solid #00ff41; }
     </style>
 </head>
-<body class="p-4 h-screen flex flex-col crt">
-    <div class="scanline"></div>
-    
-    <header class="panel mb-4 p-2 flex justify-between items-center">
+<body class="p-4 h-screen flex flex-col overflow-hidden">
+
+    <header class="panel mb-3 p-3 flex justify-between items-center border-b-2 border-[#00ff41]">
         <div class="flex items-center gap-4">
-            <span class="animate-pulse">●</span>
-            <h1 class="font-bold tracking-widest text-lg">SISTEMA CENTRAL DE INTELIGENCIA - NIVEL 4</h1>
+            <div class="bg-red-600 w-3 h-3 rounded-full animate-ping"></div>
+            <div>
+                <h1 class="text-xl font-bold tracking-tighter">GLOBAL CONFLICT & ECONOMIC ANALYZER (GCEA)</h1>
+                <p class="text-[9px] text-white/60 uppercase tracking-widest">Inteligencia de Datos: Correlación de Conflictos Cinéticos y Volatilidad de Mercados</p>
+            </div>
         </div>
-        <div id="clock" class="text-sm"></div>
+        <div class="flex gap-3">
+            <button onclick="toggleView('explorer')" class="btn-tactic font-bold border-2">
+                <i class="fas fa-table mr-2"></i>SISTEMA DE GOBERNANZA DE DATOS
+            </button>
+            <div class="border border-red-500 text-red-500 px-3 py-1 text-xs font-bold flex items-center">
+                ESTADO: ALERTA MÁXIMA
+            </div>
+        </div>
     </header>
 
-    <div class="grid grid-cols-12 gap-4 flex-grow overflow-hidden">
-        <div class="col-span-3 flex flex-col gap-4">
-            <div class="panel p-4 flex-grow">
-                <h2 class="text-xs border-b border-[#00ff41] mb-2">KPI_MERCADO</h2>
-                <div class="text-3xl" id="price-display">--.-- USD</div>
-                <p class="text-[10px] text-green-700">CRUDO BRENT / FUTUROS 2026</p>
+    <main class="grid grid-cols-12 gap-3 flex-grow overflow-hidden">
+        
+        <div class="col-span-3 flex flex-col gap-3 overflow-y-auto">
+            <div class="panel p-3">
+                <h3 class="text-[10px] text-white/80 font-bold mb-2 border-b border-green-900 pb-1">RIESGO ECONÓMICO GLOBAL</h3>
+                <div class="flex items-baseline gap-2">
+                    <span class="text-4xl font-bold tracking-tighter" id="price-display">--.--</span>
+                    <span class="text-xs text-red-500 font-bold">USD/BRENT</span>
+                </div>
+                <div class="mt-2 p-2 bg-red-900/20 border border-red-500/30">
+                    <p class="text-[9px] leading-tight text-white/90">
+                        <i class="fas fa-exclamation-triangle mr-1 text-red-500"></i>
+                        CORRELACIÓN DIRECTA: La inestabilidad en los puntos marcados en el mapa genera presión alcista inmediata en costos de energía e inflación.
+                    </p>
+                </div>
             </div>
-            <div class="panel p-4">
-                <h2 class="text-xs border-b border-[#00ff41] mb-2">ESTADO_DEFCON</h2>
-                <div class="text-4xl font-bold text-center" id="defcon-val">--</div>
+            
+            <div class="panel p-3 flex-grow overflow-y-auto">
+                <h3 class="text-[10px] text-white/80 font-bold mb-3 border-b border-green-900 pb-1">FILTROS DE SEGMENTACIÓN</h3>
+                <div class="grid grid-cols-1 gap-2">
+                    <button onclick="focusMap([26.5, 56.3], 8)" class="btn-tactic text-left"><i class="fas fa-ship mr-2"></i>ESTRECHO DE ORMUZ</button>
+                    <button onclick="focusMap([32.4, 53.6], 5)" class="btn-tactic text-left"><i class="fas fa-broadcast-tower mr-2"></i>REPÚBLICA ISLÁMICA IRÁN</button>
+                    <button onclick="focusMap([31.0, 34.8], 7)" class="btn-tactic text-left"><i class="fas fa-shield-alt mr-2"></i>ISRAEL / LEVANTE</button>
+                    <button onclick="focusMap([15.5, 47.5], 6)" class="btn-tactic text-left"><i class="fas fa-anchor mr-2"></i>GOLFO DE ADÉN</button>
+                </div>
+                <div class="mt-4 pt-4 border-t border-green-900">
+                    <button onclick="locateAllStrikes()" class="w-full bg-red-700 text-white p-2 text-xs font-bold hover:bg-red-500 transition-all border border-red-400">
+                        <i class="fas fa-crosshairs mr-2"></i>SINCRONIZAR PUNTOS DE ATAQUE
+                    </button>
+                </div>
             </div>
         </div>
 
-        <div class="col-span-6 panel relative overflow-hidden">
+        <div id="dashboard-view" class="col-span-6 flex flex-col gap-2">
             <div id="map" class="h-full w-full"></div>
-            <div class="absolute top-2 right-2 bg-black/80 p-2 text-[10px] z-[1000] border border-[#00ff41]">
-                SECTOR: MEDIO_ORIENTE | ACTIVO
-            </div>
         </div>
 
-        <div class="col-span-3 panel p-2 flex flex-col overflow-hidden">
-            <h2 class="text-xs border-b border-[#00ff41] mb-2">LOG_OPERACIONES_REC_V1</h2>
-            <div id="log-container" class="text-[10px] overflow-y-auto flex-grow">
+        <div id="explorer-view" class="hidden col-span-9 panel p-4 overflow-y-auto bg-black">
+            <div class="flex justify-between items-center mb-4 border-b border-[#00ff41] pb-2">
+                <h2 class="text-lg font-bold">SISTEMA DE GOBERNANZA DE DATOS Y ALINEACIÓN ESTRATÉGICA</h2>
+                <button onclick="toggleView('dashboard')" class="text-red-500 hover:text-white font-bold">[CERRAR TERMINAL X]</button>
+            </div>
+            <p class="text-[10px] mb-4 text-white/60">Este módulo permite la auditoría técnica de los incidentes recolectados por el backend autónomo.</p>
+            <table class="w-full text-[11px] border-collapse">
+                <thead>
+                    <tr class="bg-[#004400] text-[#00ff41] border border-[#00ff41]">
+                        <th class="p-2 border border-[#00ff41]">LOG_ID</th>
+                        <th class="p-2 border border-[#00ff41]">ACTOR_INVOLUCRADO</th>
+                        <th class="p-2 border border-[#00ff41]">CATEGORÍA_ATAQUE</th>
+                        <th class="p-2 border border-[#00ff41]">NIVEL_RIESGO</th>
+                        <th class="p-2 border border-[#00ff41]">COORDENADAS_GEO</th>
+                    </tr>
+                </thead>
+                <tbody id="table-body"></tbody>
+            </table>
+        </div>
+
+        <div class="col-span-3 panel p-3 flex flex-col overflow-hidden">
+            <h3 class="text-[10px] text-white/80 font-bold mb-3 border-b border-green-900 pb-1">LOG DE OPERACIONES CINÉTICAS</h3>
+            <div id="log-container" class="text-[10px] space-y-3 overflow-y-auto pr-2">
                 </div>
         </div>
-    </div>
+    </main>
 
-    <footer class="mt-4 panel p-2 text-[10px] flex justify-between bg-black">
-        <div>MODO: ANALÍTICA_GEOFÍSICA</div>
-        <div id="last-update">ULTIMA ACTUALIZACIÓN: --:--:--</div>
+    <footer class="mt-3 panel p-2 text-[10px] text-center bg-black/90">
+        <div class="text-white/40 mb-1 uppercase tracking-widest">
+            Fuentes de Datos: Alpha Vantage Finance API, ACLED Global Conflict Feed, GDELT Project, OSINT Intelligence Report 2026.
+        </div>
+        <div class="text-[#00ff41] font-bold">
+            Modelo de Gobernanza de Datos, Riesgo y Alineación Estratégica TI–Negocio — Minería | 
+            Datos Actualizados: <span id="last-update-time">--:--</span> | 
+            Febrero 2026 | Creado por <span class="text-white uppercase">René Jacinto Coayla Causillas</span>
+        </div>
     </footer>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script>
-        // Inicializar Mapa Táctico
-        const map = L.map('map', { zoomControl: false }).setView([32.4279, 53.6880], 4);
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+        const map = L.map('map', { zoomControl: false, attributionControl: false }).setView([25, 45], 4);
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png').addTo(map);
+        
+        let markers = L.layerGroup().addTo(map);
+        let currentIncidentes = [];
 
         async function updateDashboard() {
             try {
-                const response = await fetch('data/intel_report.json');
+                const response = await fetch('data/intel_report.json?t=' + new Date().getTime());
                 const data = await response.json();
 
-                // Actualizar Textos
-                document.getElementById('price-display').innerText = `${data.brent_price} USD`;
-                document.getElementById('defcon-val').innerText = data.defcon;
-                document.getElementById('last-update').innerText = `ULTIMA ACTUALIZACIÓN: ${data.last_update}`;
+                document.getElementById('price-display').innerText = data.brent_price;
+                document.getElementById('last-update-time').innerText = data.last_update;
+                currentIncidentes = data.incidentes;
 
-                // Limpiar y llenar Log
                 const log = document.getElementById('log-container');
-                log.innerHTML = '';
+                const table = document.getElementById('table-body');
+                log.innerHTML = ''; table.innerHTML = ''; markers.clearLayers();
+
                 data.incidentes.forEach(inc => {
-                    log.innerHTML += `<div class="mb-2 p-1 border-l-2 border-green-900">
-                        [${inc.id}] ${inc.tipo}<br/>ACTOR: ${inc.actor} | INT: ${inc.intensidad}
-                    </div>`;
-                    
-                    // Añadir al mapa
+                    // Marcador táctico con efecto
                     L.circleMarker([inc.lat, inc.lng], {
-                        color: '#00ff41',
-                        radius: 5,
-                        fillOpacity: 0.8
-                    }).addTo(map).bindPopup(inc.tipo);
+                        color: '#ff0000', fillColor: '#ff0000', fillOpacity: 0.6, radius: 7
+                    }).addTo(markers).bindPopup(`<div style="background:#000;color:#00ff41;padding:5px;font-family:monospace"><b>${inc.tipo}</b><br>Actor: ${inc.actor}</div>`);
+
+                    // Log Dinámico
+                    log.innerHTML += `
+                        <div class="border-l-2 border-red-600 bg-red-900/10 p-2 mb-2">
+                            <b class="text-red-500">[!] ALERTA: ${inc.id}</b><br>
+                            ${inc.tipo} detectado en sector geográfico [${inc.lat.toFixed(2)}, ${inc.lng.toFixed(2)}].<br>
+                            <span class="text-white/40 font-bold uppercase">Actor: ${inc.actor}</span>
+                        </div>`;
+
+                    // Tabla de Gobernanza
+                    table.innerHTML += `
+                        <tr class="border-b border-white/10 hover:bg-green-900/20 transition-colors">
+                            <td class="p-2 border-x border-white/5 font-bold">${inc.id}</td>
+                            <td class="p-2 border-x border-white/5 text-white/80">${inc.actor}</td>
+                            <td class="p-2 border-x border-white/5">${inc.tipo}</td>
+                            <td class="p-2 border-x border-white/5 text-red-500 font-bold text-center">${inc.intensidad}</td>
+                            <td class="p-2 border-x border-white/5 text-white/50">${inc.lat.toFixed(2)}, ${inc.lng.toFixed(2)}</td>
+                        </tr>`;
                 });
 
-            } catch (e) { console.log("Esperando datos de GitHub Actions..."); }
+            } catch (e) { console.error("Error en sincronización C4ISR"); }
         }
 
-        setInterval(() => {
-            document.getElementById('clock').innerText = new Date().toUTCString();
-        }, 1000);
+        function focusMap(coords, zoom) { map.flyTo(coords, zoom); }
+
+        function locateAllStrikes() {
+            if (currentIncidentes.length > 0) {
+                const group = new L.featureGroup(markers.getLayers());
+                map.fitBounds(group.getBounds().pad(0.5));
+            }
+        }
+
+        function toggleView(view) {
+            const dash = document.getElementById('dashboard-view');
+            const exp = document.getElementById('explorer-view');
+            if (view === 'explorer') { dash.classList.add('hidden'); exp.classList.remove('hidden'); } 
+            else { dash.classList.remove('hidden'); exp.classList.add('hidden'); }
+        }
 
         updateDashboard();
-        // Recargar cada 5 minutos por si hubo un commit
-        setInterval(updateDashboard, 300000);
+        setInterval(updateDashboard, 60000);
     </script>
 </body>
 </html>
