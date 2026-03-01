@@ -21,7 +21,7 @@
         #view-dashboard { display: flex; order: 0; }
         ::-webkit-scrollbar { width: 4px; }
         ::-webkit-scrollbar-thumb { background: #00ff41; }
-        #modal-readme { display: none; position: fixed; inset: 0; z-index: 9999; background: rgba(0,0,0,0.9); backdrop-filter: blur(4px); align-items: center; justify-content: center; padding: 20px; }
+        #modal-readme { display: none; position: fixed; inset: 0; z-index: 9999; background: rgba(0,0,0,0.95); backdrop-filter: blur(8px); align-items: center; justify-content: center; padding: 20px; }
     </style>
 </head>
 <body class="p-2 md:p-4">
@@ -52,16 +52,16 @@
                 <h3 class="text-[10px] font-bold mb-3 border-b border-green-900 pb-1 text-white/70 uppercase">Activos Críticos</h3>
                 <div class="space-y-3">
                     <div class="p-3 border-l-2 border-[#00ff41] bg-green-900/10">
-                        <div class="flex justify-between items-center mb-1 text-[8px] text-gray-400 font-bold uppercase">
+                        <div class="flex justify-between items-center mb-1 text-[8px] text-gray-400 font-bold uppercase text-white">
                             <span>Petróleo Brent (USD)</span>
-                            <span id="oil-sync" class="text-white">--:--</span>
+                            <span id="oil-sync">--:--</span>
                         </div>
                         <div class="text-3xl font-bold tracking-tighter" id="price-display">--.--</div>
                     </div>
                     <div class="p-3 border-l-2 border-yellow-600 bg-yellow-900/10">
-                        <div class="flex justify-between items-center mb-1 text-[8px] text-gray-400 font-bold uppercase">
+                        <div class="flex justify-between items-center mb-1 text-[8px] text-gray-400 font-bold uppercase text-white">
                             <span>Oro (XAU/USD)</span>
-                            <span id="gold-sync" class="text-white">--:--</span>
+                            <span id="gold-sync">--:--</span>
                         </div>
                         <div class="text-3xl font-bold text-yellow-500 tracking-tighter" id="gold-display">--.--</div>
                     </div>
@@ -80,7 +80,7 @@
         <div id="content-main" class="col-span-1 md:col-span-6 flex flex-col gap-3">
             
             <div id="view-explorer" class="sub-screen panel p-4 bg-black min-h-[400px]">
-                <h2 class="text-xs font-bold border-b border-green-900 mb-4 uppercase text-[#00ff41]">Inteligencia de Datos: Registros Consolidados</h2>
+                <h2 class="text-xs font-bold border-b border-green-900 mb-4 uppercase text-[#00ff41]">Base de Datos: Inteligencia Consolidada</h2>
                 <div class="overflow-x-auto">
                     <table class="w-full text-[10px] text-left min-w-[700px]">
                         <thead class="text-green-400 border-b border-green-900">
@@ -115,12 +115,12 @@
                 </div>
                 <div class="space-y-4 text-[10px]">
                     <h3 class="text-[#00ff41] font-bold uppercase border-l-4 border-green-600 pl-3">Propósito y Fuentes</h3>
-                    <p class="text-white/70 leading-relaxed">Este sistema integra feeds financieros y reportes de conflictos globales. El objetivo es democratizar el acceso a la información económica y geopolítica, permitiendo que la sociedad civil comprenda la fragilidad de las cadenas de suministro ante eventos bélicos.</p>
+                    <p class="text-white/70 leading-relaxed">Este sistema integra feeds financieros y reportes de conflictos globales de bases de datos abiertas. El objetivo es democratizar el acceso a la información económica y geopolítica, permitiendo que la sociedad civil comprenda la fragilidad de las cadenas de suministro ante eventos bélicos internacionales.</p>
                     <h3 class="text-[#00ff41] font-bold uppercase border-l-4 border-green-600 pl-3">Tecnologías</h3>
-                    <p class="text-white/70">Implementado con Tailwind CSS para la interfaz reactiva, Chart.js para el análisis de activos, y Leaflet.js para la geolocalización táctica de incidentes.</p>
+                    <p class="text-white/70 leading-relaxed">Implementado bajo una arquitectura ligera de alto rendimiento con Tailwind CSS para la interfaz reactiva, Chart.js para el análisis comparativo de activos y Leaflet.js para la geolocalización táctica de incidentes en tiempo real.</p>
                 </div>
                 <div class="mt-8 flex justify-start">
-                    <button onclick="toggleReadme(true)" class="btn-war"><i class="fas fa-file-alt mr-2"></i> README DEL AUTOR</button>
+                    <button onclick="toggleReadme(true)" class="btn-war"><i class="fas fa-file-alt mr-2"></i> ABRIR README COMPLETO</button>
                 </div>
             </div>
 
@@ -149,7 +149,7 @@
     <footer class="mt-3 panel p-3 text-[9px] md:text-[10px] bg-black border-t border-[#00ff4133]">
         <div class="flex flex-col md:flex-row justify-between items-center gap-2">
             <div class="text-gray-500 uppercase w-full md:w-1/4 text-[8px]">
-                <strong>Fuentes de Datos:</strong> Alpha Vantage, ACLED Project, OSM.
+                <strong>Fuentes de Datos:</strong> Alpha Vantage, ACLED Project, OpenStreetMap.
             </div>
             <div class="w-full md:w-2/4 text-center">
                 <span class="text-white/80 font-bold uppercase tracking-widest text-[9px]">Monitor Abierto de Impacto Geopolítico en los Precios</span><br>
@@ -160,26 +160,55 @@
     </footer>
 
     <div id="modal-readme" onclick="toggleReadme(false)">
-        <div class="panel w-full max-w-3xl max-h-[90vh] flex flex-col overflow-hidden" onclick="event.stopPropagation()">
+        <div class="panel w-full max-w-4xl max-h-[90vh] flex flex-col overflow-hidden" onclick="event.stopPropagation()">
             <div class="p-3 border-b border-green-900 bg-green-900/30 flex justify-between items-center">
-                <span class="text-[10px] font-bold uppercase text-white italic">Documentación Oficial del Autor</span>
-                <button onclick="toggleReadme(false)" class="text-white"><i class="fas fa-times"></i></button>
+                <span class="text-[10px] font-bold uppercase text-white italic">Documentación Técnica e Institucional v1.0.4</span>
+                <button onclick="toggleReadme(false)" class="text-white hover:text-red-500 transition-colors"><i class="fas fa-times text-xl"></i></button>
             </div>
             <div class="p-8 overflow-y-auto text-[12px] text-white/90 space-y-6 bg-black">
-                <h1 class="text-2xl font-bold text-[#00ff41]">🌍 Observatorio Ciudadano: Guerra y Economía</h1>
-                <p class="text-sm font-bold border-l-4 border-blue-500 pl-4 uppercase">Monitor Abierto de Impacto Geopolítico en los Precios Globales</p>
-                <p>Este proyecto rastrea la correlación entre conflictos bélicos regionales y la volatilidad en activos críticos como el Petróleo Brent y el Oro (XAU).</p>
-                <div>
-                    <h2 class="text-[#00ff41] font-bold uppercase mb-2">🚀 Funcionalidades Clave</h2>
-                    <ul class="list-disc ml-6 space-y-1">
-                        <li><strong>Mapa Táctico en Tiempo Real:</strong> Localización precisa de incidentes.</li>
-                        <li><strong>Monitor de Activos Críticos:</strong> Precios de Petróleo y Oro.</li>
-                        <li><strong>Log de Ataques Regionales:</strong> Historial interactivo detallado.</li>
-                    </ul>
+                <h1 class="text-3xl font-bold text-[#00ff41] border-b border-green-900 pb-2 uppercase">🌍 Observatorio Ciudadano: Guerra y Economía</h1>
+                <p class="text-sm font-bold border-l-4 border-blue-500 pl-4 uppercase tracking-tight">Monitor Geopolítico de Impacto Financiero</p>
+                
+                <section class="space-y-3">
+                    <h2 class="text-[#00ff41] font-bold uppercase text-sm border-b border-white/10 pb-1">Visión General</h2>
+                    <p>Este proyecto es una plataforma avanzada de visualización e inteligencia diseñada para rastrear la correlación directa entre conflictos bélicos regionales y la volatilidad en activos críticos: el **Petróleo Brent** y el **Oro (XAU)**.</p>
+                    <p>En el contexto actual, la inestabilidad en zonas de tránsito estratégico o los enfrentamientos armados directos generan ondas de choque inmediatas en los mercados energéticos, afectando la cadena de suministro global y el costo de vida ciudadano.</p>
+                </section>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="p-4 border border-green-900/30 bg-green-900/10">
+                        <h3 class="text-[#00ff41] font-bold uppercase mb-2">🚀 Funcionalidades Clave</h3>
+                        <ul class="list-disc ml-5 space-y-2">
+                            <li><strong>Mapa Táctico:</strong> Localización precisa de incidentes cinéticos.</li>
+                            <li><strong>Monitor de Activos:</strong> Rastreo de precios del crudo y metales en tiempo real.</li>
+                            <li><strong>Log de Ataques:</strong> Registro detallado incluyendo Actor, Fecha, Ciudad y País.</li>
+                            <li><strong>Análisis de Correlación:</strong> Gráficos de doble eje para identificar picos de riesgo.</li>
+                        </ul>
+                    </div>
+                    <div class="p-4 border border-blue-900/30 bg-blue-900/10">
+                        <h3 class="text-blue-400 font-bold uppercase mb-2">🛠 Stack Tecnológico</h3>
+                        <ul class="list-disc ml-5 space-y-2">
+                            <li><strong>Frontend:</strong> Tailwind CSS para diseño reactivo y modular.</li>
+                            <li><strong>Visualización:</strong> Chart.js para gráficos financieros dinámicos.</li>
+                            <li><strong>Cartografía:</strong> Leaflet.js para mapas interactivos con filtros tácticos.</li>
+                            <li><strong>UI/UX:</strong> JetBrains Mono para una estética de terminal de comando.</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="pt-6 border-t border-green-900">
-                    <h2 class="text-[#00ff41] font-bold uppercase mb-2">👤 Autor</h2>
-                    <p class="text-lg">René Jacinto Coayla Causillas 📍 Moquegua, Perú</p>
+
+                <section class="space-y-3">
+                    <h2 class="text-[#00ff41] font-bold uppercase text-sm border-b border-white/10 pb-1">Objetivos Estratégicos</h2>
+                    <ol class="list-decimal ml-5 space-y-2">
+                        <li><strong>Transparencia Informativa:</strong> Democratizar el entendimiento de las fluctuaciones económicas internacionales.</li>
+                        <li><strong>Auditoría de Datos:</strong> Proveer un historial veraz y georreferenciado de incidentes bélicos.</li>
+                        <li><strong>Conciencia Ciudadana:</strong> Visualizar cómo la paz global es el activo más valioso para la estabilidad de precios.</li>
+                    </ol>
+                </section>
+
+                <div class="pt-6 border-t border-green-900 mt-6">
+                    <h2 class="text-[#00ff41] font-bold uppercase mb-2">👤 Propiedad Intelectual</h2>
+                    <p class="text-lg font-bold">Autor: René Jacinto Coayla Causillas</p>
+                    <p class="text-sm">📍 Moquegua, Perú | © 2026 - Iniciativa de Datos Abiertos</p>
                 </div>
             </div>
         </div>
@@ -240,17 +269,17 @@
                     item.className = 'log-entry';
                     item.innerHTML = `
                         <div class="flex justify-between text-[7px] font-bold text-red-500 mb-1 tracking-widest border-b border-red-500/20 pb-1">
-                            <span>REF_ID: ${inc.id}</span>
+                            <span>ID_REF: ${inc.id}</span>
                             <span>FECHA: ${inc.fecha}</span>
                         </div>
                         <div class="text-[10px] font-bold text-white uppercase mt-1 mb-1">
-                            OPERACIÓN: <span class="text-red-500">${inc.tipo}</span>
+                            OP: <span class="text-red-500">${inc.tipo}</span>
                         </div>
                         <div class="text-[9px] text-green-400 font-bold mb-1">
                             ORIGEN (ACTOR): ${inc.actor}
                         </div>
                         <div class="text-[8px] text-white/70 uppercase">
-                            UBICACIÓN: <span class="text-white font-bold">${ciudad}</span> | PAÍS: <span class="text-white font-bold">${pais}</span>
+                            TARGET: <span class="text-white font-bold">${ciudad}</span> | PAÍS: <span class="text-white font-bold">${pais}</span>
                         </div>
                         <div class="mt-2 flex justify-between items-center border-t border-white/5 pt-1">
                             <span class="text-[7px] text-gray-500 uppercase italic">Confirmado via Feed</span>
