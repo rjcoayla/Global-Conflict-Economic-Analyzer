@@ -68,12 +68,12 @@
                 </div>
             </div>
             
-            <div class="panel p-3 hidden md:block">
+            <div class="panel p-3">
                 <h3 class="text-[10px] font-bold mb-3 border-b border-green-900 pb-1 text-white/70 uppercase">Focos en Vigilancia</h3>
                 <div class="grid gap-2">
                     <button onclick="map.flyTo([26.5, 56.3], 8)" class="btn-war text-left font-normal text-[9px]">Estrecho de Ormuz</button>
                     <button onclick="map.flyTo([15.5, 47.5], 7)" class="btn-war text-left font-normal text-[9px]">Mar Rojo / Yemen</button>
-                    <button onclick="location.reload(true)" class="btn-war bg-red-900/30 border-red-600 text-red-500 mt-2 uppercase">Sincronizar Todo</button>
+                    <button onclick="location.reload(true)" class="btn-war bg-red-900/30 border-red-600 text-red-500 mt-2 uppercase italic"><i class="fas fa-sync-alt mr-2"></i>Sincronizar Todo</button>
                 </div>
             </div>
         </div>
@@ -89,7 +89,7 @@
                 <h2 class="text-xs font-bold border-b border-green-900 mb-4 uppercase text-[#00ff41]">Correlación de Mercado</h2>
                 <div class="h-64 bg-green-900/5 p-2"><canvas id="mainChart"></canvas></div>
                 <div class="mt-4 p-4 border border-white/10 bg-white/5 rounded text-[10px]">
-                    <h4 class="text-red-500 font-bold mb-2 uppercase">Análisis del Efecto en Commodities</h4>
+                    <h4 class="text-red-500 font-bold mb-2 uppercase italic">Análisis del Efecto en Commodities</h4>
                     <p class="text-white/80 leading-relaxed">
                         El historial de datos confirma que la estabilidad del Petróleo Brent es altamente vulnerable a incidentes cinéticos en los principales puntos de estrangulamiento marítimo. Cada ataque registrado en el log correlaciona con un aumento de la prima de riesgo debido a la posible interrupción del suministro físico. Por su parte, el Oro reafirma su rol como activo de refugio, mostrando una tendencia alcista sostenida cada vez que la incertidumbre geopolítica escala, sirviendo como escudo contra la inflación y la inestabilidad de las divisas tradicionales ante escenarios de conflicto prolongado.
                     </p>
@@ -99,14 +99,14 @@
             <div id="view-about" class="sub-screen panel p-6 bg-black min-h-[400px]">
                 <div class="mb-6 p-6 bg-blue-900/10 border border-blue-500/30 rounded-lg">
                     <h2 class="text-lg font-bold text-white uppercase mb-2">OBSERVATORIO CIUDADANO: GUERRA Y ECONOMÍA</h2>
-                    <h3 class="text-blue-400 font-bold mb-4 italic text-xs">Monitor Abierto de Impacto Geopolítico en los Precios</h3>
+                    <h3 class="text-blue-400 font-bold mb-4 italic text-[10px]">Monitor Abierto de Impacto Geopolítico en los Precios</h3>
                     <p class="text-white/90 text-[12px] leading-relaxed italic border-l-2 border-blue-500 pl-4">
                         "Este espacio nace de la necesidad de entender nuestro entorno. Aquí rastreamos cómo los conflictos internacionales influyen en el precio del petróleo y el oro, activos que marcan el costo de vida de todos. Es una iniciativa ciudadana de datos abiertos para que cualquiera pueda ver, de forma clara y sin intermediarios, la relación entre la paz y la economía global. Porque entender lo que pasa afuera es el primer paso para protegernos aquí dentro."
                     </p>
                 </div>
-                <div class="space-y-4">
-                    <h3 class="text-[#00ff41] font-bold uppercase border-l-4 border-green-600 pl-3 text-[10px]">Propósito y Fuentes</h3>
-                    <p class="text-white/70 text-[10px]">Este sistema integra feeds financieros de <b>Alpha Vantage</b> y reportes de <b>ACLED</b>. El objetivo es democratizar la inteligencia económica, permitiendo que la sociedad civil comprenda la fragilidad de las cadenas de suministro globales ante eventos bélicos.</p>
+                <div class="space-y-4 text-[10px]">
+                    <h3 class="text-[#00ff41] font-bold uppercase border-l-4 border-green-600 pl-3">Propósito y Fuentes</h3>
+                    <p class="text-white/70">Este sistema integra feeds financieros de <b>Alpha Vantage</b> y reportes de <b>ACLED</b>. El objetivo es democratizar la inteligencia económica, permitiendo que la sociedad civil comprenda la fragilidad de las cadenas de suministro globales ante eventos bélicos.</p>
                 </div>
             </div>
 
@@ -127,14 +127,14 @@
         </div>
 
         <div class="col-span-1 md:col-span-3 panel p-3 flex flex-col max-h-[500px] md:max-h-full">
-            <h3 class="text-[10px] font-bold mb-3 border-b border-green-900 pb-1 uppercase text-white/70">Log de Ataques Regionales</h3>
-            <div id="log-container" class="space-y-2 overflow-y-auto pr-1"></div>
+            <h3 class="text-[10px] font-bold mb-3 border-b border-green-900 pb-1 uppercase text-white/70 tracking-tighter">Log de Ataques Regionales</h3>
+            <div id="log-container" class="space-y-2 overflow-y-auto pr-1 text-white"></div>
         </div>
     </main>
 
     <footer class="mt-3 panel p-3 text-[9px] md:text-[10px] bg-black border-t border-[#00ff4133]">
         <div class="flex flex-col md:flex-row justify-between items-center gap-2">
-            <div class="text-gray-500 uppercase w-full md:w-1/4">
+            <div class="text-gray-500 uppercase w-full md:w-1/4 text-[8px]">
                 <strong>Fuentes Interrelacionadas:</strong><br>
                 Alpha Vantage Finance, ACLED Data Project, GDELT v2.
             </div>
@@ -143,7 +143,7 @@
                 <span class="text-white/40 uppercase tracking-widest text-[8px]">Sincronización: <strong id="last-update" class="text-white">--:--</strong> | Estado: Operacional</span><br>
                 Desarrollado por: <strong>RENÉ JACINTO COAYLA CAUSILLAS</strong>
             </div>
-            <div class="text-gray-500 w-full md:w-1/4 text-right uppercase">
+            <div class="text-gray-500 w-full md:w-1/4 text-right uppercase text-[8px]">
                 UNIDAD DE INTELIGENCIA GCEA<br>
                 UBICACIÓN: MOQUEGUA, PERÚ
             </div>
@@ -176,29 +176,20 @@
                 document.getElementById('last-update').innerText = currentData.last_update;
                 document.getElementById('oil-sync').innerText = currentData.last_update;
                 document.getElementById('gold-sync').innerText = currentData.last_update;
-
                 const log = document.getElementById('log-container');
                 const table = document.getElementById('table-body');
                 log.innerHTML = ''; table.innerHTML = ''; markers.clearLayers();
-
                 currentData.incidentes.forEach(inc => {
                     L.circleMarker([inc.lat, inc.lng], { color: '#ff0000', radius: 8, fillOpacity: 0.8 }).addTo(markers);
-                    let ciudadReal = inc.actor === "Hutíes" ? "Al-Hudaydah, Mar Rojo" : 
-                                    inc.actor === "Hezbollah" ? "Beirut, Líbano" : 
-                                    inc.actor === "Irán" ? "Bandar Abbas, Ormuz" : "Región en Conflicto";
-
+                    let ciudadReal = inc.actor === "Hutíes" ? "Al-Hudaydah, Mar Rojo" : inc.actor === "Hezbollah" ? "Beirut, Líbano" : "Región en Conflicto";
                     const item = document.createElement('div');
                     item.className = 'log-entry';
-                    item.innerHTML = `
-                        <div class="flex justify-between text-[8px] font-bold text-red-500 mb-1"><span>REF: ${inc.id}</span><span>${inc.fecha}</span></div>
-                        <div class="text-[10px] text-white font-bold uppercase">${inc.tipo} - <span class="text-green-500">Actor: ${inc.actor}</span></div>
-                        <div class="text-[9px] text-white mt-1 italic">${ciudadReal}</div>
-                    `;
+                    item.innerHTML = `<div class="flex justify-between text-[8px] font-bold text-red-500 mb-1"><span>REF: ${inc.id}</span><span>${inc.fecha}</span></div><div class="text-[10px] text-white font-bold uppercase">${inc.tipo} - <span class="text-green-500">${inc.actor}</span></div><div class="text-[9px] text-white mt-1 italic">${ciudadReal}</div>`;
                     item.onclick = () => activateDetail(inc, ciudadReal);
                     log.appendChild(item);
                     table.innerHTML += `<tr class="border-b border-white/10"><td class="p-2 font-bold">${inc.actor}</td><td class="p-2">${inc.tipo}</td><td class="p-2">${ciudadReal}</td></tr>`;
                 });
-            } catch (e) { console.error("Error al sincronizar."); }
+            } catch (e) { console.error("Sync Error"); }
         }
 
         function activateDetail(inc, ciudad) {
@@ -208,7 +199,7 @@
             panel.className = 'h-auto opacity-100 bg-black border-t-2 border-red-600 flex flex-col md:flex-row p-3 transition-all duration-500';
             document.getElementById('detail-title').innerText = `${inc.tipo} en ${ciudad}`;
             document.getElementById('detail-actor').innerText = `RESPONSABLE: ${inc.actor}`;
-            document.getElementById('detail-desc').innerText = `Incidente detectado en ${ciudad} (${inc.lat.toFixed(3)}, ${inc.lng.toFixed(3)}). Este evento de intensidad ${inc.intensidad} ha generado un reporte de: ${inc.efecto}. La monitorización ciudadana asocia este suceso con las variaciones observadas en los activos críticos.`;
+            document.getElementById('detail-desc').innerText = `Incidente detectado en ${ciudad}. Intensidad ${inc.intensidad}. Efecto: ${inc.efecto}. Correlación con activos críticos confirmada por el Observatorio.`;
             renderDetailChart();
         }
 
@@ -223,9 +214,7 @@
             if(window.mChart) window.mChart.destroy();
             window.mChart = new Chart(ctx, { type: 'line', data: { labels: ['Sem 1', 'Sem 2', 'Sem 3', 'Hoy'], datasets: [{ label: 'Brent', data: [75, 78, 77, currentData.brent_price], borderColor: '#00ff41' }, { label: 'Oro', data: [2000, 2050, 2040, currentData.gold_price], borderColor: '#fbbf24' }] }, options: { responsive: true, maintainAspectRatio: false } });
         }
-
-        updateData();
-        setInterval(updateData, 60000);
+        updateData(); setInterval(updateData, 60000);
     </script>
 </body>
 </html>
