@@ -1,67 +1,67 @@
 {
-    "last_update": "2026-03-13 05:05:16 UTC",
-    "brent_price": 89.88,
-    "gold_price": 2361.27,
+    "last_update": "2026-03-13 09:58:43 UTC",
+    "brent_price": 91.14,
+    "gold_price": 2314.28,
     "incidentes": [
         {
-            "id": "EVT-9590",
-            "fecha": "05:05 UTC",
-            "lat": 19.173117423203927,
-            "lng": 59.2858070187897,
-            "tipo": "Ataque con Drones",
-            "intensidad": "Media",
-            "actor": "Fuerzas de Israel",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-7544",
-            "fecha": "05:05 UTC",
-            "lat": 34.279387274927174,
-            "lng": 55.063439187285674,
-            "tipo": "Sabotaje a Refiner\u00eda",
-            "intensidad": "Cr\u00edtica",
-            "actor": "Fuerzas de Israel",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
-        },
-        {
-            "id": "EVT-1894",
-            "fecha": "05:05 UTC",
-            "lat": 21.04816685298341,
-            "lng": 57.97603865168006,
-            "tipo": "Sabotaje a Refiner\u00eda",
-            "intensidad": "Cr\u00edtica",
-            "actor": "Hezbollah (L\u00edbano)",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-2282",
-            "fecha": "05:05 UTC",
-            "lat": 12.583413047395672,
-            "lng": 41.003333974121055,
+            "id": "EVT-1834",
+            "fecha": "09:58 UTC",
+            "lat": 25.024419400539713,
+            "lng": 59.80775472502799,
             "tipo": "Ciberataque a Infraestructura",
             "intensidad": "Alta",
             "actor": "Milicias Pro-Ir\u00e1n (Irak)",
             "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-6913",
-            "fecha": "05:05 UTC",
-            "lat": 12.178386356342084,
-            "lng": 36.22606216137661,
+            "id": "EVT-3008",
+            "fecha": "09:58 UTC",
+            "lat": 14.079609404594143,
+            "lng": 36.933535697028766,
             "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Cr\u00edtica",
-            "actor": "Hezbollah (L\u00edbano)",
+            "intensidad": "Media",
+            "actor": "EE.UU.",
             "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-3563",
-            "fecha": "05:05 UTC",
-            "lat": 33.77683805766948,
-            "lng": 39.34519028199384,
-            "tipo": "Misil Bal\u00edstico",
+            "id": "EVT-6205",
+            "fecha": "09:58 UTC",
+            "lat": 30.557977746982985,
+            "lng": 54.93643013856105,
+            "tipo": "Intercepci\u00f3n Naval",
+            "intensidad": "Alta",
+            "actor": "Ir\u00e1n",
+            "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-6347",
+            "fecha": "09:58 UTC",
+            "lat": 32.544669973270096,
+            "lng": 49.94958588457294,
+            "tipo": "Ciberataque a Infraestructura",
+            "intensidad": "Alta",
+            "actor": "Hut\u00edes (Yemen)",
+            "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-2222",
+            "fecha": "09:58 UTC",
+            "lat": 33.83209513330854,
+            "lng": 45.91410304509947,
+            "tipo": "Sabotaje a Refiner\u00eda",
             "intensidad": "Cr\u00edtica",
-            "actor": "Fuerzas de Israel",
+            "actor": "Ir\u00e1n",
             "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+        },
+        {
+            "id": "EVT-7944",
+            "fecha": "09:58 UTC",
+            "lat": 25.855875117678835,
+            "lng": 49.774550127389624,
+            "tipo": "Ataque con Drones",
+            "intensidad": "Alta",
+            "actor": "Ir\u00e1n",
+            "efecto": "MEDIO: Volatilidad de precios"
         }
     ]
 }
