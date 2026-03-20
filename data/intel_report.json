@@ -1,67 +1,67 @@
 {
-    "last_update": "2026-03-20 17:55:29 UTC",
-    "brent_price": 92.43,
-    "gold_price": 2323.25,
+    "last_update": "2026-03-20 21:02:44 UTC",
+    "brent_price": 87.16,
+    "gold_price": 2341.56,
     "incidentes": [
         {
-            "id": "EVT-2529",
-            "fecha": "17:55 UTC",
-            "lat": 12.793078817514326,
-            "lng": 53.05380743622652,
-            "tipo": "Sabotaje a Refiner\u00eda",
-            "intensidad": "Alta",
-            "actor": "EE.UU.",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
-        },
-        {
-            "id": "EVT-1889",
-            "fecha": "17:55 UTC",
-            "lat": 22.75905567477663,
-            "lng": 52.32413617227309,
-            "tipo": "Misil Bal\u00edstico",
+            "id": "EVT-1077",
+            "fecha": "21:02 UTC",
+            "lat": 14.207769380993824,
+            "lng": 39.383391203577496,
+            "tipo": "Intercepci\u00f3n Naval",
             "intensidad": "Alta",
             "actor": "Milicias Pro-Ir\u00e1n (Irak)",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+        },
+        {
+            "id": "EVT-8110",
+            "fecha": "21:02 UTC",
+            "lat": 16.54390414014283,
+            "lng": 47.182128063914476,
+            "tipo": "Intercepci\u00f3n Naval",
+            "intensidad": "Media",
+            "actor": "Fuerzas de Israel",
             "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         },
         {
-            "id": "EVT-4348",
-            "fecha": "17:55 UTC",
-            "lat": 31.192035196125733,
-            "lng": 51.26142330640343,
-            "tipo": "Intercepci\u00f3n Naval",
+            "id": "EVT-7392",
+            "fecha": "21:02 UTC",
+            "lat": 24.15628381186417,
+            "lng": 35.06097053098152,
+            "tipo": "Sabotaje a Refiner\u00eda",
+            "intensidad": "Alta",
+            "actor": "Hezbollah (L\u00edbano)",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+        },
+        {
+            "id": "EVT-7634",
+            "fecha": "21:02 UTC",
+            "lat": 26.32551501790098,
+            "lng": 37.51573413108966,
+            "tipo": "Sabotaje a Refiner\u00eda",
             "intensidad": "Media",
+            "actor": "EE.UU.",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+        },
+        {
+            "id": "EVT-5120",
+            "fecha": "21:02 UTC",
+            "lat": 24.10067951578951,
+            "lng": 56.15793502164787,
+            "tipo": "Intercepci\u00f3n Naval",
+            "intensidad": "Cr\u00edtica",
             "actor": "Hezbollah (L\u00edbano)",
             "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         },
         {
-            "id": "EVT-3212",
-            "fecha": "17:55 UTC",
-            "lat": 31.66681933905155,
-            "lng": 54.84010494826808,
+            "id": "EVT-5839",
+            "fecha": "21:02 UTC",
+            "lat": 31.64013272310538,
+            "lng": 52.65586763311663,
             "tipo": "Ataque con Drones",
-            "intensidad": "Media",
-            "actor": "Ir\u00e1n",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-9036",
-            "fecha": "17:55 UTC",
-            "lat": 29.172009167861383,
-            "lng": 50.81756974384823,
-            "tipo": "Ciberataque a Infraestructura",
             "intensidad": "Cr\u00edtica",
-            "actor": "EE.UU.",
+            "actor": "Fuerzas de Israel",
             "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
-        },
-        {
-            "id": "EVT-9415",
-            "fecha": "17:55 UTC",
-            "lat": 31.601551302443696,
-            "lng": 45.765403593908616,
-            "tipo": "Sabotaje a Refiner\u00eda",
-            "intensidad": "Cr\u00edtica",
-            "actor": "EE.UU.",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         }
     ]
 }
