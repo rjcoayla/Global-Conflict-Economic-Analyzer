@@ -1,67 +1,67 @@
 {
-    "last_update": "2026-03-24 20:41:57 UTC",
-    "brent_price": 84.32,
-    "gold_price": 2418.64,
+    "last_update": "2026-03-25 02:13:11 UTC",
+    "brent_price": 91.34,
+    "gold_price": 2350.64,
     "incidentes": [
         {
-            "id": "EVT-3868",
-            "fecha": "20:41 UTC",
-            "lat": 24.481316693391395,
-            "lng": 59.394745476789,
-            "tipo": "Ciberataque a Infraestructura",
-            "intensidad": "Media",
+            "id": "EVT-1609",
+            "fecha": "02:13 UTC",
+            "lat": 18.69973089886787,
+            "lng": 42.87672004085437,
+            "tipo": "Sabotaje a Refiner\u00eda",
+            "intensidad": "Cr\u00edtica",
             "actor": "Milicias Pro-Ir\u00e1n (Irak)",
             "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         },
         {
-            "id": "EVT-4827",
-            "fecha": "20:41 UTC",
-            "lat": 20.752312502147433,
-            "lng": 39.53505004849289,
-            "tipo": "Intercepci\u00f3n Naval",
+            "id": "EVT-4856",
+            "fecha": "02:13 UTC",
+            "lat": 22.614224699572286,
+            "lng": 38.42121291922431,
+            "tipo": "Sabotaje a Refiner\u00eda",
             "intensidad": "Cr\u00edtica",
-            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
-            "efecto": "MEDIO: Volatilidad de precios"
+            "actor": "Hezbollah (L\u00edbano)",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         },
         {
-            "id": "EVT-4791",
-            "fecha": "20:41 UTC",
-            "lat": 17.433761312881295,
-            "lng": 46.5685524760786,
+            "id": "EVT-9887",
+            "fecha": "02:13 UTC",
+            "lat": 18.423905879912724,
+            "lng": 47.498974172620095,
+            "tipo": "Sabotaje a Refiner\u00eda",
+            "intensidad": "Alta",
+            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+        },
+        {
+            "id": "EVT-3449",
+            "fecha": "02:13 UTC",
+            "lat": 31.405146412807646,
+            "lng": 38.39515122820988,
+            "tipo": "Ataque con Drones",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Ir\u00e1n",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-1378",
+            "fecha": "02:13 UTC",
+            "lat": 31.13543172124869,
+            "lng": 55.1873425346074,
+            "tipo": "Ciberataque a Infraestructura",
+            "intensidad": "Alta",
+            "actor": "Hezbollah (L\u00edbano)",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-8918",
+            "fecha": "02:13 UTC",
+            "lat": 18.517623062208642,
+            "lng": 38.49910595684983,
             "tipo": "Sabotaje a Refiner\u00eda",
             "intensidad": "Cr\u00edtica",
             "actor": "Hut\u00edes (Yemen)",
             "efecto": "MEDIO: Volatilidad de precios"
-        },
-        {
-            "id": "EVT-2005",
-            "fecha": "20:41 UTC",
-            "lat": 22.419078885300543,
-            "lng": 39.31781626356819,
-            "tipo": "Ciberataque a Infraestructura",
-            "intensidad": "Alta",
-            "actor": "EE.UU.",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
-        },
-        {
-            "id": "EVT-3576",
-            "fecha": "20:41 UTC",
-            "lat": 25.68787485462849,
-            "lng": 37.74444543032302,
-            "tipo": "Ciberataque a Infraestructura",
-            "intensidad": "Alta",
-            "actor": "EE.UU.",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
-        },
-        {
-            "id": "EVT-3477",
-            "fecha": "20:41 UTC",
-            "lat": 13.774870791370844,
-            "lng": 59.98208814678415,
-            "tipo": "Sabotaje a Refiner\u00eda",
-            "intensidad": "Alta",
-            "actor": "Hezbollah (L\u00edbano)",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         }
     ]
 }
