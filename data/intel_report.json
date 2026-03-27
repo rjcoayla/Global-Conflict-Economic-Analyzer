@@ -1,67 +1,67 @@
 {
-    "last_update": "2026-03-26 20:36:55 UTC",
-    "brent_price": 89.7,
-    "gold_price": 2329.67,
+    "last_update": "2026-03-27 02:28:04 UTC",
+    "brent_price": 88.61,
+    "gold_price": 2436.71,
     "incidentes": [
         {
-            "id": "EVT-7437",
-            "fecha": "20:36 UTC",
-            "lat": 18.62656909310885,
-            "lng": 37.666956384607346,
-            "tipo": "Misil Bal\u00edstico",
+            "id": "EVT-9905",
+            "fecha": "02:28 UTC",
+            "lat": 14.973454766259922,
+            "lng": 42.18184118174089,
+            "tipo": "Ciberataque a Infraestructura",
             "intensidad": "Media",
-            "actor": "Ir\u00e1n",
+            "actor": "Hezbollah (L\u00edbano)",
             "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         },
         {
-            "id": "EVT-1237",
-            "fecha": "20:36 UTC",
-            "lat": 33.426764543033535,
-            "lng": 43.68966919355086,
-            "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Media",
-            "actor": "Ir\u00e1n",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-2122",
-            "fecha": "20:36 UTC",
-            "lat": 28.523091973925084,
-            "lng": 47.935575134357684,
-            "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Alta",
-            "actor": "Hezbollah (L\u00edbano)",
-            "efecto": "MEDIO: Volatilidad de precios"
-        },
-        {
-            "id": "EVT-4228",
-            "fecha": "20:36 UTC",
-            "lat": 33.63747432593331,
-            "lng": 52.43417308292128,
+            "id": "EVT-5534",
+            "fecha": "02:28 UTC",
+            "lat": 14.346552674379867,
+            "lng": 55.93490936403826,
             "tipo": "Misil Bal\u00edstico",
-            "intensidad": "Media",
-            "actor": "Hut\u00edes (Yemen)",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-3537",
-            "fecha": "20:36 UTC",
-            "lat": 34.43347865536269,
-            "lng": 52.430116005288,
-            "tipo": "Misil Bal\u00edstico",
-            "intensidad": "Alta",
-            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-1188",
-            "fecha": "20:36 UTC",
-            "lat": 28.417146194829595,
-            "lng": 46.093338793811334,
-            "tipo": "Ataque con Drones",
             "intensidad": "Cr\u00edtica",
             "actor": "Hut\u00edes (Yemen)",
             "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-8421",
+            "fecha": "02:28 UTC",
+            "lat": 32.348166109523575,
+            "lng": 49.37117374720082,
+            "tipo": "Sabotaje a Refiner\u00eda",
+            "intensidad": "Media",
+            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-4941",
+            "fecha": "02:28 UTC",
+            "lat": 20.888848579318186,
+            "lng": 58.91021347531806,
+            "tipo": "Ataque con Drones",
+            "intensidad": "Alta",
+            "actor": "Hut\u00edes (Yemen)",
+            "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-5449",
+            "fecha": "02:28 UTC",
+            "lat": 28.19613231973427,
+            "lng": 46.55231084326395,
+            "tipo": "Sabotaje a Refiner\u00eda",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Hezbollah (L\u00edbano)",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+        },
+        {
+            "id": "EVT-9991",
+            "fecha": "02:28 UTC",
+            "lat": 25.81742465266268,
+            "lng": 45.465490662995535,
+            "tipo": "Ciberataque a Infraestructura",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Ir\u00e1n",
+            "efecto": "MEDIO: Volatilidad de precios"
         }
     ]
 }
