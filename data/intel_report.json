@@ -1,67 +1,67 @@
 {
-    "last_update": "2026-04-01 20:43:47 UTC",
-    "brent_price": 88.71,
-    "gold_price": 2377.58,
+    "last_update": "2026-04-02 02:25:18 UTC",
+    "brent_price": 89.61,
+    "gold_price": 2439.3,
     "incidentes": [
         {
-            "id": "EVT-5014",
-            "fecha": "20:43 UTC",
-            "lat": 25.72407814757308,
-            "lng": 55.175208609319746,
+            "id": "EVT-1739",
+            "fecha": "02:25 UTC",
+            "lat": 25.77463007486921,
+            "lng": 50.99244655840688,
             "tipo": "Sabotaje a Refiner\u00eda",
             "intensidad": "Alta",
-            "actor": "EE.UU.",
-            "efecto": "MEDIO: Volatilidad de precios"
-        },
-        {
-            "id": "EVT-1735",
-            "fecha": "20:43 UTC",
-            "lat": 30.11966324053162,
-            "lng": 37.57160415694223,
-            "tipo": "Misil Bal\u00edstico",
-            "intensidad": "Alta",
-            "actor": "Hezbollah (L\u00edbano)",
-            "efecto": "MEDIO: Volatilidad de precios"
-        },
-        {
-            "id": "EVT-3351",
-            "fecha": "20:43 UTC",
-            "lat": 30.137692987855466,
-            "lng": 54.485045855589924,
-            "tipo": "Misil Bal\u00edstico",
-            "intensidad": "Media",
             "actor": "Milicias Pro-Ir\u00e1n (Irak)",
-            "efecto": "MEDIO: Volatilidad de precios"
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         },
         {
-            "id": "EVT-4136",
-            "fecha": "20:43 UTC",
-            "lat": 32.3616091795408,
-            "lng": 38.38180583440775,
+            "id": "EVT-4948",
+            "fecha": "02:25 UTC",
+            "lat": 19.214214145854775,
+            "lng": 42.63660961427491,
             "tipo": "Ciberataque a Infraestructura",
-            "intensidad": "Cr\u00edtica",
-            "actor": "Fuerzas de Israel",
+            "intensidad": "Alta",
+            "actor": "Hut\u00edes (Yemen)",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-8168",
+            "fecha": "02:25 UTC",
+            "lat": 24.032898281547354,
+            "lng": 49.39358410907786,
+            "tipo": "Intercepci\u00f3n Naval",
+            "intensidad": "Alta",
+            "actor": "Ir\u00e1n",
             "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         },
         {
-            "id": "EVT-2585",
-            "fecha": "20:43 UTC",
-            "lat": 32.84766112358879,
-            "lng": 56.501154083443836,
-            "tipo": "Intercepci\u00f3n Naval",
+            "id": "EVT-9973",
+            "fecha": "02:25 UTC",
+            "lat": 15.782942070325742,
+            "lng": 55.43283021436887,
+            "tipo": "Ciberataque a Infraestructura",
             "intensidad": "Alta",
-            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
+            "actor": "EE.UU.",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+        },
+        {
+            "id": "EVT-9453",
+            "fecha": "02:25 UTC",
+            "lat": 27.280712650868036,
+            "lng": 37.10860751648069,
+            "tipo": "Intercepci\u00f3n Naval",
+            "intensidad": "Media",
+            "actor": "Fuerzas de Israel",
             "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-9975",
-            "fecha": "20:43 UTC",
-            "lat": 18.106640950916713,
-            "lng": 49.04750752410372,
-            "tipo": "Intercepci\u00f3n Naval",
+            "id": "EVT-3695",
+            "fecha": "02:25 UTC",
+            "lat": 34.47203307963434,
+            "lng": 52.891439551015694,
+            "tipo": "Sabotaje a Refiner\u00eda",
             "intensidad": "Alta",
-            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
-            "efecto": "MEDIO: Volatilidad de precios"
+            "actor": "Hezbollah (L\u00edbano)",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         }
     ]
 }
