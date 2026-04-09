@@ -1,67 +1,67 @@
 {
-    "last_update": "2026-04-09 09:09:02 UTC",
-    "brent_price": 91.8,
-    "gold_price": 2372.41,
+    "last_update": "2026-04-09 13:42:20 UTC",
+    "brent_price": 88.9,
+    "gold_price": 2383.38,
     "incidentes": [
         {
-            "id": "EVT-5559",
-            "fecha": "09:09 UTC",
-            "lat": 31.011859291121077,
-            "lng": 35.844268966540106,
-            "tipo": "Sabotaje a Refiner\u00eda",
-            "intensidad": "Cr\u00edtica",
-            "actor": "Fuerzas de Israel",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
-        },
-        {
-            "id": "EVT-2657",
-            "fecha": "09:09 UTC",
-            "lat": 25.722709741161083,
-            "lng": 48.93692217562334,
-            "tipo": "Ataque con Drones",
-            "intensidad": "Cr\u00edtica",
-            "actor": "Ir\u00e1n",
-            "efecto": "MEDIO: Volatilidad de precios"
-        },
-        {
-            "id": "EVT-7675",
-            "fecha": "09:09 UTC",
-            "lat": 27.1730294019573,
-            "lng": 38.89328878432388,
-            "tipo": "Misil Bal\u00edstico",
-            "intensidad": "Media",
-            "actor": "Hut\u00edes (Yemen)",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
-        },
-        {
-            "id": "EVT-9034",
-            "fecha": "09:09 UTC",
-            "lat": 28.287123352017915,
-            "lng": 41.985489651638304,
+            "id": "EVT-3692",
+            "fecha": "13:42 UTC",
+            "lat": 12.520237598409441,
+            "lng": 57.067875800179394,
             "tipo": "Ciberataque a Infraestructura",
             "intensidad": "Media",
+            "actor": "Hezbollah (L\u00edbano)",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+        },
+        {
+            "id": "EVT-1915",
+            "fecha": "13:42 UTC",
+            "lat": 19.95369331211536,
+            "lng": 58.566193465741335,
+            "tipo": "Intercepci\u00f3n Naval",
+            "intensidad": "Media",
+            "actor": "Fuerzas de Israel",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+        },
+        {
+            "id": "EVT-4908",
+            "fecha": "13:42 UTC",
+            "lat": 30.81326872863041,
+            "lng": 50.85814662186426,
+            "tipo": "Ciberataque a Infraestructura",
+            "intensidad": "Media",
+            "actor": "Hezbollah (L\u00edbano)",
+            "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-5980",
+            "fecha": "13:42 UTC",
+            "lat": 23.802340392414813,
+            "lng": 35.55187512859747,
+            "tipo": "Ataque con Drones",
+            "intensidad": "Alta",
+            "actor": "Fuerzas de Israel",
+            "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-2150",
+            "fecha": "13:42 UTC",
+            "lat": 17.47220084225228,
+            "lng": 58.68417113702378,
+            "tipo": "Ataque con Drones",
+            "intensidad": "Media",
             "actor": "Ir\u00e1n",
             "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         },
         {
-            "id": "EVT-2411",
-            "fecha": "09:09 UTC",
-            "lat": 26.35030924869435,
-            "lng": 50.75707145449361,
-            "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Media",
-            "actor": "Fuerzas de Israel",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
-        },
-        {
-            "id": "EVT-4265",
-            "fecha": "09:09 UTC",
-            "lat": 17.154986920070012,
-            "lng": 49.78009316963619,
-            "tipo": "Intercepci\u00f3n Naval",
+            "id": "EVT-5255",
+            "fecha": "13:42 UTC",
+            "lat": 30.456922541742603,
+            "lng": 43.84422974527342,
+            "tipo": "Ciberataque a Infraestructura",
             "intensidad": "Alta",
-            "actor": "EE.UU.",
-            "efecto": "MEDIO: Volatilidad de precios"
+            "actor": "Ir\u00e1n",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         }
     ]
 }
