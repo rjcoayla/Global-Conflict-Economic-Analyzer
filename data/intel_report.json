@@ -1,67 +1,67 @@
 {
-    "last_update": "2026-04-14 06:00:35 UTC",
-    "brent_price": 90.85,
-    "gold_price": 2372.46,
+    "last_update": "2026-04-14 09:18:55 UTC",
+    "brent_price": 90.43,
+    "gold_price": 2312.96,
     "incidentes": [
         {
-            "id": "EVT-3523",
-            "fecha": "06:00 UTC",
-            "lat": 13.946756009184554,
-            "lng": 50.92110520603736,
-            "tipo": "Sabotaje a Refiner\u00eda",
+            "id": "EVT-8904",
+            "fecha": "09:18 UTC",
+            "lat": 12.35406927170686,
+            "lng": 36.05355178468051,
+            "tipo": "Intercepci\u00f3n Naval",
             "intensidad": "Alta",
-            "actor": "Hezbollah (L\u00edbano)",
+            "actor": "EE.UU.",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-4709",
+            "fecha": "09:18 UTC",
+            "lat": 12.409259782361266,
+            "lng": 59.26877799510325,
+            "tipo": "Intercepci\u00f3n Naval",
+            "intensidad": "Cr\u00edtica",
+            "actor": "EE.UU.",
             "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-7733",
-            "fecha": "06:00 UTC",
-            "lat": 18.73844209133145,
-            "lng": 57.1819455579211,
+            "id": "EVT-8025",
+            "fecha": "09:18 UTC",
+            "lat": 14.765708172184548,
+            "lng": 51.122081227876606,
             "tipo": "Misil Bal\u00edstico",
-            "intensidad": "Cr\u00edtica",
+            "intensidad": "Media",
+            "actor": "Fuerzas de Israel",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+        },
+        {
+            "id": "EVT-8241",
+            "fecha": "09:18 UTC",
+            "lat": 19.715964734726935,
+            "lng": 57.84860013899051,
+            "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Alta",
             "actor": "Ir\u00e1n",
             "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-6692",
-            "fecha": "06:00 UTC",
-            "lat": 17.524358645790674,
-            "lng": 43.95605298282723,
-            "tipo": "Ataque con Drones",
-            "intensidad": "Cr\u00edtica",
-            "actor": "Fuerzas de Israel",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-8727",
-            "fecha": "06:00 UTC",
-            "lat": 21.977003707932255,
-            "lng": 47.71163623755042,
-            "tipo": "Misil Bal\u00edstico",
-            "intensidad": "Cr\u00edtica",
-            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
+            "id": "EVT-8668",
+            "fecha": "09:18 UTC",
+            "lat": 16.29628876202794,
+            "lng": 36.02772915764557,
+            "tipo": "Intercepci\u00f3n Naval",
+            "intensidad": "Alta",
+            "actor": "Ir\u00e1n",
             "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         },
         {
-            "id": "EVT-8118",
-            "fecha": "06:00 UTC",
-            "lat": 32.77113385488106,
-            "lng": 40.27759196243684,
-            "tipo": "Ataque con Drones",
-            "intensidad": "Alta",
-            "actor": "Hut\u00edes (Yemen)",
-            "efecto": "MEDIO: Volatilidad de precios"
-        },
-        {
-            "id": "EVT-3615",
-            "fecha": "06:00 UTC",
-            "lat": 17.390156175804456,
-            "lng": 54.15456840288607,
-            "tipo": "Misil Bal\u00edstico",
+            "id": "EVT-9664",
+            "fecha": "09:18 UTC",
+            "lat": 28.292352850177547,
+            "lng": 49.57800317369252,
+            "tipo": "Intercepci\u00f3n Naval",
             "intensidad": "Cr\u00edtica",
-            "actor": "Fuerzas de Israel",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
+            "efecto": "MEDIO: Volatilidad de precios"
         }
     ]
 }
