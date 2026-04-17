@@ -1,66 +1,66 @@
 {
-    "last_update": "2026-04-17 16:55:22 UTC",
-    "brent_price": 86.25,
-    "gold_price": 2377.17,
+    "last_update": "2026-04-17 20:44:04 UTC",
+    "brent_price": 88.33,
+    "gold_price": 2435.38,
     "incidentes": [
         {
-            "id": "EVT-7102",
-            "fecha": "16:55 UTC",
-            "lat": 14.016247625264633,
-            "lng": 42.3208923487994,
+            "id": "EVT-5395",
+            "fecha": "20:44 UTC",
+            "lat": 21.750506996821557,
+            "lng": 41.76889891808371,
+            "tipo": "Intercepci\u00f3n Naval",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Hut\u00edes (Yemen)",
+            "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-9958",
+            "fecha": "20:44 UTC",
+            "lat": 21.77258683464482,
+            "lng": 48.207639323466765,
+            "tipo": "Sabotaje a Refiner\u00eda",
+            "intensidad": "Alta",
+            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+        },
+        {
+            "id": "EVT-4490",
+            "fecha": "20:44 UTC",
+            "lat": 33.727915500681604,
+            "lng": 57.78049655120992,
+            "tipo": "Ataque con Drones",
+            "intensidad": "Cr\u00edtica",
+            "actor": "EE.UU.",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+        },
+        {
+            "id": "EVT-3326",
+            "fecha": "20:44 UTC",
+            "lat": 13.477294385907783,
+            "lng": 59.97333116437999,
             "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Media",
+            "actor": "Hezbollah (L\u00edbano)",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-3007",
+            "fecha": "20:44 UTC",
+            "lat": 25.9338117171758,
+            "lng": 39.21782793349782,
+            "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Cr\u00edtica",
+            "actor": "EE.UU.",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-8544",
+            "fecha": "20:44 UTC",
+            "lat": 14.208994435073599,
+            "lng": 42.23667336178388,
+            "tipo": "Ciberataque a Infraestructura",
             "intensidad": "Alta",
             "actor": "Hut\u00edes (Yemen)",
-            "efecto": "MEDIO: Volatilidad de precios"
-        },
-        {
-            "id": "EVT-7668",
-            "fecha": "16:55 UTC",
-            "lat": 17.775775189796448,
-            "lng": 52.39791846065265,
-            "tipo": "Ataque con Drones",
-            "intensidad": "Alta",
-            "actor": "Ir\u00e1n",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-5297",
-            "fecha": "16:55 UTC",
-            "lat": 24.838424221037585,
-            "lng": 39.80493707097658,
-            "tipo": "Ataque con Drones",
-            "intensidad": "Alta",
-            "actor": "Hezbollah (L\u00edbano)",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-2590",
-            "fecha": "16:55 UTC",
-            "lat": 19.722316811181223,
-            "lng": 49.22467362661309,
-            "tipo": "Ciberataque a Infraestructura",
-            "intensidad": "Cr\u00edtica",
-            "actor": "Hut\u00edes (Yemen)",
-            "efecto": "MEDIO: Volatilidad de precios"
-        },
-        {
-            "id": "EVT-8523",
-            "fecha": "16:55 UTC",
-            "lat": 17.433580603424776,
-            "lng": 47.614126310633814,
-            "tipo": "Ataque con Drones",
-            "intensidad": "Alta",
-            "actor": "Hezbollah (L\u00edbano)",
-            "efecto": "MEDIO: Volatilidad de precios"
-        },
-        {
-            "id": "EVT-3609",
-            "fecha": "16:55 UTC",
-            "lat": 17.915926020148174,
-            "lng": 57.20661184620337,
-            "tipo": "Ciberataque a Infraestructura",
-            "intensidad": "Cr\u00edtica",
-            "actor": "Fuerzas de Israel",
             "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         }
     ]
