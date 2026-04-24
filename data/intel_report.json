@@ -1,67 +1,67 @@
 {
-    "last_update": "2026-04-24 16:57:41 UTC",
-    "brent_price": 88.87,
-    "gold_price": 2404.77,
+    "last_update": "2026-04-24 20:50:24 UTC",
+    "brent_price": 89.98,
+    "gold_price": 2404.72,
     "incidentes": [
         {
-            "id": "EVT-3290",
-            "fecha": "16:57 UTC",
-            "lat": 20.694836404613525,
-            "lng": 55.00584197025434,
-            "tipo": "Sabotaje a Refiner\u00eda",
-            "intensidad": "Media",
-            "actor": "Ir\u00e1n",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+            "id": "EVT-2857",
+            "fecha": "20:50 UTC",
+            "lat": 19.674655223958695,
+            "lng": 39.78584904101063,
+            "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Hezbollah (L\u00edbano)",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         },
         {
-            "id": "EVT-5859",
-            "fecha": "16:57 UTC",
-            "lat": 20.417823862229373,
-            "lng": 42.93383608744764,
-            "tipo": "Sabotaje a Refiner\u00eda",
-            "intensidad": "Media",
-            "actor": "EE.UU.",
-            "efecto": "MEDIO: Volatilidad de precios"
-        },
-        {
-            "id": "EVT-5885",
-            "fecha": "16:57 UTC",
-            "lat": 19.923167487471492,
-            "lng": 40.521362933665394,
+            "id": "EVT-7442",
+            "fecha": "20:50 UTC",
+            "lat": 14.154425955878564,
+            "lng": 35.90724530600138,
             "tipo": "Misil Bal\u00edstico",
             "intensidad": "Alta",
             "actor": "Ir\u00e1n",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+            "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-7525",
-            "fecha": "16:57 UTC",
-            "lat": 31.19939645089169,
-            "lng": 36.09973820398722,
+            "id": "EVT-3309",
+            "fecha": "20:50 UTC",
+            "lat": 28.699490914904082,
+            "lng": 37.18742221474666,
             "tipo": "Ciberataque a Infraestructura",
-            "intensidad": "Alta",
-            "actor": "Fuerzas de Israel",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+            "intensidad": "Media",
+            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         },
         {
-            "id": "EVT-3022",
-            "fecha": "16:57 UTC",
-            "lat": 33.42143365103243,
-            "lng": 41.58965257206492,
-            "tipo": "Ataque con Drones",
-            "intensidad": "Alta",
-            "actor": "EE.UU.",
+            "id": "EVT-4646",
+            "fecha": "20:50 UTC",
+            "lat": 16.296584440558668,
+            "lng": 49.16424769085975,
+            "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Media",
+            "actor": "Hezbollah (L\u00edbano)",
             "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-4816",
-            "fecha": "16:57 UTC",
-            "lat": 32.41423856580688,
-            "lng": 56.69329113698991,
-            "tipo": "Sabotaje a Refiner\u00eda",
+            "id": "EVT-5320",
+            "fecha": "20:50 UTC",
+            "lat": 14.47675092948414,
+            "lng": 43.977233782343525,
+            "tipo": "Ciberataque a Infraestructura",
             "intensidad": "Cr\u00edtica",
-            "actor": "Ir\u00e1n",
+            "actor": "Hezbollah (L\u00edbano)",
             "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-4080",
+            "fecha": "20:50 UTC",
+            "lat": 23.694175676975448,
+            "lng": 50.374498298142676,
+            "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Media",
+            "actor": "Fuerzas de Israel",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         }
     ]
 }
