@@ -1,67 +1,67 @@
 {
-    "last_update": "2026-04-28 17:46:51 UTC",
-    "brent_price": 88.2,
-    "gold_price": 2350.44,
+    "last_update": "2026-04-28 21:07:30 UTC",
+    "brent_price": 85.62,
+    "gold_price": 2432.48,
     "incidentes": [
         {
-            "id": "EVT-2532",
-            "fecha": "17:46 UTC",
-            "lat": 21.79803453609872,
-            "lng": 56.684853314018056,
-            "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Media",
-            "actor": "EE.UU.",
+            "id": "EVT-9946",
+            "fecha": "21:07 UTC",
+            "lat": 31.708650881080853,
+            "lng": 39.22263566880398,
+            "tipo": "Ciberataque a Infraestructura",
+            "intensidad": "Alta",
+            "actor": "Hezbollah (L\u00edbano)",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+        },
+        {
+            "id": "EVT-5313",
+            "fecha": "21:07 UTC",
+            "lat": 32.6746168995483,
+            "lng": 49.136314891287576,
+            "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Fuerzas de Israel",
             "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-5325",
-            "fecha": "17:46 UTC",
-            "lat": 19.62930054126545,
-            "lng": 53.315413343178136,
-            "tipo": "Misil Bal\u00edstico",
+            "id": "EVT-8506",
+            "fecha": "21:07 UTC",
+            "lat": 33.99964327617724,
+            "lng": 51.7563550585579,
+            "tipo": "Ciberataque a Infraestructura",
             "intensidad": "Cr\u00edtica",
-            "actor": "Hezbollah (L\u00edbano)",
+            "actor": "Fuerzas de Israel",
             "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         },
         {
-            "id": "EVT-7228",
-            "fecha": "17:46 UTC",
-            "lat": 34.27923148387758,
-            "lng": 38.754933554335416,
+            "id": "EVT-4303",
+            "fecha": "21:07 UTC",
+            "lat": 12.500204629792613,
+            "lng": 50.94289944130679,
             "tipo": "Misil Bal\u00edstico",
             "intensidad": "Media",
-            "actor": "EE.UU.",
-            "efecto": "MEDIO: Volatilidad de precios"
+            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         },
         {
-            "id": "EVT-6166",
-            "fecha": "17:46 UTC",
-            "lat": 28.130006404413336,
-            "lng": 43.64447538874867,
-            "tipo": "Ciberataque a Infraestructura",
-            "intensidad": "Alta",
-            "actor": "Ir\u00e1n",
-            "efecto": "MEDIO: Volatilidad de precios"
+            "id": "EVT-2876",
+            "fecha": "21:07 UTC",
+            "lat": 22.378323790783618,
+            "lng": 45.040946928463065,
+            "tipo": "Ataque con Drones",
+            "intensidad": "Media",
+            "actor": "Hezbollah (L\u00edbano)",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         },
         {
-            "id": "EVT-4427",
-            "fecha": "17:46 UTC",
-            "lat": 34.81711623612881,
-            "lng": 54.45027107726847,
+            "id": "EVT-1583",
+            "fecha": "21:07 UTC",
+            "lat": 12.144110239662748,
+            "lng": 40.81028720321224,
             "tipo": "Sabotaje a Refiner\u00eda",
             "intensidad": "Alta",
-            "actor": "Hut\u00edes (Yemen)",
-            "efecto": "MEDIO: Volatilidad de precios"
-        },
-        {
-            "id": "EVT-9492",
-            "fecha": "17:46 UTC",
-            "lat": 29.656811858001483,
-            "lng": 40.19758394801974,
-            "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Media",
-            "actor": "Hut\u00edes (Yemen)",
-            "efecto": "MEDIO: Volatilidad de precios"
+            "actor": "Ir\u00e1n",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         }
     ]
 }
