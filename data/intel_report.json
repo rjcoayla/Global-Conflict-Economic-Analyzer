@@ -1,66 +1,66 @@
 {
-    "last_update": "2026-05-06 14:12:38 UTC",
-    "brent_price": 86.66,
-    "gold_price": 2433.75,
+    "last_update": "2026-05-06 17:41:04 UTC",
+    "brent_price": 87.76,
+    "gold_price": 2393.24,
     "incidentes": [
         {
-            "id": "EVT-4473",
-            "fecha": "14:12 UTC",
-            "lat": 31.130265857525888,
-            "lng": 38.43671666928103,
-            "tipo": "Misil Bal\u00edstico",
-            "intensidad": "Alta",
-            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
-        },
-        {
-            "id": "EVT-1232",
-            "fecha": "14:12 UTC",
-            "lat": 18.13198136006286,
-            "lng": 46.80690753717069,
-            "tipo": "Sabotaje a Refiner\u00eda",
-            "intensidad": "Alta",
-            "actor": "Hezbollah (L\u00edbano)",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
-        },
-        {
-            "id": "EVT-1613",
-            "fecha": "14:12 UTC",
-            "lat": 18.75580812492291,
-            "lng": 51.4329580222722,
-            "tipo": "Ciberataque a Infraestructura",
-            "intensidad": "Cr\u00edtica",
-            "actor": "Hezbollah (L\u00edbano)",
-            "efecto": "MEDIO: Volatilidad de precios"
-        },
-        {
-            "id": "EVT-6230",
-            "fecha": "14:12 UTC",
-            "lat": 33.34260423879758,
-            "lng": 36.70770848203664,
+            "id": "EVT-9272",
+            "fecha": "17:41 UTC",
+            "lat": 15.079196323691697,
+            "lng": 52.69530915780524,
             "tipo": "Ataque con Drones",
             "intensidad": "Alta",
-            "actor": "Ir\u00e1n",
+            "actor": "Hezbollah (L\u00edbano)",
             "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         },
         {
-            "id": "EVT-3343",
-            "fecha": "14:12 UTC",
-            "lat": 27.738680746284714,
-            "lng": 54.48586891500649,
+            "id": "EVT-9606",
+            "fecha": "17:41 UTC",
+            "lat": 16.267692690051014,
+            "lng": 41.454407407371875,
+            "tipo": "Ataque con Drones",
+            "intensidad": "Media",
+            "actor": "Hut\u00edes (Yemen)",
+            "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-8004",
+            "fecha": "17:41 UTC",
+            "lat": 23.073395619267863,
+            "lng": 38.207488750812686,
             "tipo": "Intercepci\u00f3n Naval",
+            "intensidad": "Alta",
+            "actor": "EE.UU.",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+        },
+        {
+            "id": "EVT-8849",
+            "fecha": "17:41 UTC",
+            "lat": 24.39888108560681,
+            "lng": 45.944576041833805,
+            "tipo": "Ataque con Drones",
             "intensidad": "Alta",
             "actor": "Ir\u00e1n",
             "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         },
         {
-            "id": "EVT-5881",
-            "fecha": "14:12 UTC",
-            "lat": 21.298193864727963,
-            "lng": 55.992183047981314,
-            "tipo": "Sabotaje a Refiner\u00eda",
-            "intensidad": "Alta",
-            "actor": "Fuerzas de Israel",
+            "id": "EVT-6737",
+            "fecha": "17:41 UTC",
+            "lat": 28.046091694327153,
+            "lng": 41.61115296319081,
+            "tipo": "Intercepci\u00f3n Naval",
+            "intensidad": "Media",
+            "actor": "Hezbollah (L\u00edbano)",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-2359",
+            "fecha": "17:41 UTC",
+            "lat": 24.398156183556704,
+            "lng": 54.0682403292266,
+            "tipo": "Ciberataque a Infraestructura",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
             "efecto": "MEDIO: Volatilidad de precios"
         }
     ]
