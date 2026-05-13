@@ -1,67 +1,67 @@
 {
-    "last_update": "2026-05-13 03:28:54 UTC",
-    "brent_price": 90.5,
-    "gold_price": 2423.7,
+    "last_update": "2026-05-13 06:47:52 UTC",
+    "brent_price": 91.12,
+    "gold_price": 2417.45,
     "incidentes": [
         {
-            "id": "EVT-6771",
-            "fecha": "03:28 UTC",
-            "lat": 16.07378285256666,
-            "lng": 43.52737600358099,
-            "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Cr\u00edtica",
-            "actor": "Hezbollah (L\u00edbano)",
-            "efecto": "MEDIO: Volatilidad de precios"
-        },
-        {
-            "id": "EVT-2839",
-            "fecha": "03:28 UTC",
-            "lat": 25.480563400306593,
-            "lng": 35.96784224495473,
-            "tipo": "Sabotaje a Refiner\u00eda",
+            "id": "EVT-9202",
+            "fecha": "06:47 UTC",
+            "lat": 12.698734751092692,
+            "lng": 51.9009621310927,
+            "tipo": "Misil Bal\u00edstico",
             "intensidad": "Alta",
-            "actor": "Ir\u00e1n",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
-        },
-        {
-            "id": "EVT-1170",
-            "fecha": "03:28 UTC",
-            "lat": 15.745294242641876,
-            "lng": 59.10917959024516,
-            "tipo": "Ciberataque a Infraestructura",
-            "intensidad": "Alta",
-            "actor": "Hut\u00edes (Yemen)",
-            "efecto": "MEDIO: Volatilidad de precios"
-        },
-        {
-            "id": "EVT-9982",
-            "fecha": "03:28 UTC",
-            "lat": 32.63947802422248,
-            "lng": 49.79074667707757,
-            "tipo": "Ataque con Drones",
-            "intensidad": "Media",
             "actor": "Fuerzas de Israel",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+            "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-5480",
-            "fecha": "03:28 UTC",
-            "lat": 14.616789632280682,
-            "lng": 53.320704877420454,
-            "tipo": "Ataque con Drones",
+            "id": "EVT-4986",
+            "fecha": "06:47 UTC",
+            "lat": 27.961639342538056,
+            "lng": 57.87382401985614,
+            "tipo": "Ciberataque a Infraestructura",
             "intensidad": "Alta",
             "actor": "EE.UU.",
             "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         },
         {
-            "id": "EVT-3922",
-            "fecha": "03:28 UTC",
-            "lat": 23.32289737757737,
-            "lng": 54.78843645759994,
-            "tipo": "Ciberataque a Infraestructura",
-            "intensidad": "Alta",
-            "actor": "Ir\u00e1n",
+            "id": "EVT-6902",
+            "fecha": "06:47 UTC",
+            "lat": 28.07955305822097,
+            "lng": 58.20102264421507,
+            "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Hut\u00edes (Yemen)",
             "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-6426",
+            "fecha": "06:47 UTC",
+            "lat": 22.96519501438791,
+            "lng": 41.84633745435689,
+            "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Media",
+            "actor": "Fuerzas de Israel",
+            "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-9612",
+            "fecha": "06:47 UTC",
+            "lat": 24.82312293027865,
+            "lng": 52.95387506124517,
+            "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Fuerzas de Israel",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-6625",
+            "fecha": "06:47 UTC",
+            "lat": 25.933482311006223,
+            "lng": 41.37940211698927,
+            "tipo": "Ciberataque a Infraestructura",
+            "intensidad": "Media",
+            "actor": "EE.UU.",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         }
     ]
 }
