@@ -1,67 +1,67 @@
 {
-    "last_update": "2026-05-14 14:12:33 UTC",
-    "brent_price": 84.11,
-    "gold_price": 2427.94,
+    "last_update": "2026-05-14 17:50:33 UTC",
+    "brent_price": 90.41,
+    "gold_price": 2333.29,
     "incidentes": [
         {
-            "id": "EVT-7794",
-            "fecha": "14:12 UTC",
-            "lat": 23.12718660469714,
-            "lng": 38.547014771507506,
+            "id": "EVT-1375",
+            "fecha": "17:50 UTC",
+            "lat": 34.91864000172774,
+            "lng": 45.314672077411686,
             "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Cr\u00edtica",
-            "actor": "Hut\u00edes (Yemen)",
+            "intensidad": "Alta",
+            "actor": "Ir\u00e1n",
             "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-8369",
-            "fecha": "14:12 UTC",
-            "lat": 28.076117734617124,
-            "lng": 54.25027227837712,
-            "tipo": "Misil Bal\u00edstico",
-            "intensidad": "Alta",
-            "actor": "Fuerzas de Israel",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
-        },
-        {
-            "id": "EVT-4680",
-            "fecha": "14:12 UTC",
-            "lat": 32.23780021639012,
-            "lng": 41.736165682930306,
+            "id": "EVT-6127",
+            "fecha": "17:50 UTC",
+            "lat": 19.012184941930883,
+            "lng": 57.962334154187644,
             "tipo": "Ataque con Drones",
-            "intensidad": "Alta",
-            "actor": "Ir\u00e1n",
+            "intensidad": "Media",
+            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
             "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         },
         {
-            "id": "EVT-9464",
-            "fecha": "14:12 UTC",
-            "lat": 21.336482223519326,
-            "lng": 52.994027218554834,
-            "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Cr\u00edtica",
-            "actor": "Ir\u00e1n",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
-        },
-        {
-            "id": "EVT-1491",
-            "fecha": "14:12 UTC",
-            "lat": 25.793977070210737,
-            "lng": 41.28616671251108,
-            "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Cr\u00edtica",
-            "actor": "EE.UU.",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-4043",
-            "fecha": "14:12 UTC",
-            "lat": 19.839874765547883,
-            "lng": 36.89806046193153,
+            "id": "EVT-7760",
+            "fecha": "17:50 UTC",
+            "lat": 27.003045496709873,
+            "lng": 58.093932985032026,
             "tipo": "Ataque con Drones",
-            "intensidad": "Alta",
+            "intensidad": "Media",
             "actor": "Ir\u00e1n",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+            "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-7396",
+            "fecha": "17:50 UTC",
+            "lat": 27.06133610500254,
+            "lng": 55.65356042599399,
+            "tipo": "Ataque con Drones",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Hezbollah (L\u00edbano)",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-5464",
+            "fecha": "17:50 UTC",
+            "lat": 21.60747964878137,
+            "lng": 51.46051046453442,
+            "tipo": "Ciberataque a Infraestructura",
+            "intensidad": "Media",
+            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-4949",
+            "fecha": "17:50 UTC",
+            "lat": 28.55501879557239,
+            "lng": 52.69491436892291,
+            "tipo": "Intercepci\u00f3n Naval",
+            "intensidad": "Alta",
+            "actor": "Hut\u00edes (Yemen)",
+            "efecto": "MEDIO: Volatilidad de precios"
         }
     ]
 }
