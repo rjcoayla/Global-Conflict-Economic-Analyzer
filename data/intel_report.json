@@ -1,65 +1,65 @@
 {
-    "last_update": "2026-05-16 09:41:03 UTC",
-    "brent_price": 85.21,
-    "gold_price": 2405.36,
+    "last_update": "2026-05-16 13:22:57 UTC",
+    "brent_price": 89.27,
+    "gold_price": 2367.92,
     "incidentes": [
         {
-            "id": "EVT-9536",
-            "fecha": "09:41 UTC",
-            "lat": 15.459150565196147,
-            "lng": 45.17587873679782,
-            "tipo": "Misil Bal\u00edstico",
-            "intensidad": "Alta",
-            "actor": "Hut\u00edes (Yemen)",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+            "id": "EVT-1551",
+            "fecha": "13:22 UTC",
+            "lat": 23.459301417657425,
+            "lng": 45.656224090578675,
+            "tipo": "Sabotaje a Refiner\u00eda",
+            "intensidad": "Media",
+            "actor": "EE.UU.",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         },
         {
-            "id": "EVT-3647",
-            "fecha": "09:41 UTC",
-            "lat": 26.257010446430847,
-            "lng": 45.48791722185154,
+            "id": "EVT-2761",
+            "fecha": "13:22 UTC",
+            "lat": 23.637591877891385,
+            "lng": 48.96669219859234,
+            "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Hut\u00edes (Yemen)",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-1259",
+            "fecha": "13:22 UTC",
+            "lat": 34.17916038688956,
+            "lng": 38.814678316788765,
             "tipo": "Intercepci\u00f3n Naval",
             "intensidad": "Alta",
-            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
+            "actor": "EE.UU.",
             "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-1376",
-            "fecha": "09:41 UTC",
-            "lat": 16.483006635968433,
-            "lng": 53.39983928453461,
-            "tipo": "Ciberataque a Infraestructura",
-            "intensidad": "Media",
-            "actor": "Fuerzas de Israel",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-5736",
-            "fecha": "09:41 UTC",
-            "lat": 26.341201192968608,
-            "lng": 42.72989962557526,
+            "id": "EVT-8465",
+            "fecha": "13:22 UTC",
+            "lat": 15.61636431318243,
+            "lng": 54.23599480432152,
             "tipo": "Ataque con Drones",
             "intensidad": "Cr\u00edtica",
             "actor": "Hezbollah (L\u00edbano)",
-            "efecto": "MEDIO: Volatilidad de precios"
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         },
         {
-            "id": "EVT-5624",
-            "fecha": "09:41 UTC",
-            "lat": 25.180454118164945,
-            "lng": 45.979156831507694,
-            "tipo": "Ataque con Drones",
-            "intensidad": "Cr\u00edtica",
-            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
-            "efecto": "MEDIO: Volatilidad de precios"
-        },
-        {
-            "id": "EVT-4162",
-            "fecha": "09:41 UTC",
-            "lat": 15.54732359979124,
-            "lng": 41.16840984133359,
-            "tipo": "Misil Bal\u00edstico",
+            "id": "EVT-4923",
+            "fecha": "13:22 UTC",
+            "lat": 21.3771031489661,
+            "lng": 50.1910294157786,
+            "tipo": "Sabotaje a Refiner\u00eda",
             "intensidad": "Alta",
+            "actor": "Hezbollah (L\u00edbano)",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-4571",
+            "fecha": "13:22 UTC",
+            "lat": 27.425552078162426,
+            "lng": 40.28996389814884,
+            "tipo": "Sabotaje a Refiner\u00eda",
+            "intensidad": "Cr\u00edtica",
             "actor": "Fuerzas de Israel",
             "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         }
