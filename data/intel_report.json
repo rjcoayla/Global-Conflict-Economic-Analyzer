@@ -1,67 +1,67 @@
 {
-    "last_update": "2026-05-22 10:50:56 UTC",
-    "brent_price": 88.74,
-    "gold_price": 2394.37,
+    "last_update": "2026-05-22 14:39:47 UTC",
+    "brent_price": 91.45,
+    "gold_price": 2439.79,
     "incidentes": [
         {
-            "id": "EVT-1502",
-            "fecha": "10:50 UTC",
-            "lat": 26.826788762967244,
-            "lng": 42.568061271730215,
+            "id": "EVT-1258",
+            "fecha": "14:39 UTC",
+            "lat": 29.386304711629634,
+            "lng": 49.568069279358724,
             "tipo": "Sabotaje a Refiner\u00eda",
-            "intensidad": "Cr\u00edtica",
-            "actor": "EE.UU.",
-            "efecto": "MEDIO: Volatilidad de precios"
-        },
-        {
-            "id": "EVT-8499",
-            "fecha": "10:50 UTC",
-            "lat": 21.536154077765154,
-            "lng": 41.4308154875301,
-            "tipo": "Misil Bal\u00edstico",
-            "intensidad": "Cr\u00edtica",
-            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
-            "efecto": "MEDIO: Volatilidad de precios"
-        },
-        {
-            "id": "EVT-2312",
-            "fecha": "10:50 UTC",
-            "lat": 24.181631854596887,
-            "lng": 37.479124902532035,
-            "tipo": "Intercepci\u00f3n Naval",
             "intensidad": "Alta",
-            "actor": "Fuerzas de Israel",
+            "actor": "Ir\u00e1n",
+            "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-8059",
+            "fecha": "14:39 UTC",
+            "lat": 27.7191087954015,
+            "lng": 55.78686698371219,
+            "tipo": "Ataque con Drones",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Hezbollah (L\u00edbano)",
             "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         },
         {
-            "id": "EVT-7712",
-            "fecha": "10:50 UTC",
-            "lat": 18.069980866412358,
-            "lng": 41.27709214061191,
-            "tipo": "Misil Bal\u00edstico",
+            "id": "EVT-5993",
+            "fecha": "14:39 UTC",
+            "lat": 17.464256228508322,
+            "lng": 38.31235048345329,
+            "tipo": "Ataque con Drones",
             "intensidad": "Media",
-            "actor": "Fuerzas de Israel",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-2370",
-            "fecha": "10:50 UTC",
-            "lat": 23.472880229552384,
-            "lng": 59.9600884726739,
-            "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Media",
-            "actor": "EE.UU.",
+            "actor": "Hut\u00edes (Yemen)",
             "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-4858",
-            "fecha": "10:50 UTC",
-            "lat": 24.536388732135766,
-            "lng": 51.49828261018642,
-            "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Alta",
+            "id": "EVT-9401",
+            "fecha": "14:39 UTC",
+            "lat": 16.391856403034485,
+            "lng": 37.47495429821515,
+            "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Cr\u00edtica",
             "actor": "Hezbollah (L\u00edbano)",
+            "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-1321",
+            "fecha": "14:39 UTC",
+            "lat": 13.843372667033245,
+            "lng": 40.30176853829439,
+            "tipo": "Intercepci\u00f3n Naval",
+            "intensidad": "Media",
+            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
             "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+        },
+        {
+            "id": "EVT-9244",
+            "fecha": "14:39 UTC",
+            "lat": 25.411174295185667,
+            "lng": 57.61554921708533,
+            "tipo": "Intercepci\u00f3n Naval",
+            "intensidad": "Media",
+            "actor": "Hut\u00edes (Yemen)",
+            "efecto": "MEDIO: Volatilidad de precios"
         }
     ]
 }
