@@ -1,67 +1,67 @@
 {
-    "last_update": "2026-05-22 14:39:47 UTC",
-    "brent_price": 91.45,
-    "gold_price": 2439.79,
+    "last_update": "2026-05-22 17:51:37 UTC",
+    "brent_price": 85.03,
+    "gold_price": 2318.68,
     "incidentes": [
         {
-            "id": "EVT-1258",
-            "fecha": "14:39 UTC",
-            "lat": 29.386304711629634,
-            "lng": 49.568069279358724,
-            "tipo": "Sabotaje a Refiner\u00eda",
+            "id": "EVT-8076",
+            "fecha": "17:51 UTC",
+            "lat": 19.552754263666262,
+            "lng": 50.99866652380405,
+            "tipo": "Ciberataque a Infraestructura",
             "intensidad": "Alta",
-            "actor": "Ir\u00e1n",
-            "efecto": "MEDIO: Volatilidad de precios"
-        },
-        {
-            "id": "EVT-8059",
-            "fecha": "14:39 UTC",
-            "lat": 27.7191087954015,
-            "lng": 55.78686698371219,
-            "tipo": "Ataque con Drones",
-            "intensidad": "Cr\u00edtica",
-            "actor": "Hezbollah (L\u00edbano)",
+            "actor": "Hut\u00edes (Yemen)",
             "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         },
         {
-            "id": "EVT-5993",
-            "fecha": "14:39 UTC",
-            "lat": 17.464256228508322,
-            "lng": 38.31235048345329,
-            "tipo": "Ataque con Drones",
-            "intensidad": "Media",
-            "actor": "Hut\u00edes (Yemen)",
+            "id": "EVT-3800",
+            "fecha": "17:51 UTC",
+            "lat": 15.339233578242567,
+            "lng": 48.414055127690126,
+            "tipo": "Ciberataque a Infraestructura",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
             "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-9401",
-            "fecha": "14:39 UTC",
-            "lat": 16.391856403034485,
-            "lng": 37.47495429821515,
-            "tipo": "Misil Bal\u00edstico",
-            "intensidad": "Cr\u00edtica",
+            "id": "EVT-3467",
+            "fecha": "17:51 UTC",
+            "lat": 29.992506825565368,
+            "lng": 53.984648838001874,
+            "tipo": "Intercepci\u00f3n Naval",
+            "intensidad": "Media",
             "actor": "Hezbollah (L\u00edbano)",
             "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-1321",
-            "fecha": "14:39 UTC",
-            "lat": 13.843372667033245,
-            "lng": 40.30176853829439,
-            "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Media",
-            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+            "id": "EVT-8974",
+            "fecha": "17:51 UTC",
+            "lat": 21.9707912489296,
+            "lng": 45.58044839216983,
+            "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Ir\u00e1n",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         },
         {
-            "id": "EVT-9244",
-            "fecha": "14:39 UTC",
-            "lat": 25.411174295185667,
-            "lng": 57.61554921708533,
+            "id": "EVT-2462",
+            "fecha": "17:51 UTC",
+            "lat": 17.95999383981736,
+            "lng": 46.52238653577258,
+            "tipo": "Intercepci\u00f3n Naval",
+            "intensidad": "Alta",
+            "actor": "Fuerzas de Israel",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-2141",
+            "fecha": "17:51 UTC",
+            "lat": 26.369338520384474,
+            "lng": 40.246578042912624,
             "tipo": "Intercepci\u00f3n Naval",
             "intensidad": "Media",
-            "actor": "Hut\u00edes (Yemen)",
-            "efecto": "MEDIO: Volatilidad de precios"
+            "actor": "EE.UU.",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         }
     ]
 }
