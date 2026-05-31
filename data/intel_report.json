@@ -1,66 +1,66 @@
 {
-    "last_update": "2026-05-31 17:06:01 UTC",
-    "brent_price": 89.81,
-    "gold_price": 2355.39,
+    "last_update": "2026-05-31 21:00:08 UTC",
+    "brent_price": 88.41,
+    "gold_price": 2312.68,
     "incidentes": [
         {
-            "id": "EVT-8094",
-            "fecha": "17:06 UTC",
-            "lat": 24.994313760749407,
-            "lng": 42.74224566089043,
-            "tipo": "Misil Bal\u00edstico",
-            "intensidad": "Media",
+            "id": "EVT-2175",
+            "fecha": "21:00 UTC",
+            "lat": 17.44448046213402,
+            "lng": 42.757741906359584,
+            "tipo": "Sabotaje a Refiner\u00eda",
+            "intensidad": "Cr\u00edtica",
             "actor": "Fuerzas de Israel",
             "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         },
         {
-            "id": "EVT-9405",
-            "fecha": "17:06 UTC",
-            "lat": 31.167198010656513,
-            "lng": 41.02306853894402,
-            "tipo": "Sabotaje a Refiner\u00eda",
+            "id": "EVT-7929",
+            "fecha": "21:00 UTC",
+            "lat": 12.597846911067546,
+            "lng": 46.7472579629726,
+            "tipo": "Misil Bal\u00edstico",
             "intensidad": "Alta",
+            "actor": "Hezbollah (L\u00edbano)",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+        },
+        {
+            "id": "EVT-4301",
+            "fecha": "21:00 UTC",
+            "lat": 31.93074846118319,
+            "lng": 47.18760220201269,
+            "tipo": "Intercepci\u00f3n Naval",
+            "intensidad": "Alta",
+            "actor": "EE.UU.",
+            "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-7345",
+            "fecha": "21:00 UTC",
+            "lat": 16.628656220626894,
+            "lng": 37.12633570372803,
+            "tipo": "Sabotaje a Refiner\u00eda",
+            "intensidad": "Cr\u00edtica",
             "actor": "Hut\u00edes (Yemen)",
             "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         },
         {
-            "id": "EVT-3039",
-            "fecha": "17:06 UTC",
-            "lat": 34.46603209589823,
-            "lng": 42.0506249440397,
+            "id": "EVT-1967",
+            "fecha": "21:00 UTC",
+            "lat": 31.384386797399554,
+            "lng": 57.412449382894444,
             "tipo": "Ataque con Drones",
-            "intensidad": "Media",
-            "actor": "EE.UU.",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-9385",
-            "fecha": "17:06 UTC",
-            "lat": 28.212405820491444,
-            "lng": 53.62781126762035,
-            "tipo": "Ataque con Drones",
-            "intensidad": "Media",
-            "actor": "Ir\u00e1n",
-            "efecto": "MEDIO: Volatilidad de precios"
-        },
-        {
-            "id": "EVT-6270",
-            "fecha": "17:06 UTC",
-            "lat": 31.48039000367495,
-            "lng": 55.71854520497061,
-            "tipo": "Ataque con Drones",
-            "intensidad": "Alta",
-            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
-            "efecto": "MEDIO: Volatilidad de precios"
-        },
-        {
-            "id": "EVT-9280",
-            "fecha": "17:06 UTC",
-            "lat": 13.63833898016534,
-            "lng": 50.345160483784014,
-            "tipo": "Sabotaje a Refiner\u00eda",
             "intensidad": "Cr\u00edtica",
-            "actor": "Fuerzas de Israel",
+            "actor": "Hezbollah (L\u00edbano)",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-4763",
+            "fecha": "21:00 UTC",
+            "lat": 21.86970442050176,
+            "lng": 58.86590020145208,
+            "tipo": "Sabotaje a Refiner\u00eda",
+            "intensidad": "Alta",
+            "actor": "Ir\u00e1n",
             "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         }
     ]
