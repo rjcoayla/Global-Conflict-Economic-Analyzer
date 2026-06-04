@@ -1,67 +1,67 @@
 {
-    "last_update": "2026-06-04 18:15:27 UTC",
-    "brent_price": 92.26,
-    "gold_price": 2313.16,
+    "last_update": "2026-06-04 21:41:34 UTC",
+    "brent_price": 89.98,
+    "gold_price": 2367.06,
     "incidentes": [
         {
-            "id": "EVT-7792",
-            "fecha": "18:15 UTC",
-            "lat": 32.14418538057846,
-            "lng": 55.216991260683685,
+            "id": "EVT-4547",
+            "fecha": "21:41 UTC",
+            "lat": 34.333170753927284,
+            "lng": 58.06471230676416,
+            "tipo": "Ataque con Drones",
+            "intensidad": "Alta",
+            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-5661",
+            "fecha": "21:41 UTC",
+            "lat": 12.0788603283616,
+            "lng": 39.78785470441335,
             "tipo": "Misil Bal\u00edstico",
-            "intensidad": "Media",
+            "intensidad": "Cr\u00edtica",
             "actor": "EE.UU.",
             "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         },
         {
-            "id": "EVT-1154",
-            "fecha": "18:15 UTC",
-            "lat": 18.84808119446796,
-            "lng": 41.33236477565851,
-            "tipo": "Intercepci\u00f3n Naval",
+            "id": "EVT-3230",
+            "fecha": "21:41 UTC",
+            "lat": 13.523921635146952,
+            "lng": 46.54753113652801,
+            "tipo": "Misil Bal\u00edstico",
             "intensidad": "Alta",
             "actor": "Hut\u00edes (Yemen)",
             "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         },
         {
-            "id": "EVT-3574",
-            "fecha": "18:15 UTC",
-            "lat": 34.95239144703062,
-            "lng": 54.03786592482002,
-            "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Alta",
-            "actor": "Ir\u00e1n",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
-        },
-        {
-            "id": "EVT-3741",
-            "fecha": "18:15 UTC",
-            "lat": 30.003797534849838,
-            "lng": 52.50655706120146,
-            "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Cr\u00edtica",
-            "actor": "Ir\u00e1n",
-            "efecto": "MEDIO: Volatilidad de precios"
-        },
-        {
-            "id": "EVT-1416",
-            "fecha": "18:15 UTC",
-            "lat": 17.805496888638064,
-            "lng": 45.22667916430369,
-            "tipo": "Sabotaje a Refiner\u00eda",
-            "intensidad": "Cr\u00edtica",
-            "actor": "Hut\u00edes (Yemen)",
-            "efecto": "MEDIO: Volatilidad de precios"
-        },
-        {
-            "id": "EVT-2195",
-            "fecha": "18:15 UTC",
-            "lat": 20.805772416977582,
-            "lng": 41.172001013187995,
+            "id": "EVT-6795",
+            "fecha": "21:41 UTC",
+            "lat": 29.93972151063188,
+            "lng": 54.90656997884161,
             "tipo": "Ataque con Drones",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
+            "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-9179",
+            "fecha": "21:41 UTC",
+            "lat": 26.697368838655883,
+            "lng": 54.83073256798842,
+            "tipo": "Ataque con Drones",
+            "intensidad": "Alta",
+            "actor": "Ir\u00e1n",
+            "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-4202",
+            "fecha": "21:41 UTC",
+            "lat": 13.78758991676886,
+            "lng": 56.498321121763375,
+            "tipo": "Intercepci\u00f3n Naval",
             "intensidad": "Media",
-            "actor": "Hezbollah (L\u00edbano)",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         }
     ]
 }
