@@ -1,67 +1,67 @@
 {
-    "last_update": "2026-06-05 08:07:10 UTC",
-    "brent_price": 92.17,
-    "gold_price": 2407.76,
+    "last_update": "2026-06-05 14:51:48 UTC",
+    "brent_price": 86.49,
+    "gold_price": 2413.93,
     "incidentes": [
         {
-            "id": "EVT-5249",
-            "fecha": "08:07 UTC",
-            "lat": 32.10857396043517,
-            "lng": 53.27317943788372,
+            "id": "EVT-5870",
+            "fecha": "14:51 UTC",
+            "lat": 22.520563831668163,
+            "lng": 54.4780049504711,
             "tipo": "Intercepci\u00f3n Naval",
             "intensidad": "Cr\u00edtica",
-            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+            "actor": "Ir\u00e1n",
+            "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-3826",
-            "fecha": "08:07 UTC",
-            "lat": 22.262169936721303,
-            "lng": 58.11315702382864,
-            "tipo": "Ciberataque a Infraestructura",
+            "id": "EVT-2212",
+            "fecha": "14:51 UTC",
+            "lat": 26.00943846638988,
+            "lng": 36.75275550229161,
+            "tipo": "Misil Bal\u00edstico",
             "intensidad": "Alta",
-            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
+            "actor": "Fuerzas de Israel",
             "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         },
         {
-            "id": "EVT-5049",
-            "fecha": "08:07 UTC",
-            "lat": 32.36048876500327,
-            "lng": 52.34668187654546,
+            "id": "EVT-6778",
+            "fecha": "14:51 UTC",
+            "lat": 18.582540056561292,
+            "lng": 43.082648524419106,
             "tipo": "Misil Bal\u00edstico",
-            "intensidad": "Media",
-            "actor": "Hut\u00edes (Yemen)",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+            "intensidad": "Cr\u00edtica",
+            "actor": "Hezbollah (L\u00edbano)",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         },
         {
-            "id": "EVT-2885",
-            "fecha": "08:07 UTC",
-            "lat": 20.606836358532703,
-            "lng": 50.14917435706363,
-            "tipo": "Ciberataque a Infraestructura",
-            "intensidad": "Media",
+            "id": "EVT-2188",
+            "fecha": "14:51 UTC",
+            "lat": 26.4552988177893,
+            "lng": 45.33186316309916,
+            "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Cr\u00edtica",
             "actor": "Fuerzas de Israel",
             "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-7647",
-            "fecha": "08:07 UTC",
-            "lat": 32.54244116390184,
-            "lng": 56.73740508017038,
+            "id": "EVT-3519",
+            "fecha": "14:51 UTC",
+            "lat": 27.102479867394543,
+            "lng": 41.53143392524977,
             "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Alta",
-            "actor": "EE.UU.",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+            "intensidad": "Cr\u00edtica",
+            "actor": "Hezbollah (L\u00edbano)",
+            "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-9034",
-            "fecha": "08:07 UTC",
-            "lat": 12.00558356516202,
-            "lng": 38.29286224004784,
-            "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Alta",
-            "actor": "Fuerzas de Israel",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+            "id": "EVT-6924",
+            "fecha": "14:51 UTC",
+            "lat": 27.93523345642706,
+            "lng": 54.93551077031646,
+            "tipo": "Sabotaje a Refiner\u00eda",
+            "intensidad": "Media",
+            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         }
     ]
 }
