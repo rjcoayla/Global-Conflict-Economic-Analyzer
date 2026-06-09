@@ -1,66 +1,66 @@
 {
-    "last_update": "2026-06-08 21:50:01 UTC",
-    "brent_price": 88.98,
-    "gold_price": 2437.35,
+    "last_update": "2026-06-09 03:32:54 UTC",
+    "brent_price": 88.53,
+    "gold_price": 2338.45,
     "incidentes": [
         {
-            "id": "EVT-3334",
-            "fecha": "21:50 UTC",
-            "lat": 26.353132374550434,
-            "lng": 49.360053206286445,
-            "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Alta",
-            "actor": "EE.UU.",
-            "efecto": "MEDIO: Volatilidad de precios"
-        },
-        {
-            "id": "EVT-7155",
-            "fecha": "21:50 UTC",
-            "lat": 24.89178467988942,
-            "lng": 45.5353837277885,
-            "tipo": "Ciberataque a Infraestructura",
-            "intensidad": "Alta",
-            "actor": "EE.UU.",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-5212",
-            "fecha": "21:50 UTC",
-            "lat": 20.974310147696556,
-            "lng": 49.18174597428009,
-            "tipo": "Sabotaje a Refiner\u00eda",
-            "intensidad": "Media",
-            "actor": "Ir\u00e1n",
-            "efecto": "MEDIO: Volatilidad de precios"
-        },
-        {
-            "id": "EVT-6947",
-            "fecha": "21:50 UTC",
-            "lat": 30.686847843390442,
-            "lng": 48.835960492988974,
-            "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Cr\u00edtica",
-            "actor": "Ir\u00e1n",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-2284",
-            "fecha": "21:50 UTC",
-            "lat": 26.407505071365268,
-            "lng": 47.76238145873576,
+            "id": "EVT-4168",
+            "fecha": "03:32 UTC",
+            "lat": 24.177577201793383,
+            "lng": 55.50653844771088,
             "tipo": "Ataque con Drones",
             "intensidad": "Alta",
+            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-5460",
+            "fecha": "03:32 UTC",
+            "lat": 31.989288828715857,
+            "lng": 50.27287436189065,
+            "tipo": "Ataque con Drones",
+            "intensidad": "Cr\u00edtica",
             "actor": "Ir\u00e1n",
             "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-7727",
-            "fecha": "21:50 UTC",
-            "lat": 26.386063856302584,
-            "lng": 35.8994313541927,
+            "id": "EVT-9622",
+            "fecha": "03:32 UTC",
+            "lat": 12.876222352220749,
+            "lng": 42.10815673863197,
             "tipo": "Ciberataque a Infraestructura",
+            "intensidad": "Alta",
+            "actor": "EE.UU.",
+            "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-7282",
+            "fecha": "03:32 UTC",
+            "lat": 15.610528119925107,
+            "lng": 46.33663655349591,
+            "tipo": "Ataque con Drones",
+            "intensidad": "Cr\u00edtica",
+            "actor": "EE.UU.",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-7337",
+            "fecha": "03:32 UTC",
+            "lat": 16.89628762020522,
+            "lng": 56.622356362446126,
+            "tipo": "Sabotaje a Refiner\u00eda",
+            "intensidad": "Alta",
+            "actor": "Fuerzas de Israel",
+            "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-8864",
+            "fecha": "03:32 UTC",
+            "lat": 22.725082082163574,
+            "lng": 37.27061357950846,
+            "tipo": "Ataque con Drones",
             "intensidad": "Media",
-            "actor": "Hezbollah (L\u00edbano)",
+            "actor": "Ir\u00e1n",
             "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         }
     ]
