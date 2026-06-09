@@ -1,67 +1,67 @@
 {
-    "last_update": "2026-06-09 03:32:54 UTC",
-    "brent_price": 88.53,
-    "gold_price": 2338.45,
+    "last_update": "2026-06-09 07:49:54 UTC",
+    "brent_price": 87.77,
+    "gold_price": 2354.2,
     "incidentes": [
         {
-            "id": "EVT-4168",
-            "fecha": "03:32 UTC",
-            "lat": 24.177577201793383,
-            "lng": 55.50653844771088,
-            "tipo": "Ataque con Drones",
-            "intensidad": "Alta",
-            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
-        },
-        {
-            "id": "EVT-5460",
-            "fecha": "03:32 UTC",
-            "lat": 31.989288828715857,
-            "lng": 50.27287436189065,
-            "tipo": "Ataque con Drones",
-            "intensidad": "Cr\u00edtica",
-            "actor": "Ir\u00e1n",
-            "efecto": "MEDIO: Volatilidad de precios"
-        },
-        {
-            "id": "EVT-9622",
-            "fecha": "03:32 UTC",
-            "lat": 12.876222352220749,
-            "lng": 42.10815673863197,
-            "tipo": "Ciberataque a Infraestructura",
-            "intensidad": "Alta",
-            "actor": "EE.UU.",
-            "efecto": "MEDIO: Volatilidad de precios"
-        },
-        {
-            "id": "EVT-7282",
-            "fecha": "03:32 UTC",
-            "lat": 15.610528119925107,
-            "lng": 46.33663655349591,
-            "tipo": "Ataque con Drones",
-            "intensidad": "Cr\u00edtica",
-            "actor": "EE.UU.",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
-        },
-        {
-            "id": "EVT-7337",
-            "fecha": "03:32 UTC",
-            "lat": 16.89628762020522,
-            "lng": 56.622356362446126,
-            "tipo": "Sabotaje a Refiner\u00eda",
-            "intensidad": "Alta",
-            "actor": "Fuerzas de Israel",
-            "efecto": "MEDIO: Volatilidad de precios"
-        },
-        {
-            "id": "EVT-8864",
-            "fecha": "03:32 UTC",
-            "lat": 22.725082082163574,
-            "lng": 37.27061357950846,
-            "tipo": "Ataque con Drones",
+            "id": "EVT-5111",
+            "fecha": "07:49 UTC",
+            "lat": 18.76779345742293,
+            "lng": 42.38965334529186,
+            "tipo": "Misil Bal\u00edstico",
             "intensidad": "Media",
             "actor": "Ir\u00e1n",
+            "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-1728",
+            "fecha": "07:49 UTC",
+            "lat": 15.152007611040801,
+            "lng": 35.38697108542363,
+            "tipo": "Ataque con Drones",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Ir\u00e1n",
+            "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-8420",
+            "fecha": "07:49 UTC",
+            "lat": 13.273726378414139,
+            "lng": 59.181120112217684,
+            "tipo": "Intercepci\u00f3n Naval",
+            "intensidad": "Media",
+            "actor": "EE.UU.",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+        },
+        {
+            "id": "EVT-8750",
+            "fecha": "07:49 UTC",
+            "lat": 28.054782267074604,
+            "lng": 39.533775537302496,
+            "tipo": "Ataque con Drones",
+            "intensidad": "Alta",
+            "actor": "EE.UU.",
             "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-6765",
+            "fecha": "07:49 UTC",
+            "lat": 30.996757074050915,
+            "lng": 36.76886367795135,
+            "tipo": "Sabotaje a Refiner\u00eda",
+            "intensidad": "Alta",
+            "actor": "Hut\u00edes (Yemen)",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-6124",
+            "fecha": "07:49 UTC",
+            "lat": 13.354414415583722,
+            "lng": 37.06722399780457,
+            "tipo": "Intercepci\u00f3n Naval",
+            "intensidad": "Media",
+            "actor": "Fuerzas de Israel",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         }
     ]
 }
