@@ -1,67 +1,67 @@
 {
-    "last_update": "2026-06-10 15:35:05 UTC",
-    "brent_price": 87.67,
-    "gold_price": 2394.87,
+    "last_update": "2026-06-10 18:30:07 UTC",
+    "brent_price": 92.44,
+    "gold_price": 2339.08,
     "incidentes": [
         {
-            "id": "EVT-9843",
-            "fecha": "15:35 UTC",
-            "lat": 14.381153092937273,
-            "lng": 56.155524805790186,
-            "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Alta",
-            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
-            "efecto": "MEDIO: Volatilidad de precios"
-        },
-        {
-            "id": "EVT-4010",
-            "fecha": "15:35 UTC",
-            "lat": 31.534173024692976,
-            "lng": 36.83856577127463,
-            "tipo": "Ataque con Drones",
-            "intensidad": "Cr\u00edtica",
-            "actor": "Hezbollah (L\u00edbano)",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-6910",
-            "fecha": "15:35 UTC",
-            "lat": 19.911917107919884,
-            "lng": 54.031227495676106,
-            "tipo": "Misil Bal\u00edstico",
-            "intensidad": "Media",
-            "actor": "Fuerzas de Israel",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-2366",
-            "fecha": "15:35 UTC",
-            "lat": 26.56071299739844,
-            "lng": 54.66807567752993,
-            "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Alta",
-            "actor": "Hezbollah (L\u00edbano)",
-            "efecto": "MEDIO: Volatilidad de precios"
-        },
-        {
-            "id": "EVT-9677",
-            "fecha": "15:35 UTC",
-            "lat": 31.794649776162206,
-            "lng": 45.4859031619012,
+            "id": "EVT-8299",
+            "fecha": "18:30 UTC",
+            "lat": 34.9804530939994,
+            "lng": 45.09581012151516,
             "tipo": "Ciberataque a Infraestructura",
             "intensidad": "Alta",
+            "actor": "Hut\u00edes (Yemen)",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+        },
+        {
+            "id": "EVT-4683",
+            "fecha": "18:30 UTC",
+            "lat": 23.95065595926713,
+            "lng": 40.840301651745726,
+            "tipo": "Intercepci\u00f3n Naval",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Fuerzas de Israel",
+            "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-1456",
+            "fecha": "18:30 UTC",
+            "lat": 25.25896023745951,
+            "lng": 41.318649482304345,
+            "tipo": "Ataque con Drones",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-5975",
+            "fecha": "18:30 UTC",
+            "lat": 34.02253734897417,
+            "lng": 44.2177332018952,
+            "tipo": "Ataque con Drones",
+            "intensidad": "Cr\u00edtica",
             "actor": "Ir\u00e1n",
             "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         },
         {
-            "id": "EVT-7223",
-            "fecha": "15:35 UTC",
-            "lat": 34.90369275765178,
-            "lng": 39.16505189049715,
-            "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Cr\u00edtica",
+            "id": "EVT-9123",
+            "fecha": "18:30 UTC",
+            "lat": 14.527222742905712,
+            "lng": 35.59473084833541,
+            "tipo": "Sabotaje a Refiner\u00eda",
+            "intensidad": "Alta",
             "actor": "EE.UU.",
             "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-9575",
+            "fecha": "18:30 UTC",
+            "lat": 30.438500810095356,
+            "lng": 53.61606494219848,
+            "tipo": "Intercepci\u00f3n Naval",
+            "intensidad": "Media",
+            "actor": "Hut\u00edes (Yemen)",
+            "efecto": "MEDIO: Volatilidad de precios"
         }
     ]
 }
