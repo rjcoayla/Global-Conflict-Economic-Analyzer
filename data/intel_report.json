@@ -1,67 +1,67 @@
 {
-    "last_update": "2026-06-10 22:02:45 UTC",
-    "brent_price": 88.95,
-    "gold_price": 2449.02,
+    "last_update": "2026-06-11 04:00:28 UTC",
+    "brent_price": 87.82,
+    "gold_price": 2312.29,
     "incidentes": [
         {
-            "id": "EVT-5434",
-            "fecha": "22:02 UTC",
-            "lat": 25.08712988884477,
-            "lng": 58.1492344715336,
-            "tipo": "Sabotaje a Refiner\u00eda",
+            "id": "EVT-2836",
+            "fecha": "04:00 UTC",
+            "lat": 27.86397637457045,
+            "lng": 58.637378287439844,
+            "tipo": "Ataque con Drones",
             "intensidad": "Media",
-            "actor": "Fuerzas de Israel",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-1995",
-            "fecha": "22:02 UTC",
-            "lat": 33.69408284013896,
-            "lng": 38.43730172883113,
-            "tipo": "Sabotaje a Refiner\u00eda",
-            "intensidad": "Alta",
-            "actor": "Fuerzas de Israel",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-2472",
-            "fecha": "22:02 UTC",
-            "lat": 13.461231212660419,
-            "lng": 38.55090273314736,
-            "tipo": "Ciberataque a Infraestructura",
-            "intensidad": "Cr\u00edtica",
-            "actor": "Hezbollah (L\u00edbano)",
-            "efecto": "MEDIO: Volatilidad de precios"
-        },
-        {
-            "id": "EVT-7789",
-            "fecha": "22:02 UTC",
-            "lat": 24.66141972648561,
-            "lng": 39.10065649753837,
-            "tipo": "Misil Bal\u00edstico",
-            "intensidad": "Cr\u00edtica",
-            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-6505",
-            "fecha": "22:02 UTC",
-            "lat": 30.108862871222406,
-            "lng": 58.918836425589234,
-            "tipo": "Misil Bal\u00edstico",
-            "intensidad": "Cr\u00edtica",
-            "actor": "Fuerzas de Israel",
+            "actor": "EE.UU.",
             "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         },
         {
-            "id": "EVT-2008",
-            "fecha": "22:02 UTC",
-            "lat": 13.310074220956851,
-            "lng": 43.50338131717242,
-            "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Media",
-            "actor": "Hezbollah (L\u00edbano)",
+            "id": "EVT-2063",
+            "fecha": "04:00 UTC",
+            "lat": 25.545444614766936,
+            "lng": 46.60514440911777,
+            "tipo": "Ataque con Drones",
+            "intensidad": "Alta",
+            "actor": "Ir\u00e1n",
             "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-8123",
+            "fecha": "04:00 UTC",
+            "lat": 31.9733246443896,
+            "lng": 56.48928359452219,
+            "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Ir\u00e1n",
+            "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-6188",
+            "fecha": "04:00 UTC",
+            "lat": 19.65313626364727,
+            "lng": 42.7850875790869,
+            "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Alta",
+            "actor": "Hut\u00edes (Yemen)",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+        },
+        {
+            "id": "EVT-4144",
+            "fecha": "04:00 UTC",
+            "lat": 27.28538571387702,
+            "lng": 43.6725257383129,
+            "tipo": "Ataque con Drones",
+            "intensidad": "Media",
+            "actor": "Hut\u00edes (Yemen)",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+        },
+        {
+            "id": "EVT-4894",
+            "fecha": "04:00 UTC",
+            "lat": 13.359933078364344,
+            "lng": 45.71445503492865,
+            "tipo": "Sabotaje a Refiner\u00eda",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Ir\u00e1n",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         }
     ]
 }
