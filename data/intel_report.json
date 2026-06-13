@@ -1,67 +1,67 @@
 {
-    "last_update": "2026-06-13 03:47:30 UTC",
-    "brent_price": 85.83,
-    "gold_price": 2410.19,
+    "last_update": "2026-06-13 07:47:41 UTC",
+    "brent_price": 92.75,
+    "gold_price": 2338.98,
     "incidentes": [
         {
-            "id": "EVT-8887",
-            "fecha": "03:47 UTC",
-            "lat": 17.204882235504055,
-            "lng": 45.88770580738809,
+            "id": "EVT-9032",
+            "fecha": "07:47 UTC",
+            "lat": 14.780972841037094,
+            "lng": 52.38109311498381,
             "tipo": "Ciberataque a Infraestructura",
-            "intensidad": "Media",
-            "actor": "Fuerzas de Israel",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
-        },
-        {
-            "id": "EVT-5336",
-            "fecha": "03:47 UTC",
-            "lat": 21.70838744049438,
-            "lng": 59.75319245194162,
-            "tipo": "Ataque con Drones",
-            "intensidad": "Alta",
-            "actor": "Ir\u00e1n",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-9035",
-            "fecha": "03:47 UTC",
-            "lat": 30.353578883498738,
-            "lng": 54.45994675342101,
-            "tipo": "Ataque con Drones",
-            "intensidad": "Media",
+            "intensidad": "Cr\u00edtica",
             "actor": "Hezbollah (L\u00edbano)",
             "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         },
         {
-            "id": "EVT-4507",
-            "fecha": "03:47 UTC",
-            "lat": 34.43982633356036,
-            "lng": 38.93963682363163,
-            "tipo": "Ciberataque a Infraestructura",
-            "intensidad": "Alta",
-            "actor": "EE.UU.",
+            "id": "EVT-9282",
+            "fecha": "07:47 UTC",
+            "lat": 29.044328548837143,
+            "lng": 52.08926408202311,
+            "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Media",
+            "actor": "Fuerzas de Israel",
             "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         },
         {
-            "id": "EVT-4758",
-            "fecha": "03:47 UTC",
-            "lat": 33.2276825722369,
-            "lng": 51.4109511084326,
-            "tipo": "Ciberataque a Infraestructura",
+            "id": "EVT-7675",
+            "fecha": "07:47 UTC",
+            "lat": 30.64922159701311,
+            "lng": 57.55377563098068,
+            "tipo": "Misil Bal\u00edstico",
             "intensidad": "Media",
             "actor": "EE.UU.",
             "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-9700",
-            "fecha": "03:47 UTC",
-            "lat": 14.85996505324188,
-            "lng": 59.54618445794813,
-            "tipo": "Ataque con Drones",
+            "id": "EVT-1315",
+            "fecha": "07:47 UTC",
+            "lat": 23.66472596770828,
+            "lng": 57.23872004511301,
+            "tipo": "Sabotaje a Refiner\u00eda",
             "intensidad": "Media",
-            "actor": "Fuerzas de Israel",
-            "efecto": "MEDIO: Volatilidad de precios"
+            "actor": "Hezbollah (L\u00edbano)",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+        },
+        {
+            "id": "EVT-3057",
+            "fecha": "07:47 UTC",
+            "lat": 29.70921221581851,
+            "lng": 55.194403290562825,
+            "tipo": "Ciberataque a Infraestructura",
+            "intensidad": "Alta",
+            "actor": "Hut\u00edes (Yemen)",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-4544",
+            "fecha": "07:47 UTC",
+            "lat": 26.87460340738714,
+            "lng": 57.754453832274635,
+            "tipo": "Ataque con Drones",
+            "intensidad": "Alta",
+            "actor": "Hezbollah (L\u00edbano)",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         }
     ]
 }
