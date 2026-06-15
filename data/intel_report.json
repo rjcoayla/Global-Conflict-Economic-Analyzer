@@ -1,66 +1,66 @@
 {
-    "last_update": "2026-06-15 13:55:25 UTC",
-    "brent_price": 86.69,
-    "gold_price": 2411.95,
+    "last_update": "2026-06-15 19:47:53 UTC",
+    "brent_price": 87.07,
+    "gold_price": 2437.61,
     "incidentes": [
         {
-            "id": "EVT-6130",
-            "fecha": "13:55 UTC",
-            "lat": 34.71730543281399,
-            "lng": 42.477066625588556,
+            "id": "EVT-5905",
+            "fecha": "19:47 UTC",
+            "lat": 22.292429339121327,
+            "lng": 35.353567677159816,
             "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Alta",
-            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
-            "efecto": "MEDIO: Volatilidad de precios"
-        },
-        {
-            "id": "EVT-7186",
-            "fecha": "13:55 UTC",
-            "lat": 31.36559191274484,
-            "lng": 57.2338184851213,
-            "tipo": "Ataque con Drones",
-            "intensidad": "Cr\u00edtica",
-            "actor": "Ir\u00e1n",
-            "efecto": "MEDIO: Volatilidad de precios"
-        },
-        {
-            "id": "EVT-2469",
-            "fecha": "13:55 UTC",
-            "lat": 23.960055456846547,
-            "lng": 52.52328720016611,
-            "tipo": "Sabotaje a Refiner\u00eda",
-            "intensidad": "Alta",
+            "intensidad": "Media",
             "actor": "Hut\u00edes (Yemen)",
             "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-6884",
-            "fecha": "13:55 UTC",
-            "lat": 34.63721703158272,
-            "lng": 49.2553897281052,
-            "tipo": "Sabotaje a Refiner\u00eda",
-            "intensidad": "Media",
-            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
-        },
-        {
-            "id": "EVT-5370",
-            "fecha": "13:55 UTC",
-            "lat": 27.72170960872832,
-            "lng": 52.25470515677527,
-            "tipo": "Misil Bal\u00edstico",
-            "intensidad": "Media",
-            "actor": "Hezbollah (L\u00edbano)",
+            "id": "EVT-4495",
+            "fecha": "19:47 UTC",
+            "lat": 28.508448663819518,
+            "lng": 56.57502156101684,
+            "tipo": "Intercepci\u00f3n Naval",
+            "intensidad": "Cr\u00edtica",
+            "actor": "EE.UU.",
             "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-2394",
-            "fecha": "13:55 UTC",
-            "lat": 34.49615089284919,
-            "lng": 43.45383030316654,
-            "tipo": "Ciberataque a Infraestructura",
+            "id": "EVT-3738",
+            "fecha": "19:47 UTC",
+            "lat": 31.55519558336444,
+            "lng": 40.4776283785762,
+            "tipo": "Ataque con Drones",
+            "intensidad": "Cr\u00edtica",
+            "actor": "EE.UU.",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-5681",
+            "fecha": "19:47 UTC",
+            "lat": 12.372460339488846,
+            "lng": 47.21483241294974,
+            "tipo": "Intercepci\u00f3n Naval",
             "intensidad": "Media",
             "actor": "Fuerzas de Israel",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-3852",
+            "fecha": "19:47 UTC",
+            "lat": 32.8261246914396,
+            "lng": 57.0482188918024,
+            "tipo": "Sabotaje a Refiner\u00eda",
+            "intensidad": "Media",
+            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+        },
+        {
+            "id": "EVT-2845",
+            "fecha": "19:47 UTC",
+            "lat": 21.443601694682634,
+            "lng": 56.21848232281473,
+            "tipo": "Ataque con Drones",
+            "intensidad": "Media",
+            "actor": "Ir\u00e1n",
             "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         }
     ]
