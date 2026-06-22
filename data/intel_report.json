@@ -1,67 +1,67 @@
 {
-    "last_update": "2026-06-22 04:16:35 UTC",
-    "brent_price": 90.98,
-    "gold_price": 2439.08,
+    "last_update": "2026-06-22 13:34:50 UTC",
+    "brent_price": 89.41,
+    "gold_price": 2315.25,
     "incidentes": [
         {
-            "id": "EVT-2641",
-            "fecha": "04:16 UTC",
-            "lat": 33.167112761438375,
-            "lng": 54.90579039524758,
-            "tipo": "Misil Bal\u00edstico",
-            "intensidad": "Media",
-            "actor": "Hezbollah (L\u00edbano)",
+            "id": "EVT-9870",
+            "fecha": "13:34 UTC",
+            "lat": 18.730778895413128,
+            "lng": 58.971844259840765,
+            "tipo": "Ciberataque a Infraestructura",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Ir\u00e1n",
             "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-5232",
-            "fecha": "04:16 UTC",
-            "lat": 32.187956091518224,
-            "lng": 53.68403807011522,
-            "tipo": "Sabotaje a Refiner\u00eda",
-            "intensidad": "Cr\u00edtica",
-            "actor": "EE.UU.",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
-        },
-        {
-            "id": "EVT-8601",
-            "fecha": "04:16 UTC",
-            "lat": 25.290650397144105,
-            "lng": 42.28190988510536,
+            "id": "EVT-7512",
+            "fecha": "13:34 UTC",
+            "lat": 28.161886776341834,
+            "lng": 58.13744928752929,
             "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Cr\u00edtica",
-            "actor": "Fuerzas de Israel",
-            "efecto": "MEDIO: Volatilidad de precios"
-        },
-        {
-            "id": "EVT-2894",
-            "fecha": "04:16 UTC",
-            "lat": 16.767886819775793,
-            "lng": 46.38209892658782,
-            "tipo": "Misil Bal\u00edstico",
-            "intensidad": "Media",
-            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
-        },
-        {
-            "id": "EVT-7537",
-            "fecha": "04:16 UTC",
-            "lat": 14.120330068671391,
-            "lng": 59.69742794182278,
-            "tipo": "Sabotaje a Refiner\u00eda",
             "intensidad": "Alta",
             "actor": "Milicias Pro-Ir\u00e1n (Irak)",
             "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         },
         {
-            "id": "EVT-7065",
-            "fecha": "04:16 UTC",
-            "lat": 18.848058113652076,
-            "lng": 51.35658009914397,
-            "tipo": "Sabotaje a Refiner\u00eda",
+            "id": "EVT-2841",
+            "fecha": "13:34 UTC",
+            "lat": 31.534032718097308,
+            "lng": 38.253272879488456,
+            "tipo": "Misil Bal\u00edstico",
             "intensidad": "Media",
+            "actor": "Ir\u00e1n",
+            "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-8248",
+            "fecha": "13:34 UTC",
+            "lat": 24.486205931526325,
+            "lng": 54.93634183315535,
+            "tipo": "Sabotaje a Refiner\u00eda",
+            "intensidad": "Cr\u00edtica",
             "actor": "Fuerzas de Israel",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-2011",
+            "fecha": "13:34 UTC",
+            "lat": 20.928030147914985,
+            "lng": 46.33551457266253,
+            "tipo": "Sabotaje a Refiner\u00eda",
+            "intensidad": "Cr\u00edtica",
+            "actor": "EE.UU.",
+            "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-9337",
+            "fecha": "13:34 UTC",
+            "lat": 14.11871629420223,
+            "lng": 48.825786784638346,
+            "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Media",
+            "actor": "Ir\u00e1n",
+            "efecto": "MEDIO: Volatilidad de precios"
         }
     ]
 }
