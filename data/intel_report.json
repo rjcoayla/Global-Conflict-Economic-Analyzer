@@ -1,67 +1,67 @@
 {
-    "last_update": "2026-06-25 18:10:00 UTC",
-    "brent_price": 87.55,
-    "gold_price": 2395.71,
+    "last_update": "2026-06-25 21:42:33 UTC",
+    "brent_price": 92.68,
+    "gold_price": 2416.65,
     "incidentes": [
         {
-            "id": "EVT-3764",
-            "fecha": "18:10 UTC",
-            "lat": 19.079225133193592,
-            "lng": 46.1482444154627,
+            "id": "EVT-3121",
+            "fecha": "21:42 UTC",
+            "lat": 19.564321616760992,
+            "lng": 37.38943516056918,
             "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Media",
-            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
-        },
-        {
-            "id": "EVT-6471",
-            "fecha": "18:10 UTC",
-            "lat": 24.98791928601907,
-            "lng": 58.177902087747775,
-            "tipo": "Misil Bal\u00edstico",
             "intensidad": "Alta",
-            "actor": "EE.UU.",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
-        },
-        {
-            "id": "EVT-2801",
-            "fecha": "18:10 UTC",
-            "lat": 29.162921777303538,
-            "lng": 35.24772060996013,
-            "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Media",
-            "actor": "Fuerzas de Israel",
+            "actor": "Hut\u00edes (Yemen)",
             "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         },
         {
-            "id": "EVT-3150",
-            "fecha": "18:10 UTC",
-            "lat": 19.759633349762858,
-            "lng": 35.62976516967856,
+            "id": "EVT-4127",
+            "fecha": "21:42 UTC",
+            "lat": 21.009943482106397,
+            "lng": 36.27484810791265,
+            "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Media",
+            "actor": "EE.UU.",
+            "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-6219",
+            "fecha": "21:42 UTC",
+            "lat": 18.784796285582406,
+            "lng": 43.41951524106079,
+            "tipo": "Intercepci\u00f3n Naval",
+            "intensidad": "Alta",
+            "actor": "EE.UU.",
+            "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-7348",
+            "fecha": "21:42 UTC",
+            "lat": 29.777471304429557,
+            "lng": 38.16368744047218,
             "tipo": "Misil Bal\u00edstico",
             "intensidad": "Alta",
             "actor": "Hezbollah (L\u00edbano)",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+            "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-1427",
-            "fecha": "18:10 UTC",
-            "lat": 31.33687273080271,
-            "lng": 58.64422434707767,
-            "tipo": "Sabotaje a Refiner\u00eda",
-            "intensidad": "Cr\u00edtica",
-            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-3354",
-            "fecha": "18:10 UTC",
-            "lat": 27.14208029275978,
-            "lng": 39.463739493099965,
-            "tipo": "Misil Bal\u00edstico",
+            "id": "EVT-6145",
+            "fecha": "21:42 UTC",
+            "lat": 16.055469050413173,
+            "lng": 56.706735548683795,
+            "tipo": "Intercepci\u00f3n Naval",
             "intensidad": "Cr\u00edtica",
             "actor": "Hut\u00edes (Yemen)",
             "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+        },
+        {
+            "id": "EVT-3951",
+            "fecha": "21:42 UTC",
+            "lat": 13.35550843078131,
+            "lng": 48.83101266087778,
+            "tipo": "Ciberataque a Infraestructura",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Fuerzas de Israel",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         }
     ]
 }
