@@ -1,67 +1,67 @@
 {
-    "last_update": "2026-06-26 14:25:13 UTC",
-    "brent_price": 85.43,
-    "gold_price": 2447.02,
+    "last_update": "2026-06-26 17:48:01 UTC",
+    "brent_price": 91.04,
+    "gold_price": 2346.61,
     "incidentes": [
         {
-            "id": "EVT-1945",
-            "fecha": "14:25 UTC",
-            "lat": 21.55968507690065,
-            "lng": 43.521188059630404,
-            "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Media",
-            "actor": "EE.UU.",
-            "efecto": "MEDIO: Volatilidad de precios"
-        },
-        {
-            "id": "EVT-8204",
-            "fecha": "14:25 UTC",
-            "lat": 34.73045197288968,
-            "lng": 59.258660523099024,
-            "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Media",
-            "actor": "Hezbollah (L\u00edbano)",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
-        },
-        {
-            "id": "EVT-6187",
-            "fecha": "14:25 UTC",
-            "lat": 29.141784967873892,
-            "lng": 50.178709535758315,
+            "id": "EVT-2006",
+            "fecha": "17:48 UTC",
+            "lat": 18.701364462532265,
+            "lng": 53.12532991397554,
             "tipo": "Intercepci\u00f3n Naval",
             "intensidad": "Alta",
             "actor": "Milicias Pro-Ir\u00e1n (Irak)",
             "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         },
         {
-            "id": "EVT-7949",
-            "fecha": "14:25 UTC",
-            "lat": 21.12749536279248,
-            "lng": 50.8928376829881,
-            "tipo": "Sabotaje a Refiner\u00eda",
-            "intensidad": "Cr\u00edtica",
+            "id": "EVT-6231",
+            "fecha": "17:48 UTC",
+            "lat": 12.066527228628928,
+            "lng": 52.02695957723779,
+            "tipo": "Ataque con Drones",
+            "intensidad": "Alta",
+            "actor": "Ir\u00e1n",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+        },
+        {
+            "id": "EVT-6738",
+            "fecha": "17:48 UTC",
+            "lat": 30.778155969197826,
+            "lng": 39.00042225998061,
+            "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Media",
             "actor": "Ir\u00e1n",
             "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-7268",
-            "fecha": "14:25 UTC",
-            "lat": 13.056481523623114,
-            "lng": 48.27374397656221,
-            "tipo": "Sabotaje a Refiner\u00eda",
-            "intensidad": "Alta",
-            "actor": "Fuerzas de Israel",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+            "id": "EVT-6491",
+            "fecha": "17:48 UTC",
+            "lat": 26.597232666544564,
+            "lng": 40.66762262928956,
+            "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Hezbollah (L\u00edbano)",
+            "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-9079",
-            "fecha": "14:25 UTC",
-            "lat": 20.688284101937704,
-            "lng": 54.847909134807665,
-            "tipo": "Sabotaje a Refiner\u00eda",
-            "intensidad": "Media",
-            "actor": "Ir\u00e1n",
+            "id": "EVT-7688",
+            "fecha": "17:48 UTC",
+            "lat": 29.164473720154316,
+            "lng": 51.23767881973302,
+            "tipo": "Ataque con Drones",
+            "intensidad": "Alta",
+            "actor": "EE.UU.",
             "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-1823",
+            "fecha": "17:48 UTC",
+            "lat": 33.651481976367855,
+            "lng": 48.16867659263082,
+            "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Cr\u00edtica",
+            "actor": "EE.UU.",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         }
     ]
 }
