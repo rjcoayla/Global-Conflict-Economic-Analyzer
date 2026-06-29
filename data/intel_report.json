@@ -1,67 +1,67 @@
 {
-    "last_update": "2026-06-29 03:57:08 UTC",
-    "brent_price": 89.15,
-    "gold_price": 2328.78,
+    "last_update": "2026-06-29 09:01:45 UTC",
+    "brent_price": 84.5,
+    "gold_price": 2391.17,
     "incidentes": [
         {
-            "id": "EVT-9218",
-            "fecha": "03:57 UTC",
-            "lat": 22.174780381193703,
-            "lng": 42.684431084359744,
+            "id": "EVT-9715",
+            "fecha": "09:01 UTC",
+            "lat": 17.917350100906486,
+            "lng": 45.291853835647956,
             "tipo": "Misil Bal\u00edstico",
             "intensidad": "Alta",
+            "actor": "Ir\u00e1n",
+            "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-1488",
+            "fecha": "09:01 UTC",
+            "lat": 24.496486755894892,
+            "lng": 38.6660114684165,
+            "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Media",
+            "actor": "Hut\u00edes (Yemen)",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-8742",
+            "fecha": "09:01 UTC",
+            "lat": 34.2483622399415,
+            "lng": 50.532176265073424,
+            "tipo": "Ciberataque a Infraestructura",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Ir\u00e1n",
+            "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-2971",
+            "fecha": "09:01 UTC",
+            "lat": 19.741313883354067,
+            "lng": 39.268610576989715,
+            "tipo": "Ataque con Drones",
+            "intensidad": "Media",
+            "actor": "Hut\u00edes (Yemen)",
+            "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-1710",
+            "fecha": "09:01 UTC",
+            "lat": 18.552375580483485,
+            "lng": 57.862567926225616,
+            "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Media",
             "actor": "EE.UU.",
             "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         },
         {
-            "id": "EVT-7936",
-            "fecha": "03:57 UTC",
-            "lat": 19.20945241672159,
-            "lng": 45.0017826306116,
-            "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Alta",
-            "actor": "Ir\u00e1n",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-5249",
-            "fecha": "03:57 UTC",
-            "lat": 19.407933798322553,
-            "lng": 40.03861078302136,
-            "tipo": "Misil Bal\u00edstico",
-            "intensidad": "Cr\u00edtica",
-            "actor": "Fuerzas de Israel",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-1674",
-            "fecha": "03:57 UTC",
-            "lat": 25.591813284706014,
-            "lng": 59.76444998422775,
+            "id": "EVT-9013",
+            "fecha": "09:01 UTC",
+            "lat": 14.747997203202075,
+            "lng": 40.028819626730154,
             "tipo": "Ciberataque a Infraestructura",
-            "intensidad": "Alta",
-            "actor": "Hut\u00edes (Yemen)",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-2019",
-            "fecha": "03:57 UTC",
-            "lat": 14.922361030202602,
-            "lng": 54.236343473708295,
-            "tipo": "Misil Bal\u00edstico",
             "intensidad": "Media",
             "actor": "Fuerzas de Israel",
             "efecto": "MEDIO: Volatilidad de precios"
-        },
-        {
-            "id": "EVT-4727",
-            "fecha": "03:57 UTC",
-            "lat": 21.995381640172432,
-            "lng": 55.21116420591902,
-            "tipo": "Ataque con Drones",
-            "intensidad": "Alta",
-            "actor": "EE.UU.",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         }
     ]
 }
