@@ -1,66 +1,66 @@
 {
-    "last_update": "2026-07-01 17:55:41 UTC",
-    "brent_price": 84.36,
-    "gold_price": 2375.46,
+    "last_update": "2026-07-01 21:28:22 UTC",
+    "brent_price": 86.66,
+    "gold_price": 2401.68,
     "incidentes": [
         {
-            "id": "EVT-5928",
-            "fecha": "17:55 UTC",
-            "lat": 12.876003510943407,
-            "lng": 45.812826587046644,
+            "id": "EVT-3013",
+            "fecha": "21:28 UTC",
+            "lat": 15.481369766534788,
+            "lng": 41.795515404332505,
+            "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+        },
+        {
+            "id": "EVT-3391",
+            "fecha": "21:28 UTC",
+            "lat": 32.50900455367086,
+            "lng": 48.48742604525837,
+            "tipo": "Ataque con Drones",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Ir\u00e1n",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-4846",
+            "fecha": "21:28 UTC",
+            "lat": 28.008094179194725,
+            "lng": 47.440184974226156,
             "tipo": "Ataque con Drones",
             "intensidad": "Media",
             "actor": "Ir\u00e1n",
             "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         },
         {
-            "id": "EVT-3917",
-            "fecha": "17:55 UTC",
-            "lat": 14.73787824329063,
-            "lng": 50.321313509162906,
-            "tipo": "Ciberataque a Infraestructura",
+            "id": "EVT-6343",
+            "fecha": "21:28 UTC",
+            "lat": 21.879799735443356,
+            "lng": 58.34162938809695,
+            "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Hut\u00edes (Yemen)",
+            "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-6332",
+            "fecha": "21:28 UTC",
+            "lat": 22.173275528834722,
+            "lng": 56.669922630365335,
+            "tipo": "Sabotaje a Refiner\u00eda",
             "intensidad": "Alta",
-            "actor": "Fuerzas de Israel",
+            "actor": "EE.UU.",
             "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         },
         {
-            "id": "EVT-2321",
-            "fecha": "17:55 UTC",
-            "lat": 18.29221852144159,
-            "lng": 50.40554519926662,
-            "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Media",
-            "actor": "Fuerzas de Israel",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-4342",
-            "fecha": "17:55 UTC",
-            "lat": 29.167026822071506,
-            "lng": 41.10060349477918,
-            "tipo": "Misil Bal\u00edstico",
-            "intensidad": "Media",
-            "actor": "Hezbollah (L\u00edbano)",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-8557",
-            "fecha": "17:55 UTC",
-            "lat": 25.281134287925056,
-            "lng": 35.12400425940261,
-            "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Alta",
-            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-3670",
-            "fecha": "17:55 UTC",
-            "lat": 27.933199162076843,
-            "lng": 56.10188081735034,
-            "tipo": "Sabotaje a Refiner\u00eda",
+            "id": "EVT-9434",
+            "fecha": "21:28 UTC",
+            "lat": 33.75741399245875,
+            "lng": 38.4821140190538,
+            "tipo": "Ciberataque a Infraestructura",
             "intensidad": "Cr\u00edtica",
-            "actor": "EE.UU.",
+            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
             "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         }
     ]
