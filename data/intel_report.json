@@ -1,66 +1,66 @@
 {
-    "last_update": "2026-07-04 17:05:57 UTC",
-    "brent_price": 91.57,
-    "gold_price": 2312.23,
+    "last_update": "2026-07-04 20:57:36 UTC",
+    "brent_price": 91.33,
+    "gold_price": 2325.13,
     "incidentes": [
         {
-            "id": "EVT-8644",
-            "fecha": "17:05 UTC",
-            "lat": 23.357546522445418,
-            "lng": 50.24521148929587,
+            "id": "EVT-5069",
+            "fecha": "20:57 UTC",
+            "lat": 23.914421993300238,
+            "lng": 43.85183908107517,
             "tipo": "Ciberataque a Infraestructura",
-            "intensidad": "Media",
-            "actor": "EE.UU.",
+            "intensidad": "Alta",
+            "actor": "Hut\u00edes (Yemen)",
             "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         },
         {
-            "id": "EVT-6288",
-            "fecha": "17:05 UTC",
-            "lat": 20.161352810009824,
-            "lng": 52.02350548304106,
+            "id": "EVT-7202",
+            "fecha": "20:57 UTC",
+            "lat": 21.89645365531844,
+            "lng": 36.62529877336685,
+            "tipo": "Ciberataque a Infraestructura",
+            "intensidad": "Media",
+            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+        },
+        {
+            "id": "EVT-6990",
+            "fecha": "20:57 UTC",
+            "lat": 30.687816154503015,
+            "lng": 39.062842764845726,
+            "tipo": "Ciberataque a Infraestructura",
+            "intensidad": "Alta",
+            "actor": "Hezbollah (L\u00edbano)",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-6548",
+            "fecha": "20:57 UTC",
+            "lat": 12.172261530030882,
+            "lng": 38.27849837169933,
+            "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Alta",
+            "actor": "Hezbollah (L\u00edbano)",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-8791",
+            "fecha": "20:57 UTC",
+            "lat": 14.464550196282694,
+            "lng": 42.641506189766545,
             "tipo": "Ataque con Drones",
             "intensidad": "Media",
             "actor": "Milicias Pro-Ir\u00e1n (Irak)",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
-        },
-        {
-            "id": "EVT-8921",
-            "fecha": "17:05 UTC",
-            "lat": 14.45763655870083,
-            "lng": 49.01544278436725,
-            "tipo": "Sabotaje a Refiner\u00eda",
-            "intensidad": "Alta",
-            "actor": "Hezbollah (L\u00edbano)",
             "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-5509",
-            "fecha": "17:05 UTC",
-            "lat": 16.48457918851459,
-            "lng": 35.7256256694446,
-            "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Alta",
-            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
-        },
-        {
-            "id": "EVT-1997",
-            "fecha": "17:05 UTC",
-            "lat": 18.82301839878236,
-            "lng": 42.110962838306506,
-            "tipo": "Ciberataque a Infraestructura",
-            "intensidad": "Alta",
-            "actor": "EE.UU.",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
-        },
-        {
-            "id": "EVT-8915",
-            "fecha": "17:05 UTC",
-            "lat": 20.354129354023918,
-            "lng": 54.32837920161124,
+            "id": "EVT-6328",
+            "fecha": "20:57 UTC",
+            "lat": 21.08823869011062,
+            "lng": 56.014411312911385,
             "tipo": "Sabotaje a Refiner\u00eda",
-            "intensidad": "Alta",
-            "actor": "Hezbollah (L\u00edbano)",
+            "intensidad": "Media",
+            "actor": "EE.UU.",
             "efecto": "MEDIO: Volatilidad de precios"
         }
     ]
