@@ -1,67 +1,67 @@
 {
-    "last_update": "2026-07-06 08:20:17 UTC",
-    "brent_price": 92.46,
-    "gold_price": 2350.34,
+    "last_update": "2026-07-06 15:33:08 UTC",
+    "brent_price": 89.17,
+    "gold_price": 2444.48,
     "incidentes": [
         {
-            "id": "EVT-6981",
-            "fecha": "08:20 UTC",
-            "lat": 22.725400055993465,
-            "lng": 44.5889101049564,
-            "tipo": "Sabotaje a Refiner\u00eda",
-            "intensidad": "Alta",
-            "actor": "Ir\u00e1n",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
-        },
-        {
-            "id": "EVT-9253",
-            "fecha": "08:20 UTC",
-            "lat": 22.324626431379933,
-            "lng": 58.57326596224968,
+            "id": "EVT-6558",
+            "fecha": "15:33 UTC",
+            "lat": 29.431203974708108,
+            "lng": 45.38685109062598,
             "tipo": "Ciberataque a Infraestructura",
-            "intensidad": "Cr\u00edtica",
-            "actor": "EE.UU.",
-            "efecto": "MEDIO: Volatilidad de precios"
-        },
-        {
-            "id": "EVT-9506",
-            "fecha": "08:20 UTC",
-            "lat": 21.056192494922268,
-            "lng": 56.81380915091795,
-            "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Alta",
+            "intensidad": "Media",
             "actor": "Fuerzas de Israel",
             "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         },
         {
-            "id": "EVT-1113",
-            "fecha": "08:20 UTC",
-            "lat": 17.974658275640547,
-            "lng": 40.06134829348436,
-            "tipo": "Sabotaje a Refiner\u00eda",
+            "id": "EVT-1785",
+            "fecha": "15:33 UTC",
+            "lat": 24.416116162755763,
+            "lng": 52.49995544658043,
+            "tipo": "Ataque con Drones",
             "intensidad": "Media",
             "actor": "Milicias Pro-Ir\u00e1n (Irak)",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+        },
+        {
+            "id": "EVT-7321",
+            "fecha": "15:33 UTC",
+            "lat": 24.576132213760253,
+            "lng": 41.029311120809055,
+            "tipo": "Ciberataque a Infraestructura",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Hezbollah (L\u00edbano)",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-1118",
+            "fecha": "15:33 UTC",
+            "lat": 34.58610072760718,
+            "lng": 54.58512793461167,
+            "tipo": "Sabotaje a Refiner\u00eda",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Hezbollah (L\u00edbano)",
             "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-4787",
-            "fecha": "08:20 UTC",
-            "lat": 34.26841982895675,
-            "lng": 42.7736773735633,
-            "tipo": "Misil Bal\u00edstico",
+            "id": "EVT-5492",
+            "fecha": "15:33 UTC",
+            "lat": 27.545906470212522,
+            "lng": 45.769196078146464,
+            "tipo": "Sabotaje a Refiner\u00eda",
             "intensidad": "Media",
             "actor": "Hut\u00edes (Yemen)",
-            "efecto": "MEDIO: Volatilidad de precios"
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         },
         {
-            "id": "EVT-1054",
-            "fecha": "08:20 UTC",
-            "lat": 17.79018151871822,
-            "lng": 53.06856105621423,
-            "tipo": "Sabotaje a Refiner\u00eda",
+            "id": "EVT-3536",
+            "fecha": "15:33 UTC",
+            "lat": 21.863452069322605,
+            "lng": 48.11723607990852,
+            "tipo": "Intercepci\u00f3n Naval",
             "intensidad": "Media",
-            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+            "actor": "Ir\u00e1n",
+            "efecto": "MEDIO: Volatilidad de precios"
         }
     ]
 }
