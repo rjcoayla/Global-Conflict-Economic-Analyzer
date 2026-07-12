@@ -1,66 +1,66 @@
 {
-    "last_update": "2026-07-12 13:19:02 UTC",
-    "brent_price": 85.38,
-    "gold_price": 2406.82,
+    "last_update": "2026-07-12 16:58:18 UTC",
+    "brent_price": 84.54,
+    "gold_price": 2425.55,
     "incidentes": [
         {
-            "id": "EVT-2393",
-            "fecha": "13:19 UTC",
-            "lat": 21.399915372438436,
-            "lng": 48.983201227772625,
+            "id": "EVT-2244",
+            "fecha": "16:58 UTC",
+            "lat": 25.02392263321525,
+            "lng": 43.631284095355106,
             "tipo": "Ataque con Drones",
+            "intensidad": "Media",
+            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+        },
+        {
+            "id": "EVT-6419",
+            "fecha": "16:58 UTC",
+            "lat": 25.91255238041922,
+            "lng": 52.18845428757427,
+            "tipo": "Misil Bal\u00edstico",
             "intensidad": "Alta",
-            "actor": "Hut\u00edes (Yemen)",
+            "actor": "EE.UU.",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+        },
+        {
+            "id": "EVT-2172",
+            "fecha": "16:58 UTC",
+            "lat": 19.611425845776637,
+            "lng": 56.13454647971169,
+            "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Cr\u00edtica",
+            "actor": "EE.UU.",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-3874",
+            "fecha": "16:58 UTC",
+            "lat": 29.475206702527586,
+            "lng": 49.52569936131151,
+            "tipo": "Intercepci\u00f3n Naval",
+            "intensidad": "Alta",
+            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
             "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-3587",
-            "fecha": "13:19 UTC",
-            "lat": 33.35301675038165,
-            "lng": 49.918030637356765,
-            "tipo": "Ciberataque a Infraestructura",
-            "intensidad": "Cr\u00edtica",
-            "actor": "Fuerzas de Israel",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-2013",
-            "fecha": "13:19 UTC",
-            "lat": 17.212937460356727,
-            "lng": 51.55202711812824,
+            "id": "EVT-6382",
+            "fecha": "16:58 UTC",
+            "lat": 26.217417777636328,
+            "lng": 52.69200307783693,
             "tipo": "Sabotaje a Refiner\u00eda",
-            "intensidad": "Alta",
-            "actor": "Ir\u00e1n",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
-        },
-        {
-            "id": "EVT-8297",
-            "fecha": "13:19 UTC",
-            "lat": 22.658208560850774,
-            "lng": 41.662166486956785,
-            "tipo": "Ciberataque a Infraestructura",
-            "intensidad": "Cr\u00edtica",
+            "intensidad": "Media",
             "actor": "Hut\u00edes (Yemen)",
             "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         },
         {
-            "id": "EVT-8079",
-            "fecha": "13:19 UTC",
-            "lat": 30.3126055282182,
-            "lng": 49.31844427616952,
+            "id": "EVT-8255",
+            "fecha": "16:58 UTC",
+            "lat": 27.712673269739945,
+            "lng": 55.43817716602689,
             "tipo": "Ciberataque a Infraestructura",
-            "intensidad": "Cr\u00edtica",
+            "intensidad": "Media",
             "actor": "Fuerzas de Israel",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-8949",
-            "fecha": "13:19 UTC",
-            "lat": 18.450137268235952,
-            "lng": 42.11238629461978,
-            "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Cr\u00edtica",
-            "actor": "Hezbollah (L\u00edbano)",
             "efecto": "MEDIO: Volatilidad de precios"
         }
     ]
