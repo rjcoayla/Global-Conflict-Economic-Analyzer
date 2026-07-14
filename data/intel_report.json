@@ -1,67 +1,67 @@
 {
-    "last_update": "2026-07-14 09:58:01 UTC",
-    "brent_price": 89.19,
-    "gold_price": 2327.63,
+    "last_update": "2026-07-14 13:42:58 UTC",
+    "brent_price": 87.98,
+    "gold_price": 2415.1,
     "incidentes": [
         {
-            "id": "EVT-4923",
-            "fecha": "09:58 UTC",
-            "lat": 29.6780001755855,
-            "lng": 43.05767975692248,
+            "id": "EVT-2484",
+            "fecha": "13:42 UTC",
+            "lat": 33.2345035604612,
+            "lng": 54.60824616265558,
             "tipo": "Ciberataque a Infraestructura",
-            "intensidad": "Cr\u00edtica",
-            "actor": "Hut\u00edes (Yemen)",
+            "intensidad": "Media",
+            "actor": "EE.UU.",
             "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         },
         {
-            "id": "EVT-9631",
-            "fecha": "09:58 UTC",
-            "lat": 33.750038726365176,
-            "lng": 42.15083436880831,
-            "tipo": "Ciberataque a Infraestructura",
-            "intensidad": "Alta",
-            "actor": "Hezbollah (L\u00edbano)",
+            "id": "EVT-6781",
+            "fecha": "13:42 UTC",
+            "lat": 31.61609612197166,
+            "lng": 53.4588551465678,
+            "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Fuerzas de Israel",
             "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-2627",
-            "fecha": "09:58 UTC",
-            "lat": 20.91268192593481,
-            "lng": 59.05710955826603,
-            "tipo": "Ciberataque a Infraestructura",
+            "id": "EVT-8824",
+            "fecha": "13:42 UTC",
+            "lat": 16.516901006167586,
+            "lng": 45.89542113916579,
+            "tipo": "Intercepci\u00f3n Naval",
             "intensidad": "Cr\u00edtica",
-            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
+            "actor": "Fuerzas de Israel",
             "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         },
         {
-            "id": "EVT-2540",
-            "fecha": "09:58 UTC",
-            "lat": 28.486495073814055,
-            "lng": 43.69339025013354,
-            "tipo": "Sabotaje a Refiner\u00eda",
-            "intensidad": "Alta",
-            "actor": "EE.UU.",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
-        },
-        {
-            "id": "EVT-2736",
-            "fecha": "09:58 UTC",
-            "lat": 27.541743741515134,
-            "lng": 38.263772051356895,
+            "id": "EVT-2990",
+            "fecha": "13:42 UTC",
+            "lat": 12.066211244679074,
+            "lng": 40.806933125537086,
             "tipo": "Misil Bal\u00edstico",
             "intensidad": "Alta",
-            "actor": "Ir\u00e1n",
-            "efecto": "MEDIO: Volatilidad de precios"
+            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         },
         {
-            "id": "EVT-1082",
-            "fecha": "09:58 UTC",
-            "lat": 25.981817010051174,
-            "lng": 50.4321670389082,
-            "tipo": "Sabotaje a Refiner\u00eda",
-            "intensidad": "Media",
-            "actor": "EE.UU.",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+            "id": "EVT-6816",
+            "fecha": "13:42 UTC",
+            "lat": 22.561342247592304,
+            "lng": 48.608039447416914,
+            "tipo": "Ataque con Drones",
+            "intensidad": "Alta",
+            "actor": "Ir\u00e1n",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+        },
+        {
+            "id": "EVT-8720",
+            "fecha": "13:42 UTC",
+            "lat": 18.296888605438838,
+            "lng": 40.5071562688398,
+            "tipo": "Ciberataque a Infraestructura",
+            "intensidad": "Alta",
+            "actor": "Fuerzas de Israel",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         }
     ]
 }
