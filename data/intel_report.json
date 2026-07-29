@@ -1,67 +1,67 @@
 {
-    "last_update": "2026-07-29 14:09:30 UTC",
-    "brent_price": 90.25,
-    "gold_price": 2334.56,
+    "last_update": "2026-07-29 17:14:12 UTC",
+    "brent_price": 89.65,
+    "gold_price": 2348.27,
     "incidentes": [
         {
-            "id": "EVT-3862",
-            "fecha": "14:09 UTC",
-            "lat": 22.96549964189444,
-            "lng": 42.25226214388717,
+            "id": "EVT-9766",
+            "fecha": "17:14 UTC",
+            "lat": 32.757060145419636,
+            "lng": 37.476459889483365,
             "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Media",
-            "actor": "Fuerzas de Israel",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+            "intensidad": "Cr\u00edtica",
+            "actor": "EE.UU.",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         },
         {
-            "id": "EVT-1936",
-            "fecha": "14:09 UTC",
-            "lat": 14.928623002721533,
-            "lng": 41.53059265065826,
+            "id": "EVT-2319",
+            "fecha": "17:14 UTC",
+            "lat": 31.024971627548737,
+            "lng": 55.02111345976303,
             "tipo": "Ciberataque a Infraestructura",
             "intensidad": "Media",
             "actor": "Hezbollah (L\u00edbano)",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+        },
+        {
+            "id": "EVT-1232",
+            "fecha": "17:14 UTC",
+            "lat": 20.721092434123058,
+            "lng": 43.518258577101605,
+            "tipo": "Ataque con Drones",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Hut\u00edes (Yemen)",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+        },
+        {
+            "id": "EVT-9339",
+            "fecha": "17:14 UTC",
+            "lat": 24.063191326088727,
+            "lng": 41.87230069399323,
+            "tipo": "Ataque con Drones",
+            "intensidad": "Media",
+            "actor": "Hut\u00edes (Yemen)",
             "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-3946",
-            "fecha": "14:09 UTC",
-            "lat": 29.06010550544314,
-            "lng": 47.89921840673661,
-            "tipo": "Ciberataque a Infraestructura",
-            "intensidad": "Cr\u00edtica",
-            "actor": "EE.UU.",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
-        },
-        {
-            "id": "EVT-6793",
-            "fecha": "14:09 UTC",
-            "lat": 34.89068930417321,
-            "lng": 45.96099317598311,
+            "id": "EVT-3508",
+            "fecha": "17:14 UTC",
+            "lat": 26.087235420773382,
+            "lng": 44.76739668534816,
             "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Media",
-            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
-        },
-        {
-            "id": "EVT-2331",
-            "fecha": "14:09 UTC",
-            "lat": 28.92130711791146,
-            "lng": 36.72383654415194,
-            "tipo": "Misil Bal\u00edstico",
             "intensidad": "Alta",
-            "actor": "Fuerzas de Israel",
+            "actor": "Hut\u00edes (Yemen)",
             "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         },
         {
-            "id": "EVT-3742",
-            "fecha": "14:09 UTC",
-            "lat": 29.585746293658104,
-            "lng": 47.193536260589696,
-            "tipo": "Misil Bal\u00edstico",
+            "id": "EVT-9087",
+            "fecha": "17:14 UTC",
+            "lat": 17.160514513402816,
+            "lng": 46.46921259455738,
+            "tipo": "Ataque con Drones",
             "intensidad": "Cr\u00edtica",
-            "actor": "Ir\u00e1n",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+            "actor": "Hut\u00edes (Yemen)",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         }
     ]
 }
