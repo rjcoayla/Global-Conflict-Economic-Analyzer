@@ -1,67 +1,67 @@
 {
-    "last_update": "2026-07-30 14:00:47 UTC",
-    "brent_price": 90.47,
-    "gold_price": 2340.4,
+    "last_update": "2026-07-30 17:26:25 UTC",
+    "brent_price": 86.02,
+    "gold_price": 2398.72,
     "incidentes": [
         {
-            "id": "EVT-2078",
-            "fecha": "14:00 UTC",
-            "lat": 19.051045076795294,
-            "lng": 55.73894860382197,
-            "tipo": "Sabotaje a Refiner\u00eda",
+            "id": "EVT-5141",
+            "fecha": "17:26 UTC",
+            "lat": 27.51818588008541,
+            "lng": 54.658061194442396,
+            "tipo": "Ciberataque a Infraestructura",
             "intensidad": "Alta",
-            "actor": "Hezbollah (L\u00edbano)",
+            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
             "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         },
         {
-            "id": "EVT-8600",
-            "fecha": "14:00 UTC",
-            "lat": 32.059685165579694,
-            "lng": 36.60234502750017,
-            "tipo": "Sabotaje a Refiner\u00eda",
-            "intensidad": "Alta",
+            "id": "EVT-6962",
+            "fecha": "17:26 UTC",
+            "lat": 17.36357146636513,
+            "lng": 59.44249072556196,
+            "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Cr\u00edtica",
+            "actor": "EE.UU.",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-5607",
+            "fecha": "17:26 UTC",
+            "lat": 16.76966571358197,
+            "lng": 59.43145932175254,
+            "tipo": "Intercepci\u00f3n Naval",
+            "intensidad": "Cr\u00edtica",
             "actor": "Ir\u00e1n",
             "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         },
         {
-            "id": "EVT-7568",
-            "fecha": "14:00 UTC",
-            "lat": 27.57558198843252,
-            "lng": 37.85124725966003,
-            "tipo": "Misil Bal\u00edstico",
-            "intensidad": "Alta",
-            "actor": "EE.UU.",
-            "efecto": "MEDIO: Volatilidad de precios"
-        },
-        {
-            "id": "EVT-8940",
-            "fecha": "14:00 UTC",
-            "lat": 28.000131629060427,
-            "lng": 56.79289446771348,
+            "id": "EVT-1238",
+            "fecha": "17:26 UTC",
+            "lat": 25.26915940381087,
+            "lng": 50.18846007444143,
             "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Media",
-            "actor": "Hezbollah (L\u00edbano)",
-            "efecto": "MEDIO: Volatilidad de precios"
+            "intensidad": "Cr\u00edtica",
+            "actor": "Fuerzas de Israel",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         },
         {
-            "id": "EVT-4062",
-            "fecha": "14:00 UTC",
-            "lat": 24.67190027234333,
-            "lng": 59.58596543140974,
-            "tipo": "Misil Bal\u00edstico",
+            "id": "EVT-6017",
+            "fecha": "17:26 UTC",
+            "lat": 30.59226230241436,
+            "lng": 56.66565697590585,
+            "tipo": "Sabotaje a Refiner\u00eda",
             "intensidad": "Media",
-            "actor": "Hezbollah (L\u00edbano)",
-            "efecto": "MEDIO: Volatilidad de precios"
-        },
-        {
-            "id": "EVT-5636",
-            "fecha": "14:00 UTC",
-            "lat": 13.743490287966601,
-            "lng": 44.4534430716838,
-            "tipo": "Ciberataque a Infraestructura",
-            "intensidad": "Alta",
-            "actor": "EE.UU.",
+            "actor": "Fuerzas de Israel",
             "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+        },
+        {
+            "id": "EVT-1996",
+            "fecha": "17:26 UTC",
+            "lat": 24.502742904892973,
+            "lng": 50.98503261732218,
+            "tipo": "Ciberataque a Infraestructura",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Ir\u00e1n",
+            "efecto": "MEDIO: Volatilidad de precios"
         }
     ]
 }
