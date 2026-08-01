@@ -1,67 +1,67 @@
 {
-    "last_update": "2026-08-01 02:47:11 UTC",
-    "brent_price": 89.35,
-    "gold_price": 2328.86,
+    "last_update": "2026-08-01 06:28:43 UTC",
+    "brent_price": 89.09,
+    "gold_price": 2382.6,
     "incidentes": [
         {
-            "id": "EVT-7999",
-            "fecha": "02:47 UTC",
-            "lat": 31.010963723574157,
-            "lng": 40.233964146251935,
+            "id": "EVT-7241",
+            "fecha": "06:28 UTC",
+            "lat": 30.95952491917723,
+            "lng": 38.46307957769603,
             "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Cr\u00edtica",
-            "actor": "EE.UU.",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+            "intensidad": "Alta",
+            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
+            "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-8567",
-            "fecha": "02:47 UTC",
-            "lat": 16.583464870752984,
-            "lng": 48.804582353082154,
-            "tipo": "Ciberataque a Infraestructura",
-            "intensidad": "Alta",
-            "actor": "EE.UU.",
+            "id": "EVT-6811",
+            "fecha": "06:28 UTC",
+            "lat": 17.054190416844996,
+            "lng": 49.43961929444507,
+            "tipo": "Ataque con Drones",
+            "intensidad": "Media",
+            "actor": "Hut\u00edes (Yemen)",
             "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         },
         {
-            "id": "EVT-4280",
-            "fecha": "02:47 UTC",
-            "lat": 13.353852235758538,
-            "lng": 39.25328085801401,
-            "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Media",
-            "actor": "EE.UU.",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-4344",
-            "fecha": "02:47 UTC",
-            "lat": 23.78394418727091,
-            "lng": 44.155718533180554,
+            "id": "EVT-8097",
+            "fecha": "06:28 UTC",
+            "lat": 24.69135539562928,
+            "lng": 36.17458657097242,
             "tipo": "Sabotaje a Refiner\u00eda",
             "intensidad": "Media",
-            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
+            "actor": "EE.UU.",
             "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         },
         {
-            "id": "EVT-4517",
-            "fecha": "02:47 UTC",
-            "lat": 33.69769368952104,
-            "lng": 44.68851249305289,
-            "tipo": "Ataque con Drones",
-            "intensidad": "Alta",
-            "actor": "Hezbollah (L\u00edbano)",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+            "id": "EVT-2196",
+            "fecha": "06:28 UTC",
+            "lat": 24.016822900829627,
+            "lng": 38.36359103818628,
+            "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Fuerzas de Israel",
+            "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-7472",
-            "fecha": "02:47 UTC",
-            "lat": 22.363431940260355,
-            "lng": 40.528157302061516,
+            "id": "EVT-5217",
+            "fecha": "06:28 UTC",
+            "lat": 34.354888441822155,
+            "lng": 39.15548497745094,
             "tipo": "Ciberataque a Infraestructura",
             "intensidad": "Alta",
             "actor": "Hut\u00edes (Yemen)",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+            "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-2321",
+            "fecha": "06:28 UTC",
+            "lat": 12.384288127679863,
+            "lng": 36.333345313160706,
+            "tipo": "Ciberataque a Infraestructura",
+            "intensidad": "Alta",
+            "actor": "Fuerzas de Israel",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         }
     ]
 }
