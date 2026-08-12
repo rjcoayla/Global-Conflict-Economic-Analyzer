@@ -1,67 +1,67 @@
 {
-    "last_update": "2026-08-12 13:08:11 UTC",
-    "brent_price": 87.6,
-    "gold_price": 2346.26,
+    "last_update": "2026-08-12 16:55:56 UTC",
+    "brent_price": 88.67,
+    "gold_price": 2396.77,
     "incidentes": [
         {
-            "id": "EVT-2390",
-            "fecha": "13:08 UTC",
-            "lat": 17.277708496543504,
-            "lng": 40.950142936060075,
+            "id": "EVT-7136",
+            "fecha": "16:55 UTC",
+            "lat": 29.27128230915052,
+            "lng": 47.88575231638725,
             "tipo": "Ciberataque a Infraestructura",
             "intensidad": "Cr\u00edtica",
             "actor": "EE.UU.",
-            "efecto": "MEDIO: Volatilidad de precios"
-        },
-        {
-            "id": "EVT-4369",
-            "fecha": "13:08 UTC",
-            "lat": 26.704430895188338,
-            "lng": 44.40116703684118,
-            "tipo": "Misil Bal\u00edstico",
-            "intensidad": "Alta",
-            "actor": "Fuerzas de Israel",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
-        },
-        {
-            "id": "EVT-3206",
-            "fecha": "13:08 UTC",
-            "lat": 13.38650384381733,
-            "lng": 54.81932276768033,
-            "tipo": "Sabotaje a Refiner\u00eda",
-            "intensidad": "Cr\u00edtica",
-            "actor": "Ir\u00e1n",
             "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         },
         {
-            "id": "EVT-4040",
-            "fecha": "13:08 UTC",
-            "lat": 28.640163007402435,
-            "lng": 42.08658170811968,
-            "tipo": "Ciberataque a Infraestructura",
+            "id": "EVT-5985",
+            "fecha": "16:55 UTC",
+            "lat": 18.790881681724738,
+            "lng": 43.52907143171518,
+            "tipo": "Ataque con Drones",
             "intensidad": "Cr\u00edtica",
             "actor": "Fuerzas de Israel",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         },
         {
-            "id": "EVT-2020",
-            "fecha": "13:08 UTC",
-            "lat": 27.075564320191166,
-            "lng": 35.142718872198316,
-            "tipo": "Ciberataque a Infraestructura",
-            "intensidad": "Media",
+            "id": "EVT-6008",
+            "fecha": "16:55 UTC",
+            "lat": 14.27997450285006,
+            "lng": 58.68070042683157,
+            "tipo": "Ataque con Drones",
+            "intensidad": "Alta",
             "actor": "Hezbollah (L\u00edbano)",
             "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         },
         {
-            "id": "EVT-7076",
-            "fecha": "13:08 UTC",
-            "lat": 21.93937461425824,
-            "lng": 58.07191233646625,
-            "tipo": "Ataque con Drones",
-            "intensidad": "Alta",
-            "actor": "Hut\u00edes (Yemen)",
+            "id": "EVT-2111",
+            "fecha": "16:55 UTC",
+            "lat": 27.12330620627531,
+            "lng": 43.399212043937716,
+            "tipo": "Ciberataque a Infraestructura",
+            "intensidad": "Media",
+            "actor": "Hezbollah (L\u00edbano)",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+        },
+        {
+            "id": "EVT-2704",
+            "fecha": "16:55 UTC",
+            "lat": 24.4169789831708,
+            "lng": 56.57492038858484,
+            "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Fuerzas de Israel",
             "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-6340",
+            "fecha": "16:55 UTC",
+            "lat": 26.579790745291408,
+            "lng": 45.81780705902252,
+            "tipo": "Intercepci\u00f3n Naval",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         }
     ]
 }
