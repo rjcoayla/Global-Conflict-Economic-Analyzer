@@ -1,67 +1,67 @@
 {
-    "last_update": "2026-08-21 01:16:14 UTC",
-    "brent_price": 90.01,
-    "gold_price": 2348.35,
+    "last_update": "2026-08-21 04:37:09 UTC",
+    "brent_price": 86.97,
+    "gold_price": 2367.24,
     "incidentes": [
         {
-            "id": "EVT-3193",
-            "fecha": "01:16 UTC",
-            "lat": 33.171696420019146,
-            "lng": 37.918127195305054,
-            "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Cr\u00edtica",
-            "actor": "Hut\u00edes (Yemen)",
+            "id": "EVT-4327",
+            "fecha": "04:37 UTC",
+            "lat": 28.62924224469752,
+            "lng": 48.819146465569155,
+            "tipo": "Ciberataque a Infraestructura",
+            "intensidad": "Media",
+            "actor": "Hezbollah (L\u00edbano)",
             "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         },
         {
-            "id": "EVT-6878",
-            "fecha": "01:16 UTC",
-            "lat": 28.5927886372281,
-            "lng": 50.945613780637366,
-            "tipo": "Ataque con Drones",
-            "intensidad": "Media",
+            "id": "EVT-5587",
+            "fecha": "04:37 UTC",
+            "lat": 31.570154242479294,
+            "lng": 38.941106558161046,
+            "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Alta",
             "actor": "Hut\u00edes (Yemen)",
             "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         },
         {
-            "id": "EVT-1665",
-            "fecha": "01:16 UTC",
-            "lat": 18.236966967757077,
-            "lng": 48.805764182727884,
+            "id": "EVT-7545",
+            "fecha": "04:37 UTC",
+            "lat": 14.700113366162089,
+            "lng": 53.91786118671993,
+            "tipo": "Intercepci\u00f3n Naval",
+            "intensidad": "Alta",
+            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
+            "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-2878",
+            "fecha": "04:37 UTC",
+            "lat": 25.394979644321534,
+            "lng": 35.610814915325584,
             "tipo": "Sabotaje a Refiner\u00eda",
             "intensidad": "Media",
-            "actor": "Fuerzas de Israel",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+            "actor": "EE.UU.",
+            "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-1647",
-            "fecha": "01:16 UTC",
-            "lat": 34.27264291745789,
-            "lng": 51.14546439418036,
-            "tipo": "Misil Bal\u00edstico",
-            "intensidad": "Media",
-            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-2422",
-            "fecha": "01:16 UTC",
-            "lat": 22.51805603431845,
-            "lng": 42.298780991218855,
+            "id": "EVT-3565",
+            "fecha": "04:37 UTC",
+            "lat": 24.196016696614148,
+            "lng": 45.88305474451691,
             "tipo": "Misil Bal\u00edstico",
             "intensidad": "Cr\u00edtica",
             "actor": "Ir\u00e1n",
-            "efecto": "MEDIO: Volatilidad de precios"
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         },
         {
-            "id": "EVT-2922",
-            "fecha": "01:16 UTC",
-            "lat": 20.374627910779914,
-            "lng": 38.553042561089086,
-            "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Alta",
-            "actor": "EE.UU.",
-            "efecto": "MEDIO: Volatilidad de precios"
+            "id": "EVT-1571",
+            "fecha": "04:37 UTC",
+            "lat": 24.004738652001308,
+            "lng": 51.46296501248803,
+            "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Ir\u00e1n",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         }
     ]
 }
