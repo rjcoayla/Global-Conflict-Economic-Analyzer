@@ -1,67 +1,67 @@
 {
-    "last_update": "2026-08-26 04:38:23 UTC",
-    "brent_price": 84.39,
-    "gold_price": 2410.05,
+    "last_update": "2026-08-26 08:41:58 UTC",
+    "brent_price": 85.84,
+    "gold_price": 2380.14,
     "incidentes": [
         {
-            "id": "EVT-4794",
-            "fecha": "04:38 UTC",
-            "lat": 31.727321134419057,
-            "lng": 49.706361305277674,
-            "tipo": "Sabotaje a Refiner\u00eda",
+            "id": "EVT-5857",
+            "fecha": "08:41 UTC",
+            "lat": 12.629999816730287,
+            "lng": 39.3648581665592,
+            "tipo": "Ataque con Drones",
             "intensidad": "Alta",
+            "actor": "Hezbollah (L\u00edbano)",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+        },
+        {
+            "id": "EVT-5114",
+            "fecha": "08:41 UTC",
+            "lat": 22.637692370687923,
+            "lng": 58.806812329155946,
+            "tipo": "Ataque con Drones",
+            "intensidad": "Alta",
+            "actor": "Fuerzas de Israel",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-6569",
+            "fecha": "08:41 UTC",
+            "lat": 20.793426140788945,
+            "lng": 44.08816104230146,
+            "tipo": "Ataque con Drones",
+            "intensidad": "Cr\u00edtica",
             "actor": "Ir\u00e1n",
             "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         },
         {
-            "id": "EVT-5964",
-            "fecha": "04:38 UTC",
-            "lat": 26.874787040844627,
-            "lng": 47.052052401615754,
-            "tipo": "Ataque con Drones",
-            "intensidad": "Media",
-            "actor": "EE.UU.",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
-        },
-        {
-            "id": "EVT-8001",
-            "fecha": "04:38 UTC",
-            "lat": 32.00296288110738,
-            "lng": 58.68564356495351,
-            "tipo": "Sabotaje a Refiner\u00eda",
-            "intensidad": "Media",
+            "id": "EVT-8488",
+            "fecha": "08:41 UTC",
+            "lat": 13.077646295236267,
+            "lng": 52.578694007767865,
+            "tipo": "Ciberataque a Infraestructura",
+            "intensidad": "Alta",
             "actor": "Hut\u00edes (Yemen)",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-5829",
-            "fecha": "04:38 UTC",
-            "lat": 13.086452329125093,
-            "lng": 55.97890063805568,
-            "tipo": "Ciberataque a Infraestructura",
-            "intensidad": "Alta",
-            "actor": "Hezbollah (L\u00edbano)",
             "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         },
         {
-            "id": "EVT-3404",
-            "fecha": "04:38 UTC",
-            "lat": 21.163249025501607,
-            "lng": 47.94642480452467,
-            "tipo": "Ciberataque a Infraestructura",
-            "intensidad": "Cr\u00edtica",
-            "actor": "Hezbollah (L\u00edbano)",
-            "efecto": "MEDIO: Volatilidad de precios"
-        },
-        {
-            "id": "EVT-8790",
-            "fecha": "04:38 UTC",
-            "lat": 14.299582791793208,
-            "lng": 38.95107840169167,
+            "id": "EVT-7884",
+            "fecha": "08:41 UTC",
+            "lat": 30.389869805494797,
+            "lng": 50.519080569575365,
             "tipo": "Sabotaje a Refiner\u00eda",
             "intensidad": "Alta",
-            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
+            "actor": "EE.UU.",
             "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+        },
+        {
+            "id": "EVT-6451",
+            "fecha": "08:41 UTC",
+            "lat": 30.894346431080592,
+            "lng": 55.77788651072632,
+            "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         }
     ]
 }
