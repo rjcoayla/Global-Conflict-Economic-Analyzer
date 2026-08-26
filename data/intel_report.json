@@ -1,67 +1,67 @@
 {
-    "last_update": "2026-08-25 20:27:57 UTC",
-    "brent_price": 91.31,
-    "gold_price": 2327.57,
+    "last_update": "2026-08-26 01:16:40 UTC",
+    "brent_price": 84.13,
+    "gold_price": 2323.37,
     "incidentes": [
         {
-            "id": "EVT-7881",
-            "fecha": "20:27 UTC",
-            "lat": 15.83300765178931,
-            "lng": 39.63402689026798,
-            "tipo": "Misil Bal\u00edstico",
+            "id": "EVT-3068",
+            "fecha": "01:16 UTC",
+            "lat": 18.46840139077528,
+            "lng": 54.32540888686853,
+            "tipo": "Intercepci\u00f3n Naval",
+            "intensidad": "Alta",
+            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-8673",
+            "fecha": "01:16 UTC",
+            "lat": 28.495675282435947,
+            "lng": 51.454287841228094,
+            "tipo": "Intercepci\u00f3n Naval",
             "intensidad": "Cr\u00edtica",
-            "actor": "Hut\u00edes (Yemen)",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-7466",
-            "fecha": "20:27 UTC",
-            "lat": 22.099981879030718,
-            "lng": 57.73062902513287,
-            "tipo": "Ciberataque a Infraestructura",
-            "intensidad": "Media",
             "actor": "Ir\u00e1n",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-1873",
-            "fecha": "20:27 UTC",
-            "lat": 26.85750957437224,
-            "lng": 41.11937759168951,
-            "tipo": "Misil Bal\u00edstico",
-            "intensidad": "Media",
-            "actor": "EE.UU.",
             "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-7760",
-            "fecha": "20:27 UTC",
-            "lat": 26.560393343551144,
-            "lng": 57.305323137023734,
+            "id": "EVT-9956",
+            "fecha": "01:16 UTC",
+            "lat": 14.775706549036729,
+            "lng": 39.61742817947061,
+            "tipo": "Intercepci\u00f3n Naval",
+            "intensidad": "Alta",
+            "actor": "Hut\u00edes (Yemen)",
+            "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-7840",
+            "fecha": "01:16 UTC",
+            "lat": 15.870126172933546,
+            "lng": 45.12952494688361,
+            "tipo": "Sabotaje a Refiner\u00eda",
+            "intensidad": "Media",
+            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
+            "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-8565",
+            "fecha": "01:16 UTC",
+            "lat": 14.387496883375887,
+            "lng": 37.080120124620116,
+            "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Hut\u00edes (Yemen)",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-4290",
+            "fecha": "01:16 UTC",
+            "lat": 22.3784608848607,
+            "lng": 36.239257320705086,
             "tipo": "Sabotaje a Refiner\u00eda",
             "intensidad": "Cr\u00edtica",
             "actor": "Milicias Pro-Ir\u00e1n (Irak)",
             "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-6727",
-            "fecha": "20:27 UTC",
-            "lat": 14.370018281438622,
-            "lng": 37.35176547267899,
-            "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Alta",
-            "actor": "Fuerzas de Israel",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-1804",
-            "fecha": "20:27 UTC",
-            "lat": 21.415225244958023,
-            "lng": 53.59158352092085,
-            "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Alta",
-            "actor": "Ir\u00e1n",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         }
     ]
 }
