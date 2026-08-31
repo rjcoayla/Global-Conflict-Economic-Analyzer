@@ -1,67 +1,67 @@
 {
-    "last_update": "2026-08-30 22:26:09 UTC",
-    "brent_price": 91.42,
-    "gold_price": 2313.21,
+    "last_update": "2026-08-31 04:01:02 UTC",
+    "brent_price": 92.8,
+    "gold_price": 2443.37,
     "incidentes": [
         {
-            "id": "EVT-3882",
-            "fecha": "22:26 UTC",
-            "lat": 24.670711231798816,
-            "lng": 57.52218347206534,
-            "tipo": "Ataque con Drones",
-            "intensidad": "Cr\u00edtica",
+            "id": "EVT-4586",
+            "fecha": "04:01 UTC",
+            "lat": 12.718832460277396,
+            "lng": 44.32056014427519,
+            "tipo": "Sabotaje a Refiner\u00eda",
+            "intensidad": "Alta",
+            "actor": "EE.UU.",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-1111",
+            "fecha": "04:01 UTC",
+            "lat": 20.22659810614043,
+            "lng": 41.82257632996769,
+            "tipo": "Sabotaje a Refiner\u00eda",
+            "intensidad": "Media",
             "actor": "EE.UU.",
             "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         },
         {
-            "id": "EVT-8059",
-            "fecha": "22:26 UTC",
-            "lat": 31.989062307323405,
-            "lng": 46.04057812826108,
+            "id": "EVT-7947",
+            "fecha": "04:01 UTC",
+            "lat": 32.15833353627937,
+            "lng": 48.536484164567064,
             "tipo": "Ciberataque a Infraestructura",
-            "intensidad": "Alta",
-            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-5498",
-            "fecha": "22:26 UTC",
-            "lat": 16.490417904426135,
-            "lng": 46.37161567325006,
-            "tipo": "Ataque con Drones",
             "intensidad": "Cr\u00edtica",
-            "actor": "Hezbollah (L\u00edbano)",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-6286",
-            "fecha": "22:26 UTC",
-            "lat": 33.922610672457125,
-            "lng": 39.69068890306314,
-            "tipo": "Ciberataque a Infraestructura",
-            "intensidad": "Alta",
-            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
+            "actor": "Fuerzas de Israel",
             "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-8165",
-            "fecha": "22:26 UTC",
-            "lat": 14.329134420734004,
-            "lng": 39.80095647675776,
+            "id": "EVT-7314",
+            "fecha": "04:01 UTC",
+            "lat": 32.677531516967235,
+            "lng": 38.13209033281896,
             "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Cr\u00edtica",
+            "actor": "EE.UU.",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-2682",
+            "fecha": "04:01 UTC",
+            "lat": 16.052693717604143,
+            "lng": 49.299667404479706,
+            "tipo": "Sabotaje a Refiner\u00eda",
             "intensidad": "Media",
-            "actor": "Hezbollah (L\u00edbano)",
+            "actor": "Ir\u00e1n",
             "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         },
         {
-            "id": "EVT-3287",
-            "fecha": "22:26 UTC",
-            "lat": 32.036442208527305,
-            "lng": 42.80903144454761,
-            "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Cr\u00edtica",
-            "actor": "Ir\u00e1n",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+            "id": "EVT-3790",
+            "fecha": "04:01 UTC",
+            "lat": 22.957588635951158,
+            "lng": 43.66986569288268,
+            "tipo": "Sabotaje a Refiner\u00eda",
+            "intensidad": "Media",
+            "actor": "EE.UU.",
+            "efecto": "MEDIO: Volatilidad de precios"
         }
     ]
 }
