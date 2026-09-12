@@ -1,67 +1,67 @@
 {
-    "last_update": "2026-09-12 08:23:39 UTC",
-    "brent_price": 89.84,
-    "gold_price": 2403.55,
+    "last_update": "2026-09-12 15:06:16 UTC",
+    "brent_price": 84.67,
+    "gold_price": 2419.25,
     "incidentes": [
         {
-            "id": "EVT-6745",
-            "fecha": "08:23 UTC",
-            "lat": 29.949954643100355,
-            "lng": 43.81536054788555,
-            "tipo": "Ciberataque a Infraestructura",
-            "intensidad": "Cr\u00edtica",
-            "actor": "Ir\u00e1n",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-1117",
-            "fecha": "08:23 UTC",
-            "lat": 12.979888917749706,
-            "lng": 46.410896656769836,
-            "tipo": "Sabotaje a Refiner\u00eda",
-            "intensidad": "Cr\u00edtica",
-            "actor": "Fuerzas de Israel",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-4468",
-            "fecha": "08:23 UTC",
-            "lat": 13.569207683536746,
-            "lng": 37.389136621274496,
-            "tipo": "Misil Bal\u00edstico",
-            "intensidad": "Cr\u00edtica",
-            "actor": "Fuerzas de Israel",
+            "id": "EVT-8304",
+            "fecha": "15:06 UTC",
+            "lat": 32.10919840904126,
+            "lng": 48.726001993446005,
+            "tipo": "Intercepci\u00f3n Naval",
+            "intensidad": "Media",
+            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
             "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-7388",
-            "fecha": "08:23 UTC",
-            "lat": 27.047720760145367,
-            "lng": 52.76622567930149,
+            "id": "EVT-1263",
+            "fecha": "15:06 UTC",
+            "lat": 12.130715755656302,
+            "lng": 53.90776630893078,
             "tipo": "Misil Bal\u00edstico",
-            "intensidad": "Cr\u00edtica",
-            "actor": "Fuerzas de Israel",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-4479",
-            "fecha": "08:23 UTC",
-            "lat": 31.671869513440907,
-            "lng": 46.99319140097393,
-            "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Media",
-            "actor": "Ir\u00e1n",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-1358",
-            "fecha": "08:23 UTC",
-            "lat": 31.06612595695414,
-            "lng": 44.531627602358654,
-            "tipo": "Sabotaje a Refiner\u00eda",
             "intensidad": "Media",
             "actor": "EE.UU.",
             "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-1629",
+            "fecha": "15:06 UTC",
+            "lat": 19.94698559702813,
+            "lng": 52.36200449237919,
+            "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Media",
+            "actor": "Ir\u00e1n",
+            "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-4060",
+            "fecha": "15:06 UTC",
+            "lat": 30.874367667318975,
+            "lng": 48.9038676371398,
+            "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Alta",
+            "actor": "EE.UU.",
+            "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-2774",
+            "fecha": "15:06 UTC",
+            "lat": 25.518417905491887,
+            "lng": 50.72841788173815,
+            "tipo": "Intercepci\u00f3n Naval",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-5644",
+            "fecha": "15:06 UTC",
+            "lat": 18.646596344829653,
+            "lng": 36.673290236749736,
+            "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Media",
+            "actor": "Fuerzas de Israel",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         }
     ]
 }
