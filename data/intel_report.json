@@ -1,67 +1,67 @@
 {
-    "last_update": "2026-09-16 16:15:26 UTC",
-    "brent_price": 86.63,
-    "gold_price": 2448.05,
+    "last_update": "2026-09-16 22:40:05 UTC",
+    "brent_price": 92.99,
+    "gold_price": 2317.13,
     "incidentes": [
         {
-            "id": "EVT-7430",
-            "fecha": "16:15 UTC",
-            "lat": 16.38698736592925,
-            "lng": 51.582161993128885,
-            "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Cr\u00edtica",
-            "actor": "Hut\u00edes (Yemen)",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+            "id": "EVT-7662",
+            "fecha": "22:40 UTC",
+            "lat": 28.295096527950015,
+            "lng": 38.01109040673348,
+            "tipo": "Ciberataque a Infraestructura",
+            "intensidad": "Media",
+            "actor": "EE.UU.",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         },
         {
-            "id": "EVT-3820",
-            "fecha": "16:15 UTC",
-            "lat": 20.258523590530576,
-            "lng": 48.491479842780066,
-            "tipo": "Misil Bal\u00edstico",
+            "id": "EVT-1129",
+            "fecha": "22:40 UTC",
+            "lat": 12.909417695051213,
+            "lng": 45.55593079698466,
+            "tipo": "Ciberataque a Infraestructura",
             "intensidad": "Cr\u00edtica",
             "actor": "Hezbollah (L\u00edbano)",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-4094",
+            "fecha": "22:40 UTC",
+            "lat": 34.80689551543962,
+            "lng": 42.471658508082,
+            "tipo": "Intercepci\u00f3n Naval",
+            "intensidad": "Alta",
+            "actor": "Ir\u00e1n",
             "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-9207",
-            "fecha": "16:15 UTC",
-            "lat": 22.615784386812372,
-            "lng": 57.31924667975146,
-            "tipo": "Sabotaje a Refiner\u00eda",
+            "id": "EVT-7267",
+            "fecha": "22:40 UTC",
+            "lat": 21.914470639300667,
+            "lng": 39.68961827046825,
+            "tipo": "Ataque con Drones",
             "intensidad": "Alta",
-            "actor": "EE.UU.",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+            "actor": "Fuerzas de Israel",
+            "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-2440",
-            "fecha": "16:15 UTC",
-            "lat": 34.57078371789784,
-            "lng": 47.36615538420822,
+            "id": "EVT-8936",
+            "fecha": "22:40 UTC",
+            "lat": 12.794986109634662,
+            "lng": 43.06487152181574,
             "tipo": "Sabotaje a Refiner\u00eda",
-            "intensidad": "Alta",
-            "actor": "EE.UU.",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-1869",
-            "fecha": "16:15 UTC",
-            "lat": 31.224527825950105,
-            "lng": 39.17532986239914,
-            "tipo": "Intercepci\u00f3n Naval",
             "intensidad": "Media",
-            "actor": "Hezbollah (L\u00edbano)",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+            "actor": "Fuerzas de Israel",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         },
         {
-            "id": "EVT-9983",
-            "fecha": "16:15 UTC",
-            "lat": 16.786277271687524,
-            "lng": 38.35975246554388,
-            "tipo": "Intercepci\u00f3n Naval",
+            "id": "EVT-3617",
+            "fecha": "22:40 UTC",
+            "lat": 20.94145266685317,
+            "lng": 57.72005782224112,
+            "tipo": "Ataque con Drones",
             "intensidad": "Cr\u00edtica",
             "actor": "Ir\u00e1n",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         }
     ]
 }
