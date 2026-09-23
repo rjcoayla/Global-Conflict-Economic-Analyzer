@@ -1,66 +1,66 @@
 {
-    "last_update": "2026-09-23 09:06:51 UTC",
-    "brent_price": 91.95,
-    "gold_price": 2369.57,
+    "last_update": "2026-09-23 16:13:33 UTC",
+    "brent_price": 91.35,
+    "gold_price": 2391.05,
     "incidentes": [
         {
-            "id": "EVT-9275",
-            "fecha": "09:06 UTC",
-            "lat": 27.756563044344947,
-            "lng": 59.87537628558384,
-            "tipo": "Sabotaje a Refiner\u00eda",
-            "intensidad": "Cr\u00edtica",
-            "actor": "EE.UU.",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-1863",
-            "fecha": "09:06 UTC",
-            "lat": 33.719595868571474,
-            "lng": 55.57786485185245,
-            "tipo": "Ciberataque a Infraestructura",
-            "intensidad": "Alta",
-            "actor": "Hut\u00edes (Yemen)",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
-        },
-        {
-            "id": "EVT-9490",
-            "fecha": "09:06 UTC",
-            "lat": 34.48799639473521,
-            "lng": 40.25482445817011,
-            "tipo": "Misil Bal\u00edstico",
-            "intensidad": "Cr\u00edtica",
-            "actor": "EE.UU.",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
-        },
-        {
-            "id": "EVT-8250",
-            "fecha": "09:06 UTC",
-            "lat": 27.555298286497063,
-            "lng": 50.26098435961411,
-            "tipo": "Ataque con Drones",
-            "intensidad": "Media",
-            "actor": "Hut\u00edes (Yemen)",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-7739",
-            "fecha": "09:06 UTC",
-            "lat": 20.428914489539757,
-            "lng": 46.26830826591451,
+            "id": "EVT-5280",
+            "fecha": "16:13 UTC",
+            "lat": 24.059121629972356,
+            "lng": 54.641193708283325,
             "tipo": "Intercepci\u00f3n Naval",
             "intensidad": "Cr\u00edtica",
-            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
+            "actor": "EE.UU.",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-1070",
+            "fecha": "16:13 UTC",
+            "lat": 12.780221644679171,
+            "lng": 59.15264747202323,
+            "tipo": "Ataque con Drones",
+            "intensidad": "Alta",
+            "actor": "Hut\u00edes (Yemen)",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-2660",
+            "fecha": "16:13 UTC",
+            "lat": 29.38040234669814,
+            "lng": 49.40398795026137,
+            "tipo": "Ataque con Drones",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Hut\u00edes (Yemen)",
             "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         },
         {
-            "id": "EVT-7560",
-            "fecha": "09:06 UTC",
-            "lat": 23.794737990897225,
-            "lng": 48.96626261253644,
-            "tipo": "Ataque con Drones",
+            "id": "EVT-3799",
+            "fecha": "16:13 UTC",
+            "lat": 31.9109987416474,
+            "lng": 51.82851062162989,
+            "tipo": "Sabotaje a Refiner\u00eda",
+            "intensidad": "Media",
+            "actor": "Ir\u00e1n",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+        },
+        {
+            "id": "EVT-3808",
+            "fecha": "16:13 UTC",
+            "lat": 25.950883810290197,
+            "lng": 44.38529563362836,
+            "tipo": "Sabotaje a Refiner\u00eda",
             "intensidad": "Alta",
             "actor": "Ir\u00e1n",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-9767",
+            "fecha": "16:13 UTC",
+            "lat": 22.868575146871212,
+            "lng": 37.19917441261645,
+            "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Alta",
+            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
             "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         }
     ]
