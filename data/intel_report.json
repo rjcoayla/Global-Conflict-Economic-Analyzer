@@ -1,66 +1,66 @@
 {
-    "last_update": "2026-09-27 03:59:09 UTC",
-    "brent_price": 90.11,
-    "gold_price": 2448.66,
+    "last_update": "2026-09-27 09:57:10 UTC",
+    "brent_price": 84.98,
+    "gold_price": 2435.6,
     "incidentes": [
         {
-            "id": "EVT-4348",
-            "fecha": "03:59 UTC",
-            "lat": 25.052177933797743,
-            "lng": 45.24301135296878,
-            "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Alta",
-            "actor": "Hezbollah (L\u00edbano)",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
-        },
-        {
-            "id": "EVT-9276",
-            "fecha": "03:59 UTC",
-            "lat": 30.131633117810704,
-            "lng": 47.115141018706055,
+            "id": "EVT-6714",
+            "fecha": "09:57 UTC",
+            "lat": 34.73644202833535,
+            "lng": 48.1418781453453,
             "tipo": "Ataque con Drones",
             "intensidad": "Cr\u00edtica",
-            "actor": "Hezbollah (L\u00edbano)",
-            "efecto": "MEDIO: Volatilidad de precios"
-        },
-        {
-            "id": "EVT-8806",
-            "fecha": "03:59 UTC",
-            "lat": 27.606867180569395,
-            "lng": 46.56192920427123,
-            "tipo": "Sabotaje a Refiner\u00eda",
-            "intensidad": "Cr\u00edtica",
-            "actor": "Hut\u00edes (Yemen)",
+            "actor": "Fuerzas de Israel",
             "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         },
         {
-            "id": "EVT-5246",
-            "fecha": "03:59 UTC",
-            "lat": 15.541288127108938,
-            "lng": 43.57821534626558,
-            "tipo": "Sabotaje a Refiner\u00eda",
-            "intensidad": "Alta",
-            "actor": "Ir\u00e1n",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-5672",
-            "fecha": "03:59 UTC",
-            "lat": 29.163028083682864,
-            "lng": 49.03146007579325,
-            "tipo": "Ataque con Drones",
-            "intensidad": "Alta",
-            "actor": "Ir\u00e1n",
+            "id": "EVT-3107",
+            "fecha": "09:57 UTC",
+            "lat": 26.98902918183557,
+            "lng": 42.33172572302014,
+            "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Media",
+            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
             "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         },
         {
-            "id": "EVT-7992",
-            "fecha": "03:59 UTC",
-            "lat": 20.36175047542467,
-            "lng": 40.397097472492824,
+            "id": "EVT-3799",
+            "fecha": "09:57 UTC",
+            "lat": 18.40147696143791,
+            "lng": 48.18860463584381,
             "tipo": "Misil Bal\u00edstico",
             "intensidad": "Alta",
             "actor": "Fuerzas de Israel",
+            "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-2799",
+            "fecha": "09:57 UTC",
+            "lat": 14.393427110920328,
+            "lng": 35.58109359322882,
+            "tipo": "Sabotaje a Refiner\u00eda",
+            "intensidad": "Alta",
+            "actor": "Ir\u00e1n",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+        },
+        {
+            "id": "EVT-2075",
+            "fecha": "09:57 UTC",
+            "lat": 31.46708923981493,
+            "lng": 44.8506016610665,
+            "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Ir\u00e1n",
+            "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-1802",
+            "fecha": "09:57 UTC",
+            "lat": 28.79379874125958,
+            "lng": 57.18148758669214,
+            "tipo": "Sabotaje a Refiner\u00eda",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Hut\u00edes (Yemen)",
             "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         }
     ]
