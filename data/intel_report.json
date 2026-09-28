@@ -1,67 +1,67 @@
 {
-    "last_update": "2026-09-28 03:59:32 UTC",
-    "brent_price": 87.72,
-    "gold_price": 2437.47,
+    "last_update": "2026-09-28 10:47:47 UTC",
+    "brent_price": 92.61,
+    "gold_price": 2408.44,
     "incidentes": [
         {
-            "id": "EVT-6269",
-            "fecha": "03:59 UTC",
-            "lat": 23.883284919485973,
-            "lng": 35.507006300407355,
+            "id": "EVT-3942",
+            "fecha": "10:47 UTC",
+            "lat": 22.65647058424561,
+            "lng": 53.8874753638225,
             "tipo": "Misil Bal\u00edstico",
             "intensidad": "Media",
-            "actor": "EE.UU.",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
-        },
-        {
-            "id": "EVT-4266",
-            "fecha": "03:59 UTC",
-            "lat": 19.59160879689788,
-            "lng": 48.94273461459792,
-            "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Cr\u00edtica",
-            "actor": "Hut\u00edes (Yemen)",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
-        },
-        {
-            "id": "EVT-1193",
-            "fecha": "03:59 UTC",
-            "lat": 19.001113477417924,
-            "lng": 39.47856445151127,
-            "tipo": "Sabotaje a Refiner\u00eda",
-            "intensidad": "Alta",
-            "actor": "Hezbollah (L\u00edbano)",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
-        },
-        {
-            "id": "EVT-1915",
-            "fecha": "03:59 UTC",
-            "lat": 16.73622137690921,
-            "lng": 40.16427654149346,
-            "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Cr\u00edtica",
             "actor": "Fuerzas de Israel",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+            "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-1511",
-            "fecha": "03:59 UTC",
-            "lat": 14.792576726711381,
-            "lng": 59.09574904139901,
-            "tipo": "Ciberataque a Infraestructura",
+            "id": "EVT-6417",
+            "fecha": "10:47 UTC",
+            "lat": 23.54227656715654,
+            "lng": 53.80594321684757,
+            "tipo": "Misil Bal\u00edstico",
             "intensidad": "Alta",
             "actor": "Hut\u00edes (Yemen)",
             "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         },
         {
-            "id": "EVT-8611",
-            "fecha": "03:59 UTC",
-            "lat": 19.552975621387326,
-            "lng": 53.80769302613818,
+            "id": "EVT-2531",
+            "fecha": "10:47 UTC",
+            "lat": 29.830575452641927,
+            "lng": 42.87667593266734,
+            "tipo": "Ataque con Drones",
+            "intensidad": "Media",
+            "actor": "Hezbollah (L\u00edbano)",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+        },
+        {
+            "id": "EVT-5241",
+            "fecha": "10:47 UTC",
+            "lat": 27.64624426083888,
+            "lng": 45.10038222052518,
             "tipo": "Ciberataque a Infraestructura",
             "intensidad": "Media",
-            "actor": "Hut\u00edes (Yemen)",
+            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
             "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-8358",
+            "fecha": "10:47 UTC",
+            "lat": 28.066049763682805,
+            "lng": 58.96642552896334,
+            "tipo": "Ciberataque a Infraestructura",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
+            "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-1793",
+            "fecha": "10:47 UTC",
+            "lat": 32.81757627563309,
+            "lng": 59.92038593519807,
+            "tipo": "Sabotaje a Refiner\u00eda",
+            "intensidad": "Media",
+            "actor": "Ir\u00e1n",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         }
     ]
 }
