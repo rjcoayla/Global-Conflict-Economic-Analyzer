@@ -1,67 +1,67 @@
 {
-    "last_update": "2026-10-05 04:22:46 UTC",
-    "brent_price": 90.31,
-    "gold_price": 2389.06,
+    "last_update": "2026-10-05 16:50:39 UTC",
+    "brent_price": 85.92,
+    "gold_price": 2396.27,
     "incidentes": [
         {
-            "id": "EVT-9467",
-            "fecha": "04:22 UTC",
-            "lat": 27.978433878833723,
-            "lng": 57.40691593257928,
-            "tipo": "Ciberataque a Infraestructura",
-            "intensidad": "Media",
-            "actor": "Ir\u00e1n",
+            "id": "EVT-2126",
+            "fecha": "16:50 UTC",
+            "lat": 26.1997318538364,
+            "lng": 40.61932117025209,
+            "tipo": "Intercepci\u00f3n Naval",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Fuerzas de Israel",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+        },
+        {
+            "id": "EVT-6898",
+            "fecha": "16:50 UTC",
+            "lat": 32.99813040325395,
+            "lng": 58.52004258804183,
+            "tipo": "Intercepci\u00f3n Naval",
+            "intensidad": "Alta",
+            "actor": "Hezbollah (L\u00edbano)",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-2673",
+            "fecha": "16:50 UTC",
+            "lat": 17.56518247902191,
+            "lng": 58.17253640842452,
+            "tipo": "Ataque con Drones",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Fuerzas de Israel",
             "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-1972",
-            "fecha": "04:22 UTC",
-            "lat": 31.289801359673298,
-            "lng": 55.30762193374578,
+            "id": "EVT-9007",
+            "fecha": "16:50 UTC",
+            "lat": 17.27601965408298,
+            "lng": 59.02877449168676,
             "tipo": "Sabotaje a Refiner\u00eda",
             "intensidad": "Media",
             "actor": "Milicias Pro-Ir\u00e1n (Irak)",
             "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         },
         {
-            "id": "EVT-6599",
-            "fecha": "04:22 UTC",
-            "lat": 23.998202244920826,
-            "lng": 59.83526476472268,
-            "tipo": "Ataque con Drones",
-            "intensidad": "Cr\u00edtica",
-            "actor": "EE.UU.",
-            "efecto": "MEDIO: Volatilidad de precios"
-        },
-        {
-            "id": "EVT-3892",
-            "fecha": "04:22 UTC",
-            "lat": 30.36768741360831,
-            "lng": 48.12099374806835,
-            "tipo": "Ataque con Drones",
-            "intensidad": "Media",
-            "actor": "Fuerzas de Israel",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-3533",
-            "fecha": "04:22 UTC",
-            "lat": 28.990513990409337,
-            "lng": 56.8785033063848,
+            "id": "EVT-7488",
+            "fecha": "16:50 UTC",
+            "lat": 30.92031271784477,
+            "lng": 46.13317549519086,
             "tipo": "Ciberataque a Infraestructura",
             "intensidad": "Cr\u00edtica",
-            "actor": "Hut\u00edes (Yemen)",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+            "actor": "EE.UU.",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         },
         {
-            "id": "EVT-8331",
-            "fecha": "04:22 UTC",
-            "lat": 15.65738447040339,
-            "lng": 41.74774138290997,
-            "tipo": "Ataque con Drones",
+            "id": "EVT-1045",
+            "fecha": "16:50 UTC",
+            "lat": 14.958496616607146,
+            "lng": 40.20971774674977,
+            "tipo": "Intercepci\u00f3n Naval",
             "intensidad": "Cr\u00edtica",
-            "actor": "Ir\u00e1n",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+            "actor": "Fuerzas de Israel",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         }
     ]
 }
