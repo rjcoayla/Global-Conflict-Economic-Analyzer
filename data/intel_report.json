@@ -1,67 +1,67 @@
 {
-    "last_update": "2026-10-10 19:49:13 UTC",
-    "brent_price": 92.92,
-    "gold_price": 2394.47,
+    "last_update": "2026-10-10 23:16:58 UTC",
+    "brent_price": 87.04,
+    "gold_price": 2361.5,
     "incidentes": [
         {
-            "id": "EVT-5608",
-            "fecha": "19:49 UTC",
-            "lat": 13.268717902328714,
-            "lng": 59.942529382144926,
-            "tipo": "Ataque con Drones",
-            "intensidad": "Cr\u00edtica",
-            "actor": "Hut\u00edes (Yemen)",
+            "id": "EVT-7297",
+            "fecha": "23:16 UTC",
+            "lat": 18.563943542781864,
+            "lng": 40.51120135973555,
+            "tipo": "Intercepci\u00f3n Naval",
+            "intensidad": "Media",
+            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
             "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-4705",
-            "fecha": "19:49 UTC",
-            "lat": 34.33731960960856,
-            "lng": 37.43970829044903,
-            "tipo": "Ciberataque a Infraestructura",
+            "id": "EVT-1377",
+            "fecha": "23:16 UTC",
+            "lat": 33.54318718893286,
+            "lng": 40.76491676520421,
+            "tipo": "Intercepci\u00f3n Naval",
             "intensidad": "Alta",
-            "actor": "Fuerzas de Israel",
-            "efecto": "MEDIO: Volatilidad de precios"
+            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         },
         {
-            "id": "EVT-6232",
-            "fecha": "19:49 UTC",
-            "lat": 12.56545306706954,
-            "lng": 50.92672675516697,
-            "tipo": "Sabotaje a Refiner\u00eda",
+            "id": "EVT-1415",
+            "fecha": "23:16 UTC",
+            "lat": 29.373352141275433,
+            "lng": 37.81000798906233,
+            "tipo": "Ciberataque a Infraestructura",
             "intensidad": "Media",
             "actor": "Ir\u00e1n",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         },
         {
-            "id": "EVT-9807",
-            "fecha": "19:49 UTC",
-            "lat": 24.263601063713068,
-            "lng": 39.686573721963185,
-            "tipo": "Sabotaje a Refiner\u00eda",
-            "intensidad": "Media",
-            "actor": "Hut\u00edes (Yemen)",
-            "efecto": "MEDIO: Volatilidad de precios"
-        },
-        {
-            "id": "EVT-5855",
-            "fecha": "19:49 UTC",
-            "lat": 27.776388869435696,
-            "lng": 44.565966159359775,
+            "id": "EVT-5015",
+            "fecha": "23:16 UTC",
+            "lat": 34.5437091139862,
+            "lng": 58.355828020833975,
             "tipo": "Ataque con Drones",
-            "intensidad": "Cr\u00edtica",
-            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+            "intensidad": "Media",
+            "actor": "EE.UU.",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         },
         {
-            "id": "EVT-5558",
-            "fecha": "19:49 UTC",
-            "lat": 12.338981154365374,
-            "lng": 38.90580904688519,
-            "tipo": "Misil Bal\u00edstico",
+            "id": "EVT-6695",
+            "fecha": "23:16 UTC",
+            "lat": 14.197103251998449,
+            "lng": 38.76145138805337,
+            "tipo": "Intercepci\u00f3n Naval",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Hezbollah (L\u00edbano)",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-9543",
+            "fecha": "23:16 UTC",
+            "lat": 25.805452935693456,
+            "lng": 39.678827440344925,
+            "tipo": "Sabotaje a Refiner\u00eda",
             "intensidad": "Cr\u00edtica",
             "actor": "Milicias Pro-Ir\u00e1n (Irak)",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         }
     ]
 }
