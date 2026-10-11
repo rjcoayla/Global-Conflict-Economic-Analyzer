@@ -1,67 +1,67 @@
 {
-    "last_update": "2026-10-10 23:16:58 UTC",
-    "brent_price": 87.04,
-    "gold_price": 2361.5,
+    "last_update": "2026-10-11 04:21:32 UTC",
+    "brent_price": 88.5,
+    "gold_price": 2421.85,
     "incidentes": [
         {
-            "id": "EVT-7297",
-            "fecha": "23:16 UTC",
-            "lat": 18.563943542781864,
-            "lng": 40.51120135973555,
-            "tipo": "Intercepci\u00f3n Naval",
+            "id": "EVT-5819",
+            "fecha": "04:21 UTC",
+            "lat": 26.728124826445637,
+            "lng": 40.22992086272956,
+            "tipo": "Ataque con Drones",
+            "intensidad": "Cr\u00edtica",
+            "actor": "EE.UU.",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+        },
+        {
+            "id": "EVT-4479",
+            "fecha": "04:21 UTC",
+            "lat": 25.04598395771311,
+            "lng": 53.44574041983789,
+            "tipo": "Sabotaje a Refiner\u00eda",
+            "intensidad": "Alta",
+            "actor": "Ir\u00e1n",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+        },
+        {
+            "id": "EVT-2681",
+            "fecha": "04:21 UTC",
+            "lat": 28.855636343036803,
+            "lng": 35.817750467740986,
+            "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Alta",
+            "actor": "Hezbollah (L\u00edbano)",
+            "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-5723",
+            "fecha": "04:21 UTC",
+            "lat": 12.977559585360751,
+            "lng": 59.08988466206608,
+            "tipo": "Sabotaje a Refiner\u00eda",
             "intensidad": "Media",
+            "actor": "Ir\u00e1n",
+            "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-4195",
+            "fecha": "04:21 UTC",
+            "lat": 12.838700188535267,
+            "lng": 54.62592482304091,
+            "tipo": "Sabotaje a Refiner\u00eda",
+            "intensidad": "Alta",
             "actor": "Milicias Pro-Ir\u00e1n (Irak)",
             "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-1377",
-            "fecha": "23:16 UTC",
-            "lat": 33.54318718893286,
-            "lng": 40.76491676520421,
+            "id": "EVT-4199",
+            "fecha": "04:21 UTC",
+            "lat": 29.330988922500865,
+            "lng": 50.40118737534831,
             "tipo": "Intercepci\u00f3n Naval",
             "intensidad": "Alta",
-            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-1415",
-            "fecha": "23:16 UTC",
-            "lat": 29.373352141275433,
-            "lng": 37.81000798906233,
-            "tipo": "Ciberataque a Infraestructura",
-            "intensidad": "Media",
-            "actor": "Ir\u00e1n",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
-        },
-        {
-            "id": "EVT-5015",
-            "fecha": "23:16 UTC",
-            "lat": 34.5437091139862,
-            "lng": 58.355828020833975,
-            "tipo": "Ataque con Drones",
-            "intensidad": "Media",
-            "actor": "EE.UU.",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
-        },
-        {
-            "id": "EVT-6695",
-            "fecha": "23:16 UTC",
-            "lat": 14.197103251998449,
-            "lng": 38.76145138805337,
-            "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Cr\u00edtica",
-            "actor": "Hezbollah (L\u00edbano)",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
-        },
-        {
-            "id": "EVT-9543",
-            "fecha": "23:16 UTC",
-            "lat": 25.805452935693456,
-            "lng": 39.678827440344925,
-            "tipo": "Sabotaje a Refiner\u00eda",
-            "intensidad": "Cr\u00edtica",
-            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+            "actor": "Hut\u00edes (Yemen)",
+            "efecto": "MEDIO: Volatilidad de precios"
         }
     ]
 }
