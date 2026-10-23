@@ -1,67 +1,67 @@
 {
-    "last_update": "2026-10-23 09:07:49 UTC",
-    "brent_price": 87.9,
-    "gold_price": 2369.8,
+    "last_update": "2026-10-23 16:34:05 UTC",
+    "brent_price": 84.94,
+    "gold_price": 2318.65,
     "incidentes": [
         {
-            "id": "EVT-5409",
-            "fecha": "09:07 UTC",
-            "lat": 33.00934079059625,
-            "lng": 59.88061091514296,
-            "tipo": "Ciberataque a Infraestructura",
-            "intensidad": "Cr\u00edtica",
-            "actor": "Ir\u00e1n",
-            "efecto": "MEDIO: Volatilidad de precios"
-        },
-        {
-            "id": "EVT-3222",
-            "fecha": "09:07 UTC",
-            "lat": 21.201652986861745,
-            "lng": 44.61888427039719,
-            "tipo": "Misil Bal\u00edstico",
+            "id": "EVT-1481",
+            "fecha": "16:34 UTC",
+            "lat": 33.13816838154412,
+            "lng": 50.48736466738326,
+            "tipo": "Intercepci\u00f3n Naval",
             "intensidad": "Media",
-            "actor": "Ir\u00e1n",
+            "actor": "EE.UU.",
             "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-7787",
-            "fecha": "09:07 UTC",
-            "lat": 32.69519733222933,
-            "lng": 36.65016134436548,
+            "id": "EVT-4550",
+            "fecha": "16:34 UTC",
+            "lat": 18.872747646573202,
+            "lng": 50.44514524560595,
             "tipo": "Ataque con Drones",
+            "intensidad": "Media",
+            "actor": "Hut\u00edes (Yemen)",
+            "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-1958",
+            "fecha": "16:34 UTC",
+            "lat": 21.48776176106216,
+            "lng": 53.73344349841871,
+            "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Alta",
+            "actor": "Hezbollah (L\u00edbano)",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-4548",
+            "fecha": "16:34 UTC",
+            "lat": 32.43453916042469,
+            "lng": 59.43788120497038,
+            "tipo": "Intercepci\u00f3n Naval",
             "intensidad": "Cr\u00edtica",
             "actor": "Hezbollah (L\u00edbano)",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-3818",
+            "fecha": "16:34 UTC",
+            "lat": 27.228868374355745,
+            "lng": 40.02802736878355,
+            "tipo": "Intercepci\u00f3n Naval",
+            "intensidad": "Alta",
+            "actor": "Fuerzas de Israel",
             "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-7968",
-            "fecha": "09:07 UTC",
-            "lat": 12.95106482367786,
-            "lng": 46.79134689884645,
+            "id": "EVT-6975",
+            "fecha": "16:34 UTC",
+            "lat": 12.395406596600637,
+            "lng": 58.33218689522272,
             "tipo": "Ciberataque a Infraestructura",
             "intensidad": "Cr\u00edtica",
-            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
-            "efecto": "MEDIO: Volatilidad de precios"
-        },
-        {
-            "id": "EVT-6180",
-            "fecha": "09:07 UTC",
-            "lat": 24.77079276062698,
-            "lng": 47.009032860615605,
-            "tipo": "Misil Bal\u00edstico",
-            "intensidad": "Media",
             "actor": "Hezbollah (L\u00edbano)",
             "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-5337",
-            "fecha": "09:07 UTC",
-            "lat": 22.429875370529068,
-            "lng": 50.63385789697085,
-            "tipo": "Ataque con Drones",
-            "intensidad": "Media",
-            "actor": "Ir\u00e1n",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         }
     ]
 }
