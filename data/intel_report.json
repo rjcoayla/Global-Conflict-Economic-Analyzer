@@ -1,66 +1,66 @@
 {
-    "last_update": "2026-10-25 03:27:58 UTC",
-    "brent_price": 92.8,
-    "gold_price": 2364.33,
+    "last_update": "2026-10-25 08:58:06 UTC",
+    "brent_price": 91.66,
+    "gold_price": 2358.64,
     "incidentes": [
         {
-            "id": "EVT-8079",
-            "fecha": "03:27 UTC",
-            "lat": 18.118439234283166,
-            "lng": 43.69760948321345,
-            "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Cr\u00edtica",
-            "actor": "EE.UU.",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
-        },
-        {
-            "id": "EVT-6539",
-            "fecha": "03:27 UTC",
-            "lat": 14.86599166343983,
-            "lng": 41.94869236941545,
+            "id": "EVT-7726",
+            "fecha": "08:58 UTC",
+            "lat": 21.89976435719837,
+            "lng": 59.1634940909355,
             "tipo": "Misil Bal\u00edstico",
             "intensidad": "Media",
-            "actor": "Fuerzas de Israel",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
-        },
-        {
-            "id": "EVT-2896",
-            "fecha": "03:27 UTC",
-            "lat": 30.047226562226108,
-            "lng": 57.051393461411855,
-            "tipo": "Ciberataque a Infraestructura",
-            "intensidad": "Alta",
-            "actor": "Hezbollah (L\u00edbano)",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-7879",
-            "fecha": "03:27 UTC",
-            "lat": 31.365950228386314,
-            "lng": 46.34415211640797,
-            "tipo": "Misil Bal\u00edstico",
-            "intensidad": "Alta",
-            "actor": "Ir\u00e1n",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-5990",
-            "fecha": "03:27 UTC",
-            "lat": 28.642261447495944,
-            "lng": 48.61334815532312,
-            "tipo": "Sabotaje a Refiner\u00eda",
-            "intensidad": "Alta",
-            "actor": "Hezbollah (L\u00edbano)",
+            "actor": "Hut\u00edes (Yemen)",
             "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-4789",
-            "fecha": "03:27 UTC",
-            "lat": 23.13256578749484,
-            "lng": 49.79848917005909,
-            "tipo": "Intercepci\u00f3n Naval",
+            "id": "EVT-8776",
+            "fecha": "08:58 UTC",
+            "lat": 21.627928056511198,
+            "lng": 42.803431673646095,
+            "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Media",
+            "actor": "Hut\u00edes (Yemen)",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+        },
+        {
+            "id": "EVT-9427",
+            "fecha": "08:58 UTC",
+            "lat": 12.221676508744881,
+            "lng": 43.61890936587189,
+            "tipo": "Sabotaje a Refiner\u00eda",
             "intensidad": "Alta",
-            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
+            "actor": "Ir\u00e1n",
+            "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-9896",
+            "fecha": "08:58 UTC",
+            "lat": 14.133848984395316,
+            "lng": 41.40358575270768,
+            "tipo": "Intercepci\u00f3n Naval",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Hut\u00edes (Yemen)",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+        },
+        {
+            "id": "EVT-9953",
+            "fecha": "08:58 UTC",
+            "lat": 21.296290363937786,
+            "lng": 46.63390069378493,
+            "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Media",
+            "actor": "EE.UU.",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+        },
+        {
+            "id": "EVT-8481",
+            "fecha": "08:58 UTC",
+            "lat": 21.86284865041807,
+            "lng": 41.8095593479579,
+            "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Media",
+            "actor": "Ir\u00e1n",
             "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         }
     ]
