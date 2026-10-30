@@ -1,67 +1,67 @@
 {
-    "last_update": "2026-10-30 14:51:44 UTC",
-    "brent_price": 87.33,
-    "gold_price": 2371.81,
+    "last_update": "2026-10-30 20:26:46 UTC",
+    "brent_price": 86.46,
+    "gold_price": 2311.99,
     "incidentes": [
         {
-            "id": "EVT-2021",
-            "fecha": "14:51 UTC",
-            "lat": 31.090493403035012,
-            "lng": 51.81972201174422,
-            "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Media",
-            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+            "id": "EVT-5291",
+            "fecha": "20:26 UTC",
+            "lat": 25.67922492753577,
+            "lng": 44.7012339805144,
+            "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Ir\u00e1n",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         },
         {
-            "id": "EVT-6390",
-            "fecha": "14:51 UTC",
-            "lat": 32.9435704981605,
-            "lng": 45.899630757201315,
-            "tipo": "Sabotaje a Refiner\u00eda",
-            "intensidad": "Media",
+            "id": "EVT-8544",
+            "fecha": "20:26 UTC",
+            "lat": 34.954902763648334,
+            "lng": 35.914007410971955,
+            "tipo": "Intercepci\u00f3n Naval",
+            "intensidad": "Alta",
             "actor": "EE.UU.",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-7345",
-            "fecha": "14:51 UTC",
-            "lat": 13.223937706543982,
-            "lng": 45.2716329011832,
-            "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Media",
-            "actor": "Fuerzas de Israel",
             "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         },
         {
-            "id": "EVT-7172",
-            "fecha": "14:51 UTC",
-            "lat": 27.861881919092518,
-            "lng": 51.74390214877292,
-            "tipo": "Ciberataque a Infraestructura",
-            "intensidad": "Media",
-            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-9236",
-            "fecha": "14:51 UTC",
-            "lat": 32.448926516747534,
-            "lng": 58.26927478014855,
-            "tipo": "Ataque con Drones",
+            "id": "EVT-7736",
+            "fecha": "20:26 UTC",
+            "lat": 15.61911936871899,
+            "lng": 54.734704637552156,
+            "tipo": "Sabotaje a Refiner\u00eda",
             "intensidad": "Alta",
             "actor": "EE.UU.",
             "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-9442",
-            "fecha": "14:51 UTC",
-            "lat": 14.336134686174667,
-            "lng": 39.7944185535495,
+            "id": "EVT-6955",
+            "fecha": "20:26 UTC",
+            "lat": 30.031718143950123,
+            "lng": 43.582524260633924,
+            "tipo": "Ataque con Drones",
+            "intensidad": "Media",
+            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
+            "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-4821",
+            "fecha": "20:26 UTC",
+            "lat": 18.100723931296184,
+            "lng": 54.88835242072351,
             "tipo": "Sabotaje a Refiner\u00eda",
             "intensidad": "Media",
             "actor": "Hut\u00edes (Yemen)",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+            "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-2476",
+            "fecha": "20:26 UTC",
+            "lat": 30.858927322023128,
+            "lng": 41.975959642705604,
+            "tipo": "Ciberataque a Infraestructura",
+            "intensidad": "Alta",
+            "actor": "Ir\u00e1n",
+            "efecto": "MEDIO: Volatilidad de precios"
         }
     ]
 }
