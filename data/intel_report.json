@@ -1,67 +1,67 @@
 {
-    "last_update": "2026-10-31 04:22:54 UTC",
-    "brent_price": 90.64,
-    "gold_price": 2406.14,
+    "last_update": "2026-10-31 14:19:42 UTC",
+    "brent_price": 90.37,
+    "gold_price": 2324.54,
     "incidentes": [
         {
-            "id": "EVT-8588",
-            "fecha": "04:22 UTC",
-            "lat": 29.785001161227207,
-            "lng": 36.15770008141848,
+            "id": "EVT-5485",
+            "fecha": "14:19 UTC",
+            "lat": 13.571763984144855,
+            "lng": 42.79977706140082,
             "tipo": "Sabotaje a Refiner\u00eda",
             "intensidad": "Cr\u00edtica",
-            "actor": "Hezbollah (L\u00edbano)",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
+            "actor": "Ir\u00e1n",
+            "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-7601",
-            "fecha": "04:22 UTC",
-            "lat": 20.91830567314411,
-            "lng": 40.453144406647986,
-            "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Media",
+            "id": "EVT-9574",
+            "fecha": "14:19 UTC",
+            "lat": 12.910384103075966,
+            "lng": 54.09883151809997,
+            "tipo": "Ataque con Drones",
+            "intensidad": "Cr\u00edtica",
             "actor": "Milicias Pro-Ir\u00e1n (Irak)",
             "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-8401",
-            "fecha": "04:22 UTC",
-            "lat": 29.24503347534307,
-            "lng": 51.35847904365998,
-            "tipo": "Ataque con Drones",
-            "intensidad": "Media",
+            "id": "EVT-8384",
+            "fecha": "14:19 UTC",
+            "lat": 23.505817695981843,
+            "lng": 36.79878110512664,
+            "tipo": "Intercepci\u00f3n Naval",
+            "intensidad": "Alta",
+            "actor": "Hezbollah (L\u00edbano)",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-4110",
+            "fecha": "14:19 UTC",
+            "lat": 33.86513367154447,
+            "lng": 42.428691395457996,
+            "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Cr\u00edtica",
             "actor": "Fuerzas de Israel",
             "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-3024",
-            "fecha": "04:22 UTC",
-            "lat": 26.46189437631825,
-            "lng": 48.069382571698526,
+            "id": "EVT-8160",
+            "fecha": "14:19 UTC",
+            "lat": 20.728335907986015,
+            "lng": 44.17651747874018,
             "tipo": "Misil Bal\u00edstico",
-            "intensidad": "Alta",
-            "actor": "Fuerzas de Israel",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-4081",
-            "fecha": "04:22 UTC",
-            "lat": 25.228104502996118,
-            "lng": 50.99989283995409,
-            "tipo": "Ciberataque a Infraestructura",
-            "intensidad": "Media",
-            "actor": "Fuerzas de Israel",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
-        },
-        {
-            "id": "EVT-9533",
-            "fecha": "04:22 UTC",
-            "lat": 20.957984411975954,
-            "lng": 52.19059504623549,
-            "tipo": "Sabotaje a Refiner\u00eda",
             "intensidad": "Cr\u00edtica",
-            "actor": "EE.UU.",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+            "actor": "Hut\u00edes (Yemen)",
+            "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-1135",
+            "fecha": "14:19 UTC",
+            "lat": 30.67008790501133,
+            "lng": 39.83336220303406,
+            "tipo": "Ciberataque a Infraestructura",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Hut\u00edes (Yemen)",
+            "efecto": "MEDIO: Volatilidad de precios"
         }
     ]
 }
