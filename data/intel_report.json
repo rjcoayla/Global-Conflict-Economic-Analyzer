@@ -1,67 +1,67 @@
 {
-    "last_update": "2026-11-11 15:53:16 UTC",
-    "brent_price": 84.06,
-    "gold_price": 2429.87,
+    "last_update": "2026-11-11 22:29:46 UTC",
+    "brent_price": 86.93,
+    "gold_price": 2402.15,
     "incidentes": [
         {
-            "id": "EVT-5370",
-            "fecha": "15:53 UTC",
-            "lat": 28.75844112539045,
-            "lng": 53.98094936875188,
-            "tipo": "Ciberataque a Infraestructura",
-            "intensidad": "Cr\u00edtica",
-            "actor": "EE.UU.",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-1721",
-            "fecha": "15:53 UTC",
-            "lat": 17.00640766242751,
-            "lng": 55.59127340734274,
-            "tipo": "Misil Bal\u00edstico",
-            "intensidad": "Cr\u00edtica",
-            "actor": "EE.UU.",
-            "efecto": "MEDIO: Volatilidad de precios"
-        },
-        {
-            "id": "EVT-9890",
-            "fecha": "15:53 UTC",
-            "lat": 27.34500968264338,
-            "lng": 57.203701433507916,
+            "id": "EVT-1595",
+            "fecha": "22:29 UTC",
+            "lat": 25.7687206969701,
+            "lng": 40.626415103937624,
             "tipo": "Ciberataque a Infraestructura",
             "intensidad": "Media",
+            "actor": "Ir\u00e1n",
+            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+        },
+        {
+            "id": "EVT-8098",
+            "fecha": "22:29 UTC",
+            "lat": 34.5631160920298,
+            "lng": 41.60148347732337,
+            "tipo": "Sabotaje a Refiner\u00eda",
+            "intensidad": "Alta",
             "actor": "Hezbollah (L\u00edbano)",
-            "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
+            "efecto": "MEDIO: Volatilidad de precios"
         },
         {
-            "id": "EVT-8748",
-            "fecha": "15:53 UTC",
-            "lat": 28.011727863953748,
-            "lng": 46.03314283289944,
+            "id": "EVT-6527",
+            "fecha": "22:29 UTC",
+            "lat": 27.438204602086632,
+            "lng": 45.902951568323466,
             "tipo": "Misil Bal\u00edstico",
-            "intensidad": "Alta",
-            "actor": "Hut\u00edes (Yemen)",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Fuerzas de Israel",
             "efecto": "ALTO: Cierre de rutas mar\u00edtimas"
         },
         {
-            "id": "EVT-1477",
-            "fecha": "15:53 UTC",
-            "lat": 19.82589192642488,
-            "lng": 53.52780622587351,
-            "tipo": "Intercepci\u00f3n Naval",
+            "id": "EVT-5811",
+            "fecha": "22:29 UTC",
+            "lat": 17.201380075929507,
+            "lng": 46.476127420721966,
+            "tipo": "Ciberataque a Infraestructura",
             "intensidad": "Alta",
-            "actor": "Milicias Pro-Ir\u00e1n (Irak)",
-            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
-        },
-        {
-            "id": "EVT-9926",
-            "fecha": "15:53 UTC",
-            "lat": 31.63058263312165,
-            "lng": 53.38693699176056,
-            "tipo": "Intercepci\u00f3n Naval",
-            "intensidad": "Media",
             "actor": "EE.UU.",
             "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-8311",
+            "fecha": "22:29 UTC",
+            "lat": 16.89474592604038,
+            "lng": 49.32317275969483,
+            "tipo": "Sabotaje a Refiner\u00eda",
+            "intensidad": "Cr\u00edtica",
+            "actor": "Hezbollah (L\u00edbano)",
+            "efecto": "MEDIO: Volatilidad de precios"
+        },
+        {
+            "id": "EVT-1022",
+            "fecha": "22:29 UTC",
+            "lat": 30.919056739994137,
+            "lng": 45.03166724800226,
+            "tipo": "Misil Bal\u00edstico",
+            "intensidad": "Media",
+            "actor": "EE.UU.",
+            "efecto": "CR\u00cdTICO: Interrupci\u00f3n de suministro energ\u00e9tico"
         }
     ]
 }
